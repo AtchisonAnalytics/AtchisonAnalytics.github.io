@@ -1,0 +1,182 @@
+
+        
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - PMPWealthBal Monthly Performance Report</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+            
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+            
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+            
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+            
+                    h4 {
+                        font-style: italic;
+                    }
+            
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+            
+            
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+            
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+            
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+            
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+            
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+            
+                    /* Define styles for printing */
+                    @media print {
+                        .page-break {
+                            page-break-before: always;
+                        }
+                    }
+            
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>PMP Wealth Balanced Fund - Portfolio Update 29 February 2024</h1>
+            
+                        <h2>PORTFOLIO PERFORMANCE (Based On Backtest of Current Portfolio)</h2>
+                        <p>The PMP Wealth Balanced Fund delivered 1.7% for the month, and 6.5% over the quarter. </p>
+                        <p>Over the last 12 months, the PMP Wealth Balanced Fund delivered 11.6%, significantly beating Inflation by 7.6%.
+                        Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Fund has  outperformed over the last 12 months. </p>
+                        
+                        
+                        
+                        
+                        <p>Since inception of the strategy, the PMP Wealth Balanced Fund has delivered 8.1%, significantly beating Inflation by 4.4%.
+                        Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Fund has  outperformed since inception of the strategy. </p>
+                        <p>All performance metrics listed above are net of appointed investment management fees but before tax.</p?
+                                                
+                        <br>
+                        <h4>Returns vs Benchmarks</h4>
+                        <iframe src="./Charts/1_Performance-Daily.html" height="370px" width="950px"></iframe>
+                        <iframe src="./Charts/1_Performance-Table.html" height="180px" width="950px"></iframe>
+                        <h4>Performance of $10,000 Investment</h4>
+                        <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
+            
+                        <div class="page-break"></div>
+                        <br>
+                        <h4>Attribution Analysis of Asset Allocation vs Manager/Security Selection</h4>
+                        <iframe src="./Charts/4_Attrib_Totals.html" height="380px" width="950px"></iframe>
+                        <h4>Aggregate Returns of Underlying Sector Sleeves</h4>
+                        <iframe src="./Charts/6_Sleeve_Components.html" height="380px" width="950px"></iframe>
+                        <h2>CURRENT POSITIONING vs TYPICAL HOLDING RANGE</h2>
+                        <iframe src = "./Charts/3_Alloc_Ranges.html" height = "400px" width = "950px" > </iframe>    
+                        <h2>PORTFOLIO CONSTRUCTION</h2>
+                        <h4>Allocation Adjustments Through Time</h4><iframe src = "./Charts/3_Allocation_History.html" height = "600px" width = "950px"></iframe><h4>Portfolio Construction - Manager Level </h4><iframe src = "./Charts/3_Alloc_Mgr_Level_2.html" height = "800px" width = "950px" ></iframe>       
+                        <div class="page-break"></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+            
+                        <h2>RISK ANALYSIS</h2>
+                        <h4>Drawdown Periods & Recovery</h4>
+                        <iframe src="./Charts/2_Drawdown.html" height="400px" width="950px"></iframe>
+                        <h4>Rolling 3yr Calmar Ratio - Return over Drawdown Risk </h4>
+                        <iframe src="./Charts/2_Calmar3yr.html" height="400px" width="950px"></iframe>
+                        <h4>Rolling 3yr Tracking Error - Level of Relative Risk Being Taken</h4>
+                        <iframe src="./Charts/2_TE3yr.html" height="400px" width="950px"></iframe>
+                        <div class="page-break"></div>
+                        <h4>Rolling 3yr Batting Average - % of Months Outperforming Benchmark Return</h4>
+                        <iframe src="./Charts/2_Batting3yr.html" height="400px" width="950px"></iframe>
+                        <h4>90 Day Volatility</h4>
+                        <iframe src="./Charts/2_Vol90.html" height="400px" width="950px"></iframe>
+                        <h4>Risk Metrics</h4>
+                        <iframe src="./Charts/2_Risk-Table.html" height="500px" width="950px"></iframe>
+            
+
+                        <h2>MARKET OVERVIEW</h2>
+                        <ul>
+                            <li>RBA cash rate has been left unchanged at 4.35 per cent, as the RBA remains data dependent, not ruling out the possibility of future rate hikes. Despite hawkish tones from the RBA, the market is choosing to look past this, expecting rate cuts to occur in Q4 this year. The volatility and apprehension of what the future holds is evident as markets only lifted 0.8 per cent in the month of February.</li>
+                            <li>Australian inflation continues to moderate downward, whilst sticky services, wage increases, and household rents continue to provide headwinds to headline inflation (sitting at 4.1 percent month on month in January).</li>
+                            <li>Wallstreet continues to be bolstered by Mega-Caps for the month of February, particularly key components of the Magnificent Seven including, Meta +26 per cent, Amazon +14 per cent, and NVIDIA +29 per cent.</li>
+                            <li>75 per cent of the S&P500 broadly beat market expectations. Economic data also continues to be resilient, as measured by PMI data, along with strong jobs growth with 353,000 jobs added in the month of January.</li>
+                            <li>European markets underperformed the global average in February, even though a key economic indicator (eurozone PMI) showed signs of improvement. This suggests European stocks might be facing challenges beyond the broader economic climate.</li>
+                            <li>UK equities represented by the FTSE 100 finished in the red, down -1.2 per cent year-to-date. This slump follows a technical recession in the latter half of 2023, with the UK economy shrinking for the fourth quarter. Disappointing earnings reports from UK companies further dampened investor sentiment, leading analysts to lower their profit growth forecasts for 2024 to just 4.7 per cent.</li>
+                            <li>Japan's stock market, measured by the TOPIX Index, defied expectations and climbed 4.9 per cent in February. This gain came even though the country's economy entered a technical recession, with GDP shrinking slightly in the fourth quarter of 2023. A weaker yen, the Japanese currency, played a role in the stock market's rise. The yen fell 2.4 per cent against the US dollar in February, making Japanese exports cheaper and more attractive to international buyers.</li>
+                            <li>Chinese stocks have been on a downward spiral, reaching five-year lows in early February. However, the market saw a significant turnaround in the latter part of the month. This upswing was likely fuelled by government enforced temporary prevention of short-selling Chinese equities, lower interest rates, rumoured government support measures, and a rebound in the battered Chinese equity market. As a result, the CSI 300 Index, a benchmark for Chinese stocks, surged 7.3 per cent in February. However, its important to note over 12 months the index is down -14.1 per cent.</li>
+                            <li>After two years of increasing and higher interest rates, inflation seems to be waning. As we have experienced, high inflation is bad for investment markets because it means, higher interest rates, higher economic ambiguity, and for shares, a reduced quality of earnings.  All of which means that shares tend to trade on lower price to earnings multiples (PEs) when inflation is high. Conversely, when rates are falling, borrowing costs reduce, spending increases, and future company profits become less valuable especially on new or growing companies where most profits are still years away, and P/E multiples increase, as witnessed with some of the technology companies.</li>
+                        </ul>
+                        <br>
+            
+
+
+            
+                        <h2>CONTACT US</h2>
+                        <p>Please reach out via phone or email below:</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+                        <div class="page-break"></div>
+            
+                    </div>
+                </div>
+            </body>
+            </html>
+                
+        
