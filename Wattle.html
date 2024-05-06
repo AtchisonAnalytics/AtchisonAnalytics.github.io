@@ -1,8 +1,9 @@
-ample<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Atchison - Wattle Advisor Materials</title>
     <style>
         body {
@@ -33,20 +34,42 @@ ample<!DOCTYPE html>
             font-style: italic;
         }
 
+
+
         table {
-            width: 50%;
             border-collapse: collapse;
+            width: 100%;
+            border-radius: 10px; /* Adjust the border radius as needed */
+            overflow: hidden; /* Ensure the border-radius is applied */
         }
+
+        tr {
+            display: flex; /* Makes each table row a flex container */
+        }
+
         th, td {
-            border: 1px solid black;
+            flex: 1; /* Each cell will take up equal space */
+            text-align: center;
             padding: 8px;
-            text-align: left;
+            border: none;
+            overflow: hidden; /* Keeps content within the cell */
+            word-wrap: break-word; /* Allows text to wrap within the cell */
         }
+
+        th:first-child, td:first-child {
+            flex: 0 0 30%; /* Fixes the first column width to 30% of the table */
+            background-color: #3D555E;
+            color: #E7EAEB;
+        }
+
         th {
-            background-color: #f2f2f2;
-            color: black;
+            background-color: #3D555E;
+            color: #E7EAEB;
         }
-        tr:hover {background-color: #D6EEEE;}
+
+        tr:hover {
+            background-color: #1DC8F2;
+        }
 
 
         iframe {
@@ -71,6 +94,21 @@ ample<!DOCTYPE html>
             margin-right: 20px; /* Adjust the spacing between logos */
         }
 
+        .icon {
+            color: #93F205;
+            transform: scale(3); /* Increase the icon size by 50% */
+        }
+
+
+        a .fa,
+        a:hover .fa,
+        a:active .fa,
+        a:visited .fa {
+            color: #93F205 !important; /* Or your chosen color */
+            text-decoration: none; /* Continues to remove underline from the icon */
+        }
+
+
         @media only screen and (min-width: 600px) {
             /* Adjust margins for larger screens */
             .container {
@@ -86,81 +124,83 @@ ample<!DOCTYPE html>
             }
         }
 
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content">
             <br>
+            <br>
             <img src="./assetsHTML/Atchison-logo.png" style="height: 50px; width: auto; float: left;">
             <img src="./assetsHTML/Wattle/Wattle-logo.png" style="height: 50px; width: auto; float: right;">
             <div style="clear: left;"></div>
+            <br>
             <h1>ATCHISON SOLUTIONS - ADVISOR LINKS</h1>
             <br>
 
-            <h2>ATCHISON MODELS</h2>
-
+            <h2>SMA MODEL SOLUTIONS</h2>
             <table>
             <tr>
                 <th>Model Name</th>
                 <th>Profile</th>
-                <th>Shortform Monthly Report</th>
+                <th>Summary Monthly Report</th>
                 <th>Detailed Interactive Report</th>
             </tr>
             <tr>
                 <td>Atchison 55 ACTIVE</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/Active55Profile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/Atchison55ACTIVE/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/Atchison55ACTIVE/Atchison55ACTIVE-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/Active55Profile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/Atchison55ACTIVE/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/Atchison55ACTIVE/Atchison55ACTIVE-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison 70 ACTIVE</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/Active70Profile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/Atchison70ACTIVE/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/Atchison70ACTIVE/Atchison70ACTIVE-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/Active70Profile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/Atchison70ACTIVE/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/Atchison70ACTIVE/Atchison70ACTIVE-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison Australian Shares Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/AustralianSharesProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonAusShares/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonAusShares/AtchisonAusShares-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/AustralianSharesProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonAusShares/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonAusShares/AtchisonAusShares-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison International Shares Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/InternationalSharesProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonIntShares/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonIntShares/AtchisonIntShares-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/InternationalSharesProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonIntShares/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonIntShares/AtchisonIntShares-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison Real Assets Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/RealAssetsProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonRealAssets/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonRealAssets/AtchisonRealAssets-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/RealAssetsProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonRealAssets/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonRealAssets/AtchisonRealAssets-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison Alternatives Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/AlternativesProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonAlts/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonAlts/AtchisonAlts-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/AlternativesProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonAlts/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonAlts/AtchisonAlts-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison Long Duration Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/LongDurationProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonLongDuration/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonLongDuration/AtchisonLongDuration-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/LongDurationProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonLongDuration/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonLongDuration/AtchisonLongDuration-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             <tr>
                 <td>Atchison Floating Rate Sleeve</td>
-                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/FloatingRateProfile.pdf">Profile</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonFloatingRate/Monthly-Print.pdf">Summary Monthly</a></td>
-                <td><a href="https://atchisonanalytics.github.io/AtchisonFloatingRate/AtchisonFloatingRate-Monthly.html">Interactive Monthly</a></td>
+                <td><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/FloatingRateProfile.pdf"><i class="fa-solid fa-id-card"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonFloatingRate/Monthly-Print.pdf"><i class="fa-solid fa-file-pdf"></i></a></td>
+                <td><a href="https://atchisonanalytics.github.io/AtchisonFloatingRate/AtchisonFloatingRate-Monthly.html"><i class="fa-solid fa-chart-pie"></i></a></td>
             </tr>
             </table>
 
             <h4>Approved Product List and Portfolio Updates</h4>
             <ul>
-                <li><a href="https://atchisonanalytics.github.io/Portfolio%20Updates/Update20240216/Atchison%20Portfolio%20Update%202024%2002%2016.html">(TBC) Approved Product List Monitoring - April 2024</a></li>
-                <li><a href="https://atchisonanalytics.github.io/Portfolio%20Updates/Update20240216/Atchison%20Portfolio%20Update%202024%2002%2016.html">Investment Addition & Rebalance Update - February 2024</a></li>
+                <li><a href="https://atchisonanalytics.github.io/assetsHTML/Atchison/AtchisonAPLReview202403.pdf">Approved Product List Monitoring - April 2024</a></li>
+                <li><a href="https://atchisonanalytics.github.io/PortfolioUpdates/Update20240216/update20240216.html">Portfolio Addition & Rebalance Update - February 2024</a></li>
             </ul>
             <br>
 
