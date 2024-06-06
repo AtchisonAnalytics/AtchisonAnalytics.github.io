@@ -119,7 +119,7 @@
                         <br>
                         <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
                         <ul><li>Held overweight positions to international shares YTD in 2024, biased to US equity markets, and similar weight exposure to passive vs active. </li><li>Avoided the bulk of underperformance of longer duration fixed interest through use of floating credit.</li><li>Asian equities have generally been a detractor.</li><li>Marginally trimmed Australian shares in Q2 2024, due to elevated inflation, pressured earnings expectations, better investment opportunities.</li><li>Addition of gold in Alternatives in Q1 2024 has been a solid contributor to performance. </li></ul>
-                        <p>## Under Construction ##</p>
+                        
                         <h4>Daily Return Analysis</h4>
                         <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                                                 
@@ -157,7 +157,17 @@
                         
                         
                         
-                        <div class="page-break"></div>            
+                        <div class="page-break"></div> 
+                        
+                        
+                        <h2>SENSITIVITY ANALYSIS</h2>
+                        <h4>Inflation Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_InflationSensitivity.html" height="500px" width="950px"></iframe>
+                        <h4>ASX Market Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_AusEqSensitivity.html" height="500px" width="950px"></iframe>
+                        <h4>US Market Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_USEqSensitivity.html" height="500px" width="950px"></iframe>
+                        <br>      
                         <h2>RISK ANALYSIS</h2>
                         <h4>Drawdown Periods & Recovery</h4>
                         <iframe src="./Charts/2_Drawdown.html" height="400px" width="950px"></iframe>
@@ -217,8 +227,8 @@
                             <img src="../assetsHTML/HUB24-logo.jpg" class="logo" height="100px" width="auto">
                         </div>
                         <br>
-                        <br>
-            
+                        
+                        
                         <h2>CONTACT US</h2>
                         <p>Please reach out via phone or email below:</p>
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
@@ -226,9 +236,103 @@
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
                         <br>
+                        <h2>MODEL BENCHMARK ASSUMPTIONS</h2>
                         
+                                            <!DOCTYPE html>
+                                            <html lang="en">
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                <title>Performance Table</title>
+                                                <style>
+                                                    /* Add CSS style for table */
+                                                    table.dataframe {
+                                                        border-collapse: collapse;
+                                                        width: 100%;
+                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                    }
+
+                                                    table.dataframe th,
+                                                    table.dataframe td {
+                                                        border: none;
+                                                        padding: 8px; /* Adjust padding as needed */
+                                                        text-align: center; /* Adjust text alignment as needed */
+                                                    }
+
+                                                    table.dataframe th {
+                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                        color: #E7EAEB;
+                                                    }
+
+                                                    /* Add CSS rule for hover effect */
+                                                    tr:hover {
+                                                        background-color: #1DC8F2;
+                                                    }
+                                                </style>
+                                            </head>
+                                            <body>
+                                                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: justify;">
+      <th></th>
+      <th>G1</th>
+      <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Australian Shares</td>
+      <td>IOZ-AU</td>
+      <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>International Shares</td>
+      <td>BM_IntShares_85DM15EM</td>
+      <td>85% Vanguard MSCI Index International Shares ETF + 15% iShares MSCI Emerging Markets ETF</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Real Assets</td>
+      <td>BM_RealAssets</td>
+      <td>20% AMI Property - Australia Direct + 25% Vanguard Global Infrastructure Index ETF + 30% BlackRock iShares Global Listed Property Index + 25% Vanguard Global Infrastructure Index ETF</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alternatives</td>
+      <td>BILL-AU</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Long Duration</td>
+      <td>BM_Duration</td>
+      <td>50% iShares Core Composite Bond ETF + 50% Vanguard International Fixed Income ETF</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Floating Rate</td>
+      <td>FLOT-AU</td>
+      <td>100% VanEck Australian Floating Rate ETF</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Cash</td>
+      <td>BILL-AU</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+  </tbody>
+</table>
+                                            </body>
+                                            </html>
+                                            
+                        <br>
+                        <h2>FINE PRINT</h2>
                         <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
-                        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in platform fees, asset allocations, and individual holdings. The insights and ratings provided in this document are intended for general advice purposes only and are based on the evaluation of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+                        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
                         <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
                         <br>
                         <br>
