@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Active Long Duration SMA
-        End Date: 31 May 2024
+        End Date: 28 June 2024
         Start Date: 31 December 2022
-        Heatmap Start Date: 30 April 2024  
-        Current Time: 07 June 2024 16:02         
+        Heatmap Start Date: 31 May 2024  
+        Current Time: 03 July 2024 00:18         
 
         

@@ -1,11 +1,11 @@
 
-        
+
             <!DOCTYPE html>
             <html lang="en">
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Atchison - AtchisonFloatingRate Monthly Performance Report</title>
+                <title>Atchison - AtchisonFloatingRate - Monthly Performance Report</title>
                 <style>
                     body {
                         background-color: #3D555E;
@@ -15,26 +15,26 @@
                         font-family: Arial, sans-serif;
                         line-height: 1.5;
                     }
-            
+
                     .container {
                         background-color: white;
                         padding: 0 5%; /* Add a 5% padding on both sides */
                         box-sizing: border-box; /* Include padding in width calculation */
                     }
-            
+
                     .content {
                         max-width: 1000px; /* Adjust as needed */
                         margin: 0 auto; /* Center the content */
                     }
-            
+
                     h1, h2 {
                         color: #3D555E;
                     }
-            
+
                     h4 {
                         font-style: italic;
                     }
-            
+
                     table {
                         width: 50%;
                         border-collapse: collapse;
@@ -48,8 +48,8 @@
                         background-color: #f2f2f2;
                         color: black;
                     }
-            
-            
+
+
                     iframe {
                         display: block;
                         margin: 20px auto;
@@ -57,35 +57,56 @@
                         width: 100%;
                         max-width: 100%; /* Make sure iframes don't overflow */
                     }
-            
+
                     p, ul {
                         margin-top: 20px;
                         margin-bottom: 20px;
                     }
-            
+
                     .logo-container {
                         display: flex;
                         align-items: center;
                     }
-            
+
                     .logo {
                         margin-right: 20px; /* Adjust the spacing between logos */
                     }
-            
+
                     @media only screen and (min-width: 600px) {
                         .container {
                             margin-left: 15%;
                             margin-right: 15%;
                         }
                     }
-            
+
                     /* Define styles for printing */
                     @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
                         .page-break {
                             page-break-before: always;
                         }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
                     }
-            
+
                 </style>
             </head>
             <body>
@@ -94,9 +115,9 @@
                         <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
                         <div style="clear: left;"></div>
                         <h1>Atchison Active Floating Rate SMA</h1>
-                        <h2>31 May 2024</h2>
+                        <h2>28 June 2024</h2>
                         <br>
-            
+
                         <h2>PORTFOLIO PERFORMANCE</h2>
                         <p>The Atchison Active Floating Rate SMA delivered 0.5% for the month, and 1.2% over the quarter. </p>
                         <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.8%, materially beating Inflation by 2.3%. 
@@ -107,38 +128,55 @@
                         
                         <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 5.7%,  beating Inflation by 1.7%. 
                         Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has  outperformed since inception of the strategy. </p>
-                        <p>All performance metrics listed above are net of appointed investment management fees but before tax.</p>          
+                        <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                         <h4>Returns vs Benchmarks</h4>
-                        <iframe src="./Charts/1_Performance-Daily.html" height="370px" width="950px"></iframe>
+                        <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
                         <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
-                               
-                        <br>
+
+                        <div class="page-break"></div>
                         <h4>Performance of $100,000 Investment</h4>
                         <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
-                        <div class="page-break"></div>
+
                         <br>
                         <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                        <ul><li>On a weighted basis, the largest contributor to the portfolio outcome has been VanEck Australian Floating Rate ETF</li><li>The holding that contributed the least to portfolio return was Janus Henderson Diversified Credit Fund</li><li>The holding with the highest absolute return has been Daintree Core Income Trust<li>Whilst the holding with the lowest absolute return has been iShares Enhanced Cash ETF</li></ul>
-                        
+                        <ul><li>On a weighted basis, the largest contributor to the portfolio outcome has been Bentham Global Income Fund</li><li>The holding that contributed the least to portfolio return was Janus Henderson Diversified Credit Fund</li><li>The current holding with the highest absolute return has been Daintree Core Income Trust<li>Whilst the current holding with the lowest absolute return has been VanEck Australian Floating Rate ETF</li></ul>
+                        <p>Bentham Asset Management (Bentham), established in May 2010, is managed to a broad investable mandate, including government bonds, corporate credit, structured credit, credit indices, convertible credit, and capital securities. The purpose of inclusion is to generate a regular income stream and the opportunity for capital growth by investing in a diversified portfolio of global credit securities and derivatives. </p><p>The Janus Henderson Diversified Credit Fund aims to provide investors with Australian and global higher yielding securities, including corporate debt, asset backed securities, secured loans, and emerging markets corporate debt securities. This Fund is included in the Fixed Income asset class to provide the potential for higher yields relative to traditional fixed income securities and cash.</p><p>Daintree Capital, established in 2017, aims to provide a steady stream of income and capital stability over the medium term, through investing in Australian investment grade corporate debt, but can invest in developed market debt securities, including sub-investment grade, securitised assets, bank loans and hybrid securities. The fund provides the potential for higher yields, more than traditional cash like and cash instruments.  </p><p>This VanEck ETF tracks the performance of the MVIS Australia Investment Grade Floating Rate Index less investment management fee of 0.22 per cent pa. The ETF aims to offer investors income potential while reducing the impact of interest rate fluctuations on bond prices. This ETF provides low-cost exposure to the Australian floating rate bond market. </p>
                         <h4>Daily Return Analysis</h4>
                         <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
-                                                
+
+                        <div class="page-break"></div>
                         <h4>Portfolio Performance Heatmap - Latest Month</h4>
                         <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
-                        
+
+                        <div class="page-break"></div>
                         <h4>Portfolio Performance Heatmap - Latest Quarter</h4>
                         <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="1020px" width="950px"></iframe>
-                        
+
+                        <div class="page-break"></div>
                         <h4>Portfolio Performance Heatmap - Latest 1 Year</h4>
                         <iframe src="./Charts/6_Sleeve_Treemap1_1Yr.html" height="1020px" width="950px"></iframe>
-                        
+
+                        <div class="page-break"></div>
                         <h4>Portfolio Performance Heatmap - Since Inception</h4>
                         <iframe src="./Charts/6_Sleeve_Treemap1_SinceInc.html" height="1020px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap (Look Through) - Latest Quarter</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth.html" height="1020px" width="950px"></iframe>
                         
+                        <div class="page-break"></div>
+                        <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Quarter</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth_Relative.html" height="1020px" width="950px"></iframe>
+                        
+                        <div class="page-break"></div>
                         <h4>Portfolio Performance Heatmap (Look Through) - Latest Month</h4>
                         <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth.html" height="1020px" width="950px"></iframe>
-                        
-                        
+
+                        <div class="page-break"></div>
+                        <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Month</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
+
+
                         <div class="page-break"></div>
                         <h4>Attribution Analysis of Asset Allocation vs Manager/Security Selection</h4>
                         <iframe src="./Charts/4_Attrib_Totals.html" height="380px" width="950px"></iframe>
@@ -149,17 +187,17 @@
                         <div class="page-break"></div>  
                         <h2>PORTFOLIO CONSTRUCTION</h2>
                         <h4>Portfolio Construction - Look Through Exposures</h4><iframe src="./Charts/3_Alloc_Holding_Level_2.html" height="750px" width="950px"></iframe></div><h4>Portfolio Construction - Manager Level</h4><iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="750px" width="950px"></iframe>       
+
                         
                         
                         
                         
                         
                         
-                        
-                        
+
                         <div class="page-break"></div> 
-                        
-                        
+
+
                         <h2>SENSITIVITY ANALYSIS</h2>
                         <h4>Inflation Sensitivity (Monthly Returns)</h4>
                         <iframe src="./Charts/2_InflationSensitivity.html" height="500px" width="950px"></iframe>
@@ -172,17 +210,17 @@
                         <h4>Drawdown Periods & Recovery</h4>
                         <iframe src="./Charts/2_Drawdown.html" height="400px" width="950px"></iframe>
                         <h4>Rolling 3yr Calmar Ratio - Return over Drawdown Risk </h4>
+                        <p>The below Calmar Ratio explains the return achieved relative to the drawdown risk taken. A higher Calmar Ratio indicates a more favorable risk-adjusted return for the investment</p>
                         <iframe src="./Charts/2_Calmar3yr.html" height="400px" width="950px"></iframe>
                         <h4>Rolling 3yr Tracking Error - Level of Relative Risk Being Taken</h4>
                         <iframe src="./Charts/2_TE3yr.html" height="400px" width="950px"></iframe>
-                        <div class="page-break"></div>
                         <h4>Rolling 3yr Batting Average - % of Months Outperforming Benchmark Return</h4>
                         <iframe src="./Charts/2_Batting3yr.html" height="400px" width="950px"></iframe>
                         <h4>90 Day Volatility</h4>
                         <iframe src="./Charts/2_Vol90.html" height="400px" width="950px"></iframe>
                         <h4>Risk Metrics</h4>
                         <iframe src="./Charts/2_Risk-Table.html" height="500px" width="950px"></iframe>
-            
+
                         <div class="page-break"></div>
                         <h2>UNDERLYING SECTOR SLEEVE ANALYSIS</h2>
                         <p>Please find below links to detail of underlying asset class sleeves: </p>
@@ -213,7 +251,7 @@
                         </ul>
                         <br>
                         <br>
-            
+
                         <h2>HOW TO INVEST?</h2>
                         <p>Our SMA strategies are currently available on the following platforms:</p>
                         <div class="logo-container">
@@ -221,8 +259,8 @@
                             <img src="../assetsHTML/HUB24-logo.jpg" class="logo" height="100px" width="auto">
                         </div>
                         <br>
-                        
-                        
+
+
                         <h2>CONTACT US</h2>
                         <p>Please reach out via phone or email below:</p>
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
@@ -230,6 +268,8 @@
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
                         <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
                         <br>
+
+                        <div class="page-break"></div> 
                         <h2>MODEL BENCHMARK ASSUMPTIONS</h2>
                         
                                             <!DOCTYPE html>
@@ -331,10 +371,10 @@
                         <br>
                         <br>
                         <div class="page-break"></div>
-            
+
                     </div>
                 </div>
             </body>
             </html>
-                
+
         

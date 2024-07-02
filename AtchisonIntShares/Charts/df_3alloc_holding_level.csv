@@ -1,7 +1,7 @@
 Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 13.83186,Man GLG Asia Opportunitie,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Asia ex. Japan,,Asia Pacific ex Japan Equity,International Equities - Unhedged,MF
 6.91593,Fairlight Global Small & Mid Cap Fund (SMID) Class A,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Global SMID,,World Mid Small Equity,International Equities - Small Cap,MF
-0.224409975,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.224409975,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.012897125000000002,CBOE GLOBAL MARKETS INC,Growth,International Shares,Global Shares,Global Shares,Financials - 40,Cboe BZX formerly known as BATS,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.01547655,DEUTSCHE TELEKOM N AG,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Deutsche Boerse Markets,EUR,Germany,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.0206354,ESTEE LAUDER INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,Euronext Paris,EUR,France,,World Large Blend Equity,International Equities - Unhedged,IEQStock
@@ -499,7 +499,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.01547655,CHURCH AND DWIGHT INC,Growth,International Shares,Global Shares,Global Shares,Consumer Staples - 30,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.012897125000000002,STERIS,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.018055975000000002,DELTA AIR LINES INC,Growth,International Shares,Global Shares,Global Shares,Industrials - 20,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.149606679,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.149606679,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.008598085,CBOE GLOBAL MARKETS INC,Growth,International Shares,Global Shares,Global Shares,Financials - 40,Cboe BZX formerly known as BATS,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.010317702,DEUTSCHE TELEKOM N AG,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Deutsche Boerse Markets,EUR,Germany,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.013756935999999999,ESTEE LAUDER INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,Euronext Paris,EUR,France,,World Large Blend Equity,International Equities - Unhedged,IEQStock
@@ -997,7 +997,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.010317702,CHURCH AND DWIGHT INC,Growth,International Shares,Global Shares,Global Shares,Consumer Staples - 30,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.008598085,STERIS,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.012037319000000001,DELTA AIR LINES INC,Growth,International Shares,Global Shares,Global Shares,Industrials - 20,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.162503712,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.162503712,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.055027712,Rio Tinto Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.019775584,TELEFONICA SA,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Bolsa De Madrid,EUR,Spain,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.01719616,CELLNEX TELECOM SA,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Bolsa De Madrid,EUR,Spain,,World Large Blend Equity,International Equities - Unhedged,IEQStock

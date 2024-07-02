@@ -5,7 +5,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 1.75106,iShares Global Aggregate Bond ESG (AUD Hedged) ETF,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,ETF Index,,,Global Aggregate Bonds,,Global Bonds ,International Fixed Interest,ETF
 2.98968,iShares Enhanced Cash ETF,Defensive,Floating Rate,Australian Fixed Interest,Australian Fixed Interest,ETF Index,,,Enhanced Cash,,Domestic Cash,Cash,ETF
 1.0,iShares Core Cash ETF,Defensive,Cash,Cash,Cash,ETF Index,Cash,Cash,Bank Bills,,Domestic Cash,Cash,ETF
-2.37605,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+2.37605,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.79764,Ausbil Australian SmallCap Fund,Growth,Australian Shares,Australian Shares,Australian Shares,Active Manager,,,Small Cap Fundamental,,Australia Mid Small Blend Equity,Australian Equities - Small Cap,MF
 0.79764,Invesco Wholesale Australian Smaller Companies,Growth,Australian Shares,Australian Shares,Australian Shares,Active Manager,,,Small Cap Systematic,,Australia Mid Small Blend Equity,Australian Equities - Small Cap,MF
 3.50832,Man GLG Asia Opportunitie,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Asia ex. Japan,,Asia Pacific ex Japan Equity,International Equities - Unhedged,MF
@@ -26,10 +26,10 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 1.41385,Janus Henderson Diversified Credit Fund,Defensive,Floating Rate,Australian Fixed Interest,Australian Fixed Interest,Active Manager,,,Diversified Credit,,Diversified Credit,Floating High Yield Credit,MF
 2.12078,Daintree Core Income Trust,Defensive,Floating Rate,Australian Fixed Interest,Australian Fixed Interest,Active Manager,,,Floating Rate Credit,,Global Bonds ,International Fixed Interest,MF
 2.12078,Bentham Global Income Fund,Defensive,Floating Rate,Global Fixed Interest,Global Fixed Interest,Active Manager,,,Global Diversified Credit,,Global Bonds ,International Fixed Interest,MF
-1.78475,Franklin K2 Athena Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Macro Strategy - Systematic,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
-1.815,iShares Physical Gold ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),ETF Index,Gold,USD,Gold,,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF
+1.78475,Franklin K2 Athena Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Macro Strategy - Systematic,,Alternatives - Defensive Liquid,Alternatives - Defensive,MF
+1.815,iShares Physical Gold ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),ETF Index,Gold,USD,Alternatives (Growth),,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF
 0.074969433,iShares Core Cash ETF,Defensive,Cash,Cash,Cash,ETF Index,Cash,Cash,Bank Bills,,Domestic Cash,Cash,ETF
-0.07972939700000001,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.07972939700000001,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.009519928,Life360 Inc.,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.019039856,The A2 Milk Company Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.002379982,Abacus Group,Growth,Australian Shares,Australian Shares,Australian Shares,Real Estate - 60,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
@@ -227,7 +227,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.009519928,Waypoint REIT,Growth,Australian Shares,Australian Shares,Australian Shares,Real Estate - 60,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.070209469,WiseTech Global Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.094009289,Xero Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.057763041,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.057763041,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.0033197150000000004,CBOE GLOBAL MARKETS INC,Growth,International Shares,Global Shares,Global Shares,Financials - 40,Cboe BZX formerly known as BATS,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.003983658,DEUTSCHE TELEKOM N AG,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Deutsche Boerse Markets,EUR,Germany,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.0053115440000000005,ESTEE LAUDER INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,Euronext Paris,EUR,France,,World Large Blend Equity,International Equities - Unhedged,IEQStock
@@ -725,7 +725,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.003983658,CHURCH AND DWIGHT INC,Growth,International Shares,Global Shares,Global Shares,Consumer Staples - 30,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.0033197150000000004,STERIS,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.004647601,DELTA AIR LINES INC,Growth,International Shares,Global Shares,Global Shares,Industrials - 20,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.038508723,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.038508723,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.002213145,CBOE GLOBAL MARKETS INC,Growth,International Shares,Global Shares,Global Shares,Financials - 40,Cboe BZX formerly known as BATS,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.002655774,DEUTSCHE TELEKOM N AG,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Deutsche Boerse Markets,EUR,Germany,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.003541032,ESTEE LAUDER INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,Euronext Paris,EUR,France,,World Large Blend Equity,International Equities - Unhedged,IEQStock
@@ -1223,7 +1223,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.002655774,CHURCH AND DWIGHT INC,Growth,International Shares,Global Shares,Global Shares,Consumer Staples - 30,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.002213145,STERIS,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.0030984030000000004,DELTA AIR LINES INC,Growth,International Shares,Global Shares,Global Shares,Industrials - 20,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.041828346,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.041828346,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.014164096000000001,Rio Tinto Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.005090222000000001,TELEFONICA SA,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Bolsa De Madrid,EUR,Spain,,World Large Blend Equity,International Equities - Unhedged,IEQStock
 0.00442628,CELLNEX TELECOM SA,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Bolsa De Madrid,EUR,Spain,,World Large Blend Equity,International Equities - Unhedged,IEQStock
@@ -1607,7 +1607,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.033916024929000005,Treasury Wine Estates Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.02175496973,Viva Energy Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Energy - 10,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.07891819865500002,Westpac Banking Corporation,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.02233413,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.02233413,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.0638118,ALS Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Industrials - 20,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.1276236,ANZ Group Holdings Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.02233413,ASX Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
@@ -1658,7 +1658,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.01914354,Worley Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Industrials - 20,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.02871531,Woolworths Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.00638118,Waypoint REIT,Growth,Australian Shares,Australian Shares,Australian Shares,Real Estate - 60,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.042203492667400005,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.042203492667400005,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.0759661942745,Altium Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.05064412419870001,AMP Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.04220344480870001,ASX Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
@@ -1686,7 +1686,7 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.033762749465800004,Woolworths Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.05064412419870001,Xero Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.2120636346152,iShares Core S&P/ASX 200 ETF,Growth,Australian Shares,Australian Shares,Australian Shares,ETF Index,Core,AUD,Core,,Australia Large Blend Equity,Australian Equities,ETF
-0.1092947444493,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,ASXStock
+0.1092947444493,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.12283823593189999,Aristocrat Leisure Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Discretionary - 25,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.0642814536218,ANZ Group Holdings Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.365928681701,BHP Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
