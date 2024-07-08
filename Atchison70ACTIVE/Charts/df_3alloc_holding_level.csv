@@ -8,6 +8,8 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 2.37605,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.79764,Ausbil Australian SmallCap Fund,Growth,Australian Shares,Australian Shares,Australian Shares,Active Manager,,,Small Cap Fundamental,,Australia Mid Small Blend Equity,Australian Equities - Small Cap,MF
 0.79764,Invesco Wholesale Australian Smaller Companies,Growth,Australian Shares,Australian Shares,Australian Shares,Active Manager,,,Small Cap Systematic,,Australia Mid Small Blend Equity,Australian Equities - Small Cap,MF
+1.59529,Australian Eagle Trust,Growth,Australian Shares,Australian Shares,Australian Shares,Active Manager,,,Long Short,,Australia Large Blend Equity,Australian Equities,MF
+7.12064,GQG Partners Global Equity Fund - A Class,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Quality Bias - Fundamental,,World Large Growth Equity,International Equities - Unhedged,MF
 3.50832,Man GLG Asia Opportunitie,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Asia ex. Japan,,Asia Pacific ex Japan Equity,International Equities - Unhedged,MF
 1.78016,Fairlight Global Small & Mid Cap Fund (SMID) Class A,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Global SMID,,World Mid Small Equity,International Equities - Small Cap,MF
 2.18295,BlackRock iShares WholeSale Australian Listed Property Index,Growth,Real Assets,Alternatives,Alternatives (Growth),Passive,,,AREITs,,Australia Real Estate Equity,AREITs,MF
@@ -1658,33 +1660,6 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.01914354,Worley Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Industrials - 20,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.02871531,Woolworths Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.00638118,Waypoint REIT,Growth,Australian Shares,Australian Shares,Australian Shares,Real Estate - 60,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.042203492667400005,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
-0.0759661942745,Altium Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.05064412419870001,AMP Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.04220344480870001,ASX Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.05064412419870001,BHP Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.11816962313030002,Commonwealth Bank of Australia,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.09706790870240001,Cochlear Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Health Care - 35,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.09706790870240001,CSL Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Health Care - 35,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.03798308916080001,Corporate Travel Management Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Discretionary - 25,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.033762749465800004,Deterra Royalties Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.029542409770800006,Fortescue Ltd,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.03798308916080001,IGO Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.08440687366450002,Macquarie Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.029542409770800006,National Australia Bank Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.0717458386266,Newmont Corporation,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.012661035037900002,Pro Medicus Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Health Care - 35,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.10128824839740001,QBE Insurance Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.016881374732900002,Ramsay Health Care Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Health Care - 35,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.10128824839740001,Rio Tinto Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Materials - 15,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.08440687366450002,Transurban Group,Growth,Australian Shares,Australian Shares,Australian Shares,Industrials - 20,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.05908481954160001,Telstra Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Communication Services - 50,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.033762749465800004,Telix Pharmaceuticals Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Health Care - 35,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.05486446389370001,Treasury Wine Estates Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.08440687366450002,Woodside Energy Group Ltd,Growth,Australian Shares,Australian Shares,Australian Shares,Energy - 10,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.0633051592366,Wesfarmers Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Discretionary - 25,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.033762749465800004,Woolworths Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-0.05064412419870001,Xero Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Information Technology - 45,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.2120636346152,iShares Core S&P/ASX 200 ETF,Growth,Australian Shares,Australian Shares,Australian Shares,ETF Index,Core,AUD,Core,,Australia Large Blend Equity,Australian Equities,ETF
 0.1092947444493,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
 0.12283823593189999,Aristocrat Leisure Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Discretionary - 25,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
@@ -1721,32 +1696,3 @@ Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
 0.0156984765483,Westpac Banking Corporation,Growth,Australian Shares,Australian Shares,Australian Shares,Financials - 40,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.061748246559099995,Woodside Energy Group Ltd,Growth,Australian Shares,Australian Shares,Australian Shares,Energy - 10,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
 0.1047095494333,Woolworths Group Limited,Growth,Australian Shares,Australian Shares,Australian Shares,Consumer Staples - 30,ASX,AUD,Australia,,Australia Large Blend Equity,Australian Equities,ASXStock
-1.4230314214400002,Vanguard MSCI Index International Shares ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,Developed ,AUD,Developed ,,World Large Blend Equity,International Equities - Unhedged,ETF
-0.00258479232,BANCO BILBAO VIZCAYA ARGENTARIA SA,Growth,International Shares,Global Shares,Global Shares,Financials - 40,Bolsa De Madrid,EUR,Spain,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.15829182719999998,ASML HOLDING NV,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,Euronext Amsterdam,EUR,Netherlands,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.13437359744,ADEVINTA,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,Euronext Oslo Bors,NOK,Norway,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.37091413759999997,TOTALENERGIES,Growth,International Shares,Global Shares,Global Shares,Energy - 10,Euronext Paris,EUR,France,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.086159744,ASTRAZENECA PLC,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,London Stock Exchange,GBP,United Kingdom,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.26119931648,GLENCORE PLC,Growth,International Shares,Global Shares,Global Shares,Materials - 15,London Stock Exchange,GBP,United Kingdom,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.36136535936,NOVO NORDISK CLASS B,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,Nasdaq Omx Nordic Copenhagen,DKK,Denmark,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.44568085760000004,MICROSOFT CORP,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.2824401856,AMAZON COM INC,Growth,International Shares,Global Shares,Global Shares,Consumer Discretionary - 25,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.5377507328,NVIDIA CORP,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.55068181504,META PLATFORMS INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.39263921024000004,ALPHABET INC CLASS C,Growth,International Shares,Global Shares,Global Shares,Communication Services - 50,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.00883671424,BROADCOM INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.14518272896,ADVANCED MICRO DEVICES INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.03927745024,INTUIT INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.14643596160000003,LAM RESEARCH CORP,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.07244539136000001,MICRON TECHNOLOGY INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.11019902464,SYNOPSYS INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,NASDAQ Stock Market,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.31087290112000004,UNITEDHEALTH GROUP INC,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.29609045248,ELI LILLY,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.19117494272000002,VISA INC CLASS A,Growth,International Shares,Global Shares,Global Shares,Financials - 40,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.17372937472,SERVICENOW INC,Growth,International Shares,Global Shares,Global Shares,Information Technology - 45,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.03601619712,CIGNA,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.15663271808,SCHLUMBERGER NV,Growth,International Shares,Global Shares,Global Shares,Energy - 10,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.045408321280000004,HUMANA INC,Growth,International Shares,Global Shares,Global Shares,Health Care - 35,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.03546790784,FORD MOTOR CO,Growth,International Shares,Global Shares,Global Shares,Consumer Discretionary - 25,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.10299293696,D R HORTON INC,Growth,International Shares,Global Shares,Global Shares,Consumer Discretionary - 25,New York Stock Exchange Inc.,USD,United States,,World Large Blend Equity,International Equities - Unhedged,IEQStock
-0.04217555072,CANADIAN NATURAL RESOURCES LTD,Growth,International Shares,Global Shares,Global Shares,Energy - 10,Toronto Stock Exchange,CAD,Canada,,World Large Blend Equity,International Equities - Unhedged,IEQStock
