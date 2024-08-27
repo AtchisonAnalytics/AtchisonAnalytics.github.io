@@ -54,7 +54,7 @@ body {
   background-color: #3D555E;
 }
 
-.non-active-pill {
+.non-active-pills {
     /* Define your desired styles for non-active pills here */
     color: #E7EAEB; /* Change the text color to gray for non-active pills */
     border: 1px solid #E7EAEB; /* Add a grey outline border for non-active pills */
@@ -137,6 +137,13 @@ body {
   transition: opacity 0.2s ease-in-out;
 }
 
+.sidebar-header h4 {
+  opacity: 0;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
 .sidebar-subheader Div {
   opacity: 0;
   margin-left: 1rem;
@@ -148,6 +155,10 @@ body {
 
 /* reveal the header when the sidebar is toggled */
 .sidebar:hover .sidebar-header h2 {
+  opacity: 1;
+}
+
+.sidebar:hover .sidebar-header h4 {
   opacity: 1;
 }
 
@@ -562,13 +573,13 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
+/*h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2; }
 
-h1, .h1 {
+ h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
@@ -584,7 +595,7 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 1rem; }*/
 
 .lead {
   font-size: 1.25rem;
