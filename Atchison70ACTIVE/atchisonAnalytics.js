@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 0.4% for the month, and 4.2% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 13.5%, significantly beating Inflation by 10.1%. 
+                    <p>The Atchison Active 70 SMA delivered 1.4% for the month, and 4.9% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 17.9%, significantly beating Inflation by 14.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 14.7%, significantly beating Inflation by 10.6%. 
+                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 14.9%, significantly beating Inflation by 10.9%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
