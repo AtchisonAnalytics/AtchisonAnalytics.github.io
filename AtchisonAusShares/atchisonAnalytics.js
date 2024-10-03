@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Australian Shares SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Australian Shares SMA delivered 0.1% for the month, and 5.0% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 13.9%, significantly beating Inflation by 10.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has materially outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Australian Shares SMA delivered 2.9% for the month, and 7.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 20.8%, significantly beating Inflation by 17.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 12.7%, significantly beating Inflation by 8.6%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 14.0%, significantly beating Inflation by 10.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Australian Eagle Trust</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Australian Eagle Trust</li></ul>
+                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p>Australian Eagle Trust aims to provide capital growth through a leveraged investment in Australian stocks. The strategy buys a leveraged exposure (i.e., borrowing additional capital to increase the size of the Funds long position) and by short selling stocks that are deemed lower quality and identified as underperformers. Reason for inclusion includes, portfolio diversification, enhanced risk but also enhanced upside returns, reduced correlation to standard market movements.  </p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -198,6 +200,11 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Manager Performance Summary</h4>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>

@@ -1,11 +1,10 @@
 Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
-1.1570590729062908,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
-9.930001030589215,VanEck Global Listed Private Equity ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Listed Private Equity,,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF
-14.652950649705824,Talaria Global Equity (Managed Fund),Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Defensive Income,,World Other Equity,International Equities - Unhedged,MF
-4.39775979612521,abrdn Global Risk Mitigation Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Downside Risk Mitigation Strategy,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
-4.4055289513084395,P/E Global FX Alpha Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Currency Alpha,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
-14.433278010548703,Ruffer Total Return International - Australia Fund,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Macro Strategy - Discretionary,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
-4.810255427314459,Invesco Wholesale Senior Secured Income Fund,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Global Private Credit - Asset Backed,,Alternatives - Defensive illiquid,Alternatives - Defensive Illiquid,MF
-14.530803534269085,BMO Pyrford Global Absolute Return,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Macro Strategy - Discretionary,,Diversified Flexible,Balance,MF
-14.737545393763066,Franklin K2 Athena Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Macro Strategy - Systematic,,Alternatives - Defensive Liquid,Alternatives - Defensive,MF
-16.94481813346971,iShares Physical Gold ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),ETF Index,Gold,USD,Alternatives (Growth),,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF
+6.845291014274276,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
+10.01398095000888,VanEck Global Listed Private Equity ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Listed Private Equity,,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF
+13.779613905985277,Talaria Global Equity (Managed Fund),Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Defensive Income,,World Other Equity,International Equities - Unhedged,MF
+3.5989129415387353,P/E Global FX Alpha Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Currency Alpha,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
+16.782168871699913,Ruffer Total Return International - Australia Fund,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Macro Strategy - Discretionary,,Alternatives - Defensive Liquid,Alternatives - Defensive Liquid,MF
+4.399772755638029,Invesco Wholesale Senior Secured Income Fund,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Global Private Credit - Asset Backed,,Alternatives - Defensive illiquid,Alternatives - Defensive Illiquid,MF
+17.10764602143781,BMO Pyrford Global Absolute Return,Growth,Alternatives,Alternatives,Alternatives (Defensive),Active Manager,,,Macro Strategy - Discretionary,,Diversified Flexible,Balance,MF
+16.984005217381313,Franklin K2 Athena Fund,Growth,Alternatives,Alternatives,Alternatives (Growth),Active Manager,,,Macro Strategy - Systematic,,Alternatives - Defensive Liquid,Alternatives - Defensive,MF
+10.488608322035772,iShares Physical Gold ETF,Growth,Alternatives,Alternatives,Alternatives (Growth),ETF Index,Gold,USD,Alternatives (Growth),,Alternatives - Growth Illiquid,Alternatives - Growth Illiquid,ETF

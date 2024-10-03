@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 55 SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 55 SMA delivered 0.5% for the month, and 3.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 11.9%, significantly beating Inflation by 8.5%. 
+                    <p>The Atchison Active 55 SMA delivered 1.2% for the month, and 4.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 15.5%, significantly beating Inflation by 12.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 12.7%, significantly beating Inflation by 8.6%. 
+                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 12.9%, significantly beating Inflation by 8.9%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+9.31%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.77%)</li><li>The asset class with the highest absolute return was International Shares (+44.55%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+7.53%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+1.48%).</li><li>Whereas, Manager Effect (net fees) was found to have a (+1.27%) impact on relative performance of the portfolio.</li></ul>
+                    <p></p><p></p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -198,6 +200,11 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Manager Performance Summary</h4>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>

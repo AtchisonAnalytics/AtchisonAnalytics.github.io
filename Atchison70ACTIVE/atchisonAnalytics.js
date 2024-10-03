@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+11.75%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.50%)</li><li>The asset class with the highest absolute return was International Shares (+44.51%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+7.53%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+1.87%).</li><li>Whereas, Manager Effect (net fees) was found to have a (+1.56%) impact on relative performance of the portfolio.</li></ul>
+                    <p></p><p></p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

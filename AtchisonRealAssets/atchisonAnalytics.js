@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered 1.8% for the month, and 6.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 13.5%, significantly beating Inflation by 10.1%. 
+                    <p>The Atchison Active Real Assets SMA delivered 3.5% for the month, and 12.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 26.3%, significantly beating Inflation by 22.9%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 10.3%, significantly beating Inflation by 6.2%. 
+                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 12.5%, significantly beating Inflation by 8.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been BlackRock iShares Global Listed Property Index</li><li>The holding that contributed the least to portfolio return was Invesco Global Real Estate Fund - Class A</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been Alceon Australian Property</li></ul>
+                    <p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p><p></p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -198,6 +200,11 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Manager Performance Summary</h4>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>

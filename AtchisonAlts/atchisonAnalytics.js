@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Alternatives SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Alternatives SMA delivered -0.3% for the month, and 3.2% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 10.2%, significantly beating Inflation by 6.8%. 
+                    <p>The Atchison Active Alternatives SMA delivered 0.5% for the month, and 4.0% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 9.8%, significantly beating Inflation by 6.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.9%, significantly beating Inflation by 3.8%. 
+                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.6%, significantly beating Inflation by 3.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been VanEck Global Listed Private Equity ETF</li><li>The holding that contributed the least to portfolio return was Ruffer Total Return International - Australia Fund</li><li>The current holding with the highest absolute return has been VanEck Global Listed Private Equity ETF<li>Whilst the current holding with the lowest absolute return has been Ruffer Total Return International - Australia Fund</li></ul>
+                    <p>This VanEck ETF provides investors with access to a diversified portfolio of the 50 largest and most liquid global listed private equity companies. This ETF offers investors a more liquid and diversified way to access the potential returns associated with private equity investments at a competitive management fee of 0.65 per cent pa. </p><p>The Fund is a total return strategy aiming to achieve low volatility, positive returns and capital preservation. The fund may have exposure to cash, debt, securities of any type (including government and corporate debt), equities and equity related securities plus commodities (including precious metals). Its inclusion enhances strategic diversification, aiming for consistent positive results in various market conditions.</p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -198,6 +200,11 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Manager Performance Summary</h4>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>

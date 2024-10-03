@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 70 SMA</h1>
-                    <h4>Updated to: 31 August 2024</h2>
+                    <h4>Updated to: 30 September 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 70 SMA delivered 0.0% for the month, and 4.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 14.3%, significantly beating Inflation by 10.9%. 
+                    <p>The Atchison Dynamic ETF 70 SMA delivered 1.7% for the month, and 5.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 19.6%, significantly beating Inflation by 16.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 14.5%, significantly beating Inflation by 10.5%. 
+                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 15.0%, significantly beating Inflation by 11.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,6 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+13.28%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.00%)</li><li>The asset class with the highest absolute return was International Shares (+41.53%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+7.49%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.46%).</li><li>Whereas, Tactical Allocation Effect was found to have a (+0.09%) impact on relative performance of the portfolio.</li></ul>
+                    <p></p><p></p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -198,6 +200,11 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Manager Performance Summary</h4>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
