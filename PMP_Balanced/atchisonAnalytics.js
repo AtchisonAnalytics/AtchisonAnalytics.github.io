@@ -19,7 +19,16 @@
 
     });
 
-    function loadContent(page) {
+    async function checkFileExists(url) {
+        try {
+            const response = await fetch(url);
+            return response.ok;
+        } catch (error) {
+            return false;
+    }
+}
+
+    async function loadContent(page) {
         let content = '';
         switch(page) {
             case 'settings':
@@ -116,11 +125,7 @@
                     <h4>Allocation Adjustments Through Time</h4><iframe src = "./Charts/3_Allocation_History.html" height = "600px" width = "950px"></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level </h4><iframe src = "./Charts/3_Alloc_Mgr_Level_2.html" height = "770px" width = "950px" ></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level Categorised</h4><iframe src = "./Charts/3_Alloc_Mgr_Level_4.html" height = "770px" width = "950px" ></iframe>
                     <h4>Historical Asset Class Overweight / Underweight</h4>
                     <iframe src="./Charts/3_Allocation_Rel_History.html" height="580px" width="950px"></iframe>
-                    
-                    
-                    
-                    
-                    
+
                     
                     <h4>Historical Holding Level Weights</h4>
                     <iframe src="./Charts/3_Allocation_DH_FloatHistory.html" height="580px" width="950px"></iframe>
@@ -189,9 +194,36 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>              
-                    <h4>Contribution Analysis of Asset Class Sleeves</h4>
-                    <iframe src="./Charts/5_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h3>Contribution Analysis of Asset Class Sleeves</h3>
+                    <h4>Australian Shares - Contribution</h4>
+                    <iframe src="./Charts/5_AusEq_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h4>International Shares - Contribution</h4>
+                    <iframe src="./Charts/5_IntEq_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h4>Real Assets - Contribution</h4>
+                    <iframe src="./Charts/5_Real_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h4>Duration - Contribution</h4>
+                    <iframe src="./Charts/5_Duration_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h4>Floating Rate - Contribution</h4>
+                    <iframe src="./Charts/5_Floating_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+                    <h4>Cash - Contribution</h4>
+                    <iframe src="./Charts/5_Cash_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
+
+
                 `;
+
+                const fileList = [
+                    './Charts/5_Sleeve_Contribs.html',
+                    './Charts/5_Alts_Sleeve_Contribs.html',
+
+                ];
+
+                for (const file of fileList) {
+                    const exists = await checkFileExists(file);
+                    if (exists) {
+                        content += `<iframe src="${file}" height="380px" width="950px"></iframe><br>`;
+                    }
+                }
+
                 break;
             case '6-components':
                 content = `
