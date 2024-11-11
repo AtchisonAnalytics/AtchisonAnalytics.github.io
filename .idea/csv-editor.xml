@@ -45,62 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\BON032(Blackrock)\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Kerwood\Atchison55ACTIVE3yr\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Kerwood\Atchison70ACTIVE3yr\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Kerwood\Kerwood3yr\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SpaceshipUniverse\Charts\1_Performance-Table.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SpaceshipUniverse\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\WattleClient0002\Atchison70ACTIVE3yr\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\WattleClient0002\WillBlakeAbiCleland3yr\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\WattleClient0003\Wattle0003Christopher\Charts\1_Performance-Table.csv">
           <value>
             <Attribute>

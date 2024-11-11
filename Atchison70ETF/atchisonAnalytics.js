@@ -31,22 +31,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 70 SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 70 SMA delivered 1.7% for the month, and 5.2% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 19.6%, significantly beating Inflation by 16.1%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Dynamic ETF 70 SMA delivered -0.0% for the month, and 1.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 20.4%, significantly beating Inflation by 17.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 15.0%, significantly beating Inflation by 11.0%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has significantly outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 12.8%, significantly beating Inflation by 8.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
@@ -57,7 +57,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+13.28%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.00%)</li><li>The asset class with the highest absolute return was International Shares (+41.53%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+7.49%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.46%).</li><li>Whereas, Tactical Allocation Effect was found to have a (+0.09%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+11.90%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.00%)</li><li>The asset class with the highest absolute return was International Shares (+40.01%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+6.56%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (-0.49%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.51%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
@@ -238,14 +238,14 @@
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
                 `;
                 break;
-            case '10-esg':
+            case '7-mgr':
                 content = `
-                    <h1>ESG / Controversy</h1><p>ESG content goes here...</p>
+                    <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
                 break;
-            case '11-fees':
+            case '12-tools':
                 content = `
-                    <h1>Fee Analysis</h1><p>Fee analysis content goes here...</p>
+                    <h1>Advisor Tools</h1><p>Advisor Tools content goes here...</p>
                 `;
                 break;
             case '20-markets':

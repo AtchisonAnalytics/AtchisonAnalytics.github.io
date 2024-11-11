@@ -238,14 +238,14 @@
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
                 `;
                 break;
-            case '10-esg':
+            case '7-mgr':
                 content = `
-                    <h1>ESG / Controversy</h1><p>ESG content goes here...</p>
+                    <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
                 break;
-            case '11-fees':
+            case '12-tools':
                 content = `
-                    <h1>Fee Analysis</h1><p>Fee analysis content goes here...</p>
+                    <h1>Advisor Tools</h1><p>Advisor Tools content goes here...</p>
                 `;
                 break;
             case '20-markets':

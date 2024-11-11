@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Australian Shares SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Australian Shares SMA delivered 2.9% for the month, and 7.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 20.8%, significantly beating Inflation by 17.4%. 
+                    <p>The Atchison Active Australian Shares SMA delivered -1.0% for the month, and 2.0% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 24.4%, significantly beating Inflation by 21.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 14.0%, significantly beating Inflation by 10.0%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 12.5%, significantly beating Inflation by 8.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -238,14 +238,14 @@
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
                 `;
                 break;
-            case '10-esg':
+            case '7-mgr':
                 content = `
-                    <h1>ESG / Controversy</h1><p>ESG content goes here...</p>
+                    <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
                 break;
-            case '11-fees':
+            case '12-tools':
                 content = `
-                    <h1>Fee Analysis</h1><p>Fee analysis content goes here...</p>
+                    <h1>Advisor Tools</h1><p>Advisor Tools content goes here...</p>
                 `;
                 break;
             case '20-markets':

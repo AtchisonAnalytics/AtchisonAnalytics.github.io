@@ -31,22 +31,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 1.4% for the month, and 4.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 17.9%, significantly beating Inflation by 14.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has materially outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 70 SMA delivered 0.1% for the month, and 1.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 19.1%, significantly beating Inflation by 15.8%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 14.9%, significantly beating Inflation by 10.9%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has significantly outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 13.2%, significantly beating Inflation by 9.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
@@ -57,7 +57,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+11.75%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.50%)</li><li>The asset class with the highest absolute return was International Shares (+44.51%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+7.53%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+1.87%).</li><li>Whereas, Manager Effect (net fees) was found to have a (+1.56%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+11.41%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.51%)</li><li>The asset class with the highest absolute return was International Shares (+43.34%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+6.59%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.13%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.34%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
@@ -238,14 +238,14 @@
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
                 `;
                 break;
-            case '10-esg':
+            case '7-mgr':
                 content = `
-                    <h1>ESG / Controversy</h1><p>ESG content goes here...</p>
+                    <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
                 break;
-            case '11-fees':
+            case '12-tools':
                 content = `
-                    <h1>Fee Analysis</h1><p>Fee analysis content goes here...</p>
+                    <h1>Advisor Tools</h1><p>Advisor Tools content goes here...</p>
                 `;
                 break;
             case '20-markets':
