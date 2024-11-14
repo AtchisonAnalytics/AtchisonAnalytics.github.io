@@ -38,14 +38,14 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Alternatives SMA delivered 2.0% for the month, and 2.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.7%, significantly beating Inflation by 9.4%. 
+                    <p>The Atchison Active Alternatives SMA delivered 1.9% for the month, and 2.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.6%, significantly beating Inflation by 9.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.8%, significantly beating Inflation by 3.9%. 
+                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.7%, significantly beating Inflation by 3.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          

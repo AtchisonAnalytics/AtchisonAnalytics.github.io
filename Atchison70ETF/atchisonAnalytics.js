@@ -39,13 +39,13 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
                     <p>The Atchison Dynamic ETF 70 SMA delivered -0.0% for the month, and 1.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 20.4%, significantly beating Inflation by 17.0%. 
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 70 SMA delivered 20.4%, significantly beating Inflation by 16.8%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 12.8%, significantly beating Inflation by 8.9%. 
+                    <p>Since inception of the strategy, the Atchison Dynamic ETF 70 SMA has delivered 12.8%, significantly beating Inflation by 8.8%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 70 SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          

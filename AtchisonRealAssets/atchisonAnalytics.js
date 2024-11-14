@@ -31,22 +31,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered 3.5% for the month, and 12.2% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 26.3%, significantly beating Inflation by 22.9%. 
+                    <p>The Atchison Active Real Assets SMA delivered -2.7% for the month, and 3.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 25.2%, significantly beating Inflation by 21.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 12.5%, significantly beating Inflation by 8.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 9.2%, significantly beating Inflation by 5.2%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>

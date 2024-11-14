@@ -39,13 +39,13 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
                     <p>The Atchison Active Australian Shares SMA delivered -1.0% for the month, and 2.0% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 24.4%, significantly beating Inflation by 21.1%. 
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 24.4%, significantly beating Inflation by 20.8%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 12.5%, significantly beating Inflation by 8.6%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 12.5%, significantly beating Inflation by 8.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          

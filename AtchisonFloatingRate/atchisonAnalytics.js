@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Floating Rate SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Floating Rate SMA delivered 0.5% for the month, and 2.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 7.4%, materially beating Inflation by 4.0%. 
+                    <p>The Atchison Active Floating Rate SMA delivered -0.0% for the month, and 1.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 7.3%, materially beating Inflation by 3.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.4%, significantly beating Inflation by 2.3%. 
+                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.0%,  beating Inflation by 2.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,8 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Bentham Global Income Fund</li><li>The holding that contributed the least to portfolio return was Janus Henderson Diversified Credit Fund</li><li>The current holding with the highest absolute return has been Bentham Global Income Fund<li>Whilst the current holding with the lowest absolute return has been iShares Enhanced Cash ETF</li></ul>
-                    <p>Bentham Asset Management (Bentham), established in May 2010, is managed to a broad investable mandate, including government bonds, corporate credit, structured credit, credit indices, convertible credit, and capital securities. The purpose of inclusion is to generate a regular income stream and the opportunity for capital growth by investing in a diversified portfolio of global credit securities and derivatives. </p><p>The Janus Henderson Diversified Credit Fund aims to provide investors with Australian and global higher yielding securities, including corporate debt, asset backed securities, secured loans, and emerging markets corporate debt securities. This Fund is included in the Fixed Income asset class to provide the potential for higher yields relative to traditional fixed income securities and cash.</p><p></p><p>The iShares Enhanced Cash ETF is designed to track the performance of the Bloomberg AusBond Bank Bill Index less investment fee of 0.12 per cent pa. This ETF provides low-cost exposure to the Australian short-term money market instruments, including floating rate notes, providing investors with a relatively low-risk option for maintaining liquidity and earning a competitive yield compared to traditional cash investments.</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been VanEck Australian Floating Rate ETF</li><li>The holding that contributed the least to portfolio return was Janus Henderson Diversified Credit Fund</li><li>The current holding with the highest absolute return has been Daintree Core Income Trust<li>Whilst the current holding with the lowest absolute return has been iShares Enhanced Cash ETF</li></ul>
+                    <p></p><p>The Janus Henderson Diversified Credit Fund aims to provide investors with Australian and global higher yielding securities, including corporate debt, asset backed securities, secured loans, and emerging markets corporate debt securities. This Fund is included in the Fixed Income asset class to provide the potential for higher yields relative to traditional fixed income securities and cash.</p><p>Daintree Capital, established in 2017, aims to provide a steady stream of income and capital stability over the medium term, through investing in Australian investment grade corporate debt, but can invest in developed market debt securities, including sub-investment grade, securitised assets, bank loans and hybrid securities. The fund provides the potential for higher yields, more than traditional cash like and cash instruments.  </p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

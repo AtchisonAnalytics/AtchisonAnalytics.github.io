@@ -31,22 +31,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Long Duration SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Long Duration SMA delivered 0.6% for the month, and 3.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 7.9%, materially beating Inflation by 4.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Long Duration SMA delivered -2.1% for the month, and -0.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 7.2%, materially beating Inflation by 3.6%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 5.1%,  beating Inflation by 1.1%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally underperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 3.6%, marginally returned below Inflation by 0.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  underperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
@@ -57,8 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Western Asset Australian Bond Fund - Class A</li><li>The holding that contributed the least to portfolio return was Colchester Global Government Bond Fund Class I</li><li>The current holding with the highest absolute return has been iShares Government Inflation ETF<li>Whilst the current holding with the lowest absolute return has been Colchester Global Government Bond Fund Class I</li></ul>
-                    <p>Western Asset Management (Western) established in 1971, invests in investment-grade rated, Australian dollar-denominated debt securities issued by the Australian government, state governments, supranational bodies, and Australian and foreign corporate entities. The Fund may also invest in mortgage-backed and asset-backed securities, inflation-linked bonds, and hybrid securities. This strategy tends to perform better during periods of declining or stable interest rates and contracting credit spreads (the difference in yield between two bonds with the same maturity date). </p><p>Colchester, established in 1999, is a value-oriented fixed income manager which mainly invests in developed market investment grade bonds, that generate income. Colchester does not invest in corporate bonds or derivatives. Conviction in this strategy occurs during rising interest and cash rates, that tend to have a detrimental impact on the value of long dated government bonds.</p><p>The iShares Government Inflation ETF seeks to replicate the performance of the Bloomberg AusBond Inflation Government Index less an investment management of 0.18 per cent pa. It invests in a portfolio of inflation-linked bonds issued by the Australian government, and semi-government authorities, and aims to provide low-cost protection from inflation.</p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Western Asset Australian Bond Fund - Class A</li><li>The holding that contributed the least to portfolio return was Colchester Global Government Bond Fund Class I</li><li>The current holding with the highest absolute return has been Western Asset Australian Bond Fund - Class A<li>Whilst the current holding with the lowest absolute return has been Colchester Global Government Bond Fund Class I</li></ul>
+                    <p>Western Asset Management (Western) established in 1971, invests in investment-grade rated, Australian dollar-denominated debt securities issued by the Australian government, state governments, supranational bodies, and Australian and foreign corporate entities. The Fund may also invest in mortgage-backed and asset-backed securities, inflation-linked bonds, and hybrid securities. This strategy tends to perform better during periods of declining or stable interest rates and contracting credit spreads (the difference in yield between two bonds with the same maturity date). </p><p>Colchester, established in 1999, is a value-oriented fixed income manager which mainly invests in developed market investment grade bonds, that generate income. Colchester does not invest in corporate bonds or derivatives. Conviction in this strategy occurs during rising interest and cash rates, that tend to have a detrimental impact on the value of long dated government bonds.</p><p></p><p></p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active International Shares SMA</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 31 October 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active International Shares SMA delivered 0.3% for the month, and 1.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 26.2%, significantly beating Inflation by 22.7%. 
+                    <p>The Atchison Active International Shares SMA delivered 2.1% for the month, and 2.0% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 29.7%, significantly beating Inflation by 26.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 23.4%, significantly beating Inflation by 19.4%. 
+                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 22.7%, significantly beating Inflation by 18.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,8 +57,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been GQG Partners Global Equity Fund - A Class</li><li>The holding that contributed the least to portfolio return was Vanguard FTSE Europe Shares ETF</li><li>The current holding with the highest absolute return has been iShares S&P 500 ETF<li>Whilst the current holding with the lowest absolute return has been Man GLG Asia Opportunitie</li></ul>
-                    <p>GQG Partners Global Equity Fund, co-founded in 2016, employs a benchmark unaware strategy, focusing on forward looking quality by investing in companies with robust long-term growth prospects. Managing a diversified portfolio of 35-70 global stocks, the fund invests in large and mega-cap equities, serving as an active core position within the portfolio.</p><p>This Vanguard ETF aims to replicate the performance of the FTSE Developed Europe All Cap Index (with net dividends reinvested) denominated in Australian dollars), less the investment management fee of 0.35 per cent pa. This ETF offers a cost-effective means of accessing around 1,300 leading European companies listed on major European markets. </p><p>iShares S&P500 ETF is designed to provide the price and yield performance of the market, as indicated by the S&P 500 Index, less the investment management fee of 0.04 per cent pa. This ETF is deemed an efficient way to access the returns of the US stock market.</p><p>The Man GLG Asia Opportunities Fund, with 35-45 positions, seeks to generate risk adjusted returns in Asian equities, using a fundamentals-driven approach. A specialist active investment strategy provides investors with the opportunity to participate in the growth and development of the Asian economy. Atchison’s current position is to tactically allocate to Asia, as opposed to investing across the broader Emerging Markets, which does not necessarily have the same overall growth profile as Asia.   </p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Vanguard FTSE Europe Shares ETF</li><li>The current holding with the highest absolute return has been iShares S&P 500 ETF<li>Whilst the current holding with the lowest absolute return has been Man GLG Asia Opportunitie</li></ul>
+                    <p></p><p></p><p></p><p>The Man GLG Asia Opportunities Fund, with 35-45 positions, seeks to generate risk adjusted returns in Asian equities, using a fundamentals-driven approach. A specialist active investment strategy provides investors with the opportunity to participate in the growth and development of the Asian economy. Atchison’s current position is to tactically allocate to Asia, as opposed to investing across the broader Emerging Markets, which does not necessarily have the same overall growth profile as Asia.   </p>
                     <h4>Daily Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
