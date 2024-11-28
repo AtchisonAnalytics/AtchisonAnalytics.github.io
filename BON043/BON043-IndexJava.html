@@ -1,0 +1,175 @@
+
+       
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atchison Analytics Reporting</title>
+        <link rel="stylesheet" href="../assetsHTML/bootstrap.css"> <!-- Link to your custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                background-color: #3D555E;
+                color: #3D555E;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                line-height: 1.5;
+            }
+
+            .container {
+                background-color: white;
+                padding: 0 5%; /* Add a 5% padding on both sides */
+                box-sizing: border-box; /* Include padding in width calculation */
+            }
+
+            .content {
+                max-width: 1000px; /* Adjust as needed */
+                margin: 0 auto; /* Center the content */
+            }
+
+            h1, h2 {
+                color: #3D555E;
+            }
+
+            h4 {
+                font-style: italic;
+            }
+
+            table {
+                width: 50%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+                color: black;
+            }
+
+            iframe {
+                display: block;
+                margin: 20px auto;
+                border: none;
+                width: 100%;
+                max-width: 100%; /* Make sure iframes don't overflow */
+            }
+
+            p, ul {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+
+            .logo {
+                margin-right: 20px; /* Adjust the spacing between logos */
+            }
+
+            @media only screen and (min-width: 600px) {
+                .container {
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+            }
+
+            /* Define styles for printing */
+            @media print {
+                body {
+                    margin: 0; /* Adjust the margin as needed */
+                    padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                    padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                }
+
+                .container {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .page-break {
+                    page-break-before: always;
+                }
+
+                h1, h2, h4, p, ul {
+                    orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                    widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                }
+
+                table, iframe {
+                    page-break-inside: avoid;
+                }
+
+            }
+
+        </style>
+    </head>
+
+    
+    
+    <body>
+        <div class="container">
+        
+            <!-- Left Sidebar -->
+            <div class="sidebar" id="sidebar-left-id">
+                <div class="sidebar-header">
+                    <div>
+                        <h2 style="color: #1DC8F2;">Atchison Analytics</h2>
+                        <br>
+                        <h4 style="color: #1DC8F2;">Model: Bongiornos ESG Growth (Total)</h4>          
+                        <h4 style="color: #1DC8F2;">Updated to: 21 November 2024</h4>       
+                        <h4 style="color: #1DC8F2;">Inception:  30 June 2019</h4>         
+                    </div>
+                </div>
+                <br>        
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <br>
+        
+                <nav class="nav flex-column nav-pills">
+                    
+                    <a class="nav-link active" href="#" onclick="loadContent('1-performance')"><i class="fa-solid fa-arrow-trend-up me-2"></i><span>Performance</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('2-risk')"><i class="fa-solid fa-face-surprise me-2"></i><span>Risk Analysis</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('3-allocation')"><i class="fa-solid fa-chart-pie me-2"></i><span>Allocation / Exposure</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('3a-equity')"><i class="fa-solid fa-industry me-2"></i><span>Equity Sleeve Detail</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <a class="nav-link" href="#" onclick="loadContent('4-attribution')"><i class="fa-solid fa-trophy me-2"></i><span>Brinson-Fachler Attribution</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('5-contribution')"><i class="fa-solid fa-scale-unbalanced me-2"></i><span>Contribution Analysis</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('6-components')"><i class="fa-solid fa-shapes me-2"></i><span>Portfolio Components</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <a class="nav-link" href="#" onclick="loadContent('7-heatmap')"><i class="fa-solid fa-fire me-2"></i><span>Heatmap Analysis</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('8-correls')"><i class="fa-solid fa-link me-2"></i><span>Correlation Analysis</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <a class="nav-link" href="#" onclick="loadContent('20-markets')"><i class="fa-solid fa-landmark me-2"></i><span>Market Valuation Analysis</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <a class="nav-link" href="#" onclick="loadContent('31-settings')"><i class="fa-solid fa-gear me-2"></i><span>Analysis Settings</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('30-help')"><i class="fa-solid fa-circle-info me-2"></i><span>Need Help?</span></a>
+                </nav>
+            </div>
+            
+            <div class="content" id="page-content">
+                <h1>Bongiornos ESG Growth (Total)</h1>
+                <br>
+                <h2><---- SELECT MENU ITEMS ON LEFT TO NAVIGATE</h2>
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <br>        
+                <br>
+                <br>
+            </div>
+            
+        </div>
+        
+    
+        <!-- JavaScript File -->
+        <script src="./atchisonAnalytics.js"></script>
+    </body>
+    </html>
+    
+    
