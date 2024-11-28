@@ -32,7 +32,7 @@
                 content = `
                     <h1>Bongiornos ESG Balanced (Total)</h1>
                     <h4>Updated to: 21 November 2024</h2>
-                    <h4>Inception:  30 June 2019</h2>
+                    <h4>Inception:  28 February 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
@@ -48,7 +48,7 @@
                     <p>Since inception of the strategy, the Bongiornos ESG Balanced (Total) has delivered 7.1%, significantly beating Inflation by 2.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Bongiornos ESG Balanced (Total) has  outperformed since inception of the strategy. </p>
                     
-                    <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 30 June 2019. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
+                    <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 28 February 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
                     <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
                     <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
