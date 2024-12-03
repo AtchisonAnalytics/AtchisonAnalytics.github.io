@@ -31,21 +31,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Australian Shares SMA</h1>
-                    <h4>Updated to: 31 October 2024</h2>
+                    <h4>Updated to: 30 November 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Australian Shares SMA delivered -1.0% for the month, and 2.0% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 24.4%, significantly beating Inflation by 20.8%. 
+                    <p>The Atchison Active Australian Shares SMA delivered 3.9% for the month, and 5.9% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 23.3%, significantly beating Inflation by 20.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 12.5%, significantly beating Inflation by 8.5%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 14.2%, significantly beating Inflation by 10.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -57,10 +57,10 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Australian Eagle Trust</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Australian Eagle Trust</li></ul>
-                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p>Australian Eagle Trust aims to provide capital growth through a leveraged investment in Australian stocks. The strategy buys a leveraged exposure (i.e., borrowing additional capital to increase the size of the Funds long position) and by short selling stocks that are deemed lower quality and identified as underperformers. Reason for inclusion includes, portfolio diversification, enhanced risk but also enhanced upside returns, reduced correlation to standard market movements.  </p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p></p>
-                    <h4>Daily Return Analysis</h4>
-                    <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
+                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
+                    <h4>Last 90 Days - Return Analysis</h4>
+                    <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
@@ -114,8 +114,16 @@
                     
                     <h2>PORTFOLIO CONSTRUCTION</h2>
                     <h4>Portfolio Construction - Look Through Exposures</h4><iframe src="./Charts/3_Alloc_Holding_Level_2.html" height="770px" width="950px"></iframe></div><h4>Portfolio Construction - Manager Level</h4><iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="770px" width="950px"></iframe>
-                    <h4>Historical Asset Class Overweight / Underweight</h4>
+                    
+                    <h4>Historical Asset Class Overweight / Underweight vs SAA</h4>
+                    <iframe src="./Charts/3_Allocation_RelSAA_History.html" height="580px" width="950px"></iframe>
+                    
+                    <h4>Historical Asset Class Overweight / Underweight vs TAA</h4>
                     <iframe src="./Charts/3_Allocation_Rel_History.html" height="580px" width="950px"></iframe>
+                    
+                    <h4>Detailed Current Holding Overweight / Underweight vs TAA</h4>
+                    <iframe src="./Charts/3_Holding_OWUW.html" height="580px" width="950px"></iframe>
+                    
                     <h2>PORTFOLIO LOOK THROUGH ANALYSIS</h2>
                     <h4>Portfolio vs Benchmark Weights by Industry Segment (GICS level 1)</h4><iframe src="./Charts/3a_IndustryOWUW.html" height="650px" width="950px"></iframe>
                     <h4>Portfolio vs Benchmark Weights by Country</h4><iframe src="./Charts/3a_CountryOWUW.html" height="650px" width="950px"></iframe>
@@ -203,7 +211,44 @@
                     
                     <div class="page-break"></div>
                     <h4>Manager Performance Summary</h4>
-                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="1050px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Sector Sleeve Components</h4>
+                    <iframe src="./Charts/6_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Australian Share Component Analysis</h4>
+                    <iframe src="./Charts/6_AusEq_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>International Share Component Analysis</h4>
+                    <iframe src="./Charts/6_IntEq_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Real Asset Component Analysis</h4>
+                    <iframe src="./Charts/6_Real_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Alternatives Component Analysis</h4>
+                    <iframe src="./Charts/6_Alts_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Duration Component Analysis</h4>
+                    <iframe src="./Charts/6_Duration_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Floating Rate Component Analysis</h4>
+                    <iframe src="./Charts/6_Floating_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                `;
+                break;
+            case '7-heatmap':
+                content = `
+                    <br> 
+                    <h2>HEATMAP ANALYSIS</h2>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <br> 
                     
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
@@ -224,21 +269,51 @@
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap (Look Through) - Latest Quarter</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth.html" height="1020px" width="950px"></iframe>
-                    
-                    <div class="page-break"></div>
-                    <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Quarter</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth_Relative.html" height="1020px" width="950px"></iframe>
-                    
-                    <div class="page-break"></div>
-                    <h4>Portfolio Performance Heatmap (Look Through) - Latest Month</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth.html" height="1020px" width="950px"></iframe>
 
                     <div class="page-break"></div>
                     <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
+                    
                 `;
                 break;
-            case '7-mgr':
+            case '8-correls':
+                content = `
+                    <br> 
+                    <h2>CORRELATION ANALYSIS</h2>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Sector Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Sleeve_MonthlyCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Australian Share Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_AusEq_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>International Share Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_IntEq_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Real Asset Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Real_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Alternatives Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Alts_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Duration Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Duration_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Floating Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Floating_MthCorrel.html" height="820px" width="950px"></iframe>
+                `;
+                break;
+            case '9-mgr':
                 content = `
                     <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
@@ -270,7 +345,43 @@
                 break;
             case '30-help':
                 content = `
-                    <h1>Need Help?</h1><p>Help content goes here...</p>
+                    <h1>Need Help? Contact Us:</h1>
+                    <p>Atchison Consultants</p>
+                    <p>+61 3 9642 3835</p>
+                    <p>kev@atchison.com.au</p>
+                    <br>
+                    
+        <h2>GLOSSARY</h2>
+        <h3>Performance Analysis</h3>
+        <ul>
+            <li>Portfolio Performance is calculated after fee charged by the appointed portfolio manager and underlying ICRs (Indirect Costs Ratios). Portfolio manager fee includes services related to the management of the portfolio, such as asset allocation, investment selection, risk management, implementation, and reporting. An underlying ICR relates to the fee charged by individual underlying investments, such as managed funds or Exchange Traded Funds (ETFs), selected by the portfolio manager. The aggregate ICR of the portfolio will vary over time as a result of portfolio changes, as well as other factors, such as the underlying fund manager triggering a performance fee if relevant.</li>
+            <li>Returns assume reinvestment of all distributions. Returns for periods longer than1 year are annualised. Index returns do not allow for taxes, management, transaction, and operational costs.</li>
+            <li>SAA Benchmark is calculated by using the weighted average of the strategic asset allocation and the relevant index returns for each asset class.</li>
+            <li>Peer Group is developed FE Analytics (AMI) and constructed by aggregating data from a broad spectrum of funds, providing a comprehensive view of average returns within specific categories e.g. Balanced, Growth etc.</li>
+            <li>Inflation is measured using the CPI (consumer price index) published by the Australian Bureau of Statistics. CPI measures household inflation and includes statistics about price change for categories of household expenditure.</li>
+            <li>Performance of $100,000 Investment is an estimate of how much, since inception, the investment has compounded, over time, with any distributions re-invested, assuming no contributions or redemptions to the initial investment.</li>
+            <li>Key, Contributors, Detractors & Attribution by Asset Class evaluates the performance of the portfolio by asset class contribution to total return.</li>
+            <li>Portfolio Performance Heatmap is a graphical representation of each asset class and individual investment managers contribution to total portfolio performance represented as colours. Green showing positive changes and red showing negative changes. Click on any box to see the performance of the assert class and investment manager weighted return.</li>
+            <li>Latest Intra-Month Update is calculated on the most recent number of days within a period.</li>
+        </ul>
+        <br>
+        <h3>Risk Analysis</h3>
+        <ul>
+            <li>Volatility is a historical statistical measure of a dispersion of returns of a managed portfolio or benchmark.  A higher volatility means that a managed portfolio’s value can move dramatically over a shorter period-of-time, in either direction i.e. up or down. A lower volatility means that a managed portfolio’s value does not fluctuate dramatically, and returns tend to be steadier</li>
+            <li>Max Drawdown is a historical measure of a managed portfolio’s maximum loss in a peak-to-trough decline before a new peak is attained. It is an indicator of downside risk over a specified time of period.</li>
+            <li>Sharpe Ratio is a measure of a managed portfolio’s risk-adjusted returns. Calculated by dividing a portfolio’s excess returns (being above an industry benchmark e.g. risk-free asset such as cash return) by its volatility to assess risk- adjusted performance. Higher the Sharpe Ratio the better a portfolio’s historical risk-adjusted performance.</li>
+            <li>Calmar Ratio is a measure a portfolio’s investment efficiency on a risk-adjusted basis. It is calculated by dividing the investment’s annual return (typically over three years) by its maximum drawdown, reflecting performance versus potential losses. The lower the Calmar Ratio, the worse the performance of the portfolio, the higher the Calmar ratio, the better the performance, relative to the risk taken</li>
+            <li>Information Ratio quantifies the excess managed portfolio returns over the returns of the market benchmark, relative to the volatility of the returns. An Information Ratio of 0.4 or above is considered good, 0.70 or above is very good, and 1.0 or higher is exceptional.</li>
+            <li>Tracking Error is a measure of how closely a portfolio follows an index to which it is benchmarked. The risk, relative to the benchmark, is the tracking error.  A benchmark unaware approach will tend to have a high Tracking Error, and high volatility and inconsistency in portfolio returns exceeding the index.  A low tracking can have the opposite effect on a portfolio</li>
+            <li>Batting Average is a measure of a portfolio manager’s ability to consistently beat the market benchmark. A portfolio manager who meets or outperforms the benchmark every month over a given period would have a batting average of 100.</li>
+            <li>Inflation Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to inflation, inflation and returns are negatively correlated</li>
+            <li>ASX Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to ASX, Australian share market and total portfolio returns are positively correlated.</li>
+            <li>US Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to US market, US share market and total portfolio returns are positively correlated. </li>    
+            <li>Drawdown Periods & Recovery measures the total portfolio peak to trough decline over the period compared to the SAA benchmark and Peer Group and the time taken to recover.</li>
+        </ul>
+        <br>
+        <div class="page-break"></div>
+    
                 `;
                 break;
             case '31-settings':
@@ -292,6 +403,7 @@
                                                     table.dataframe {
                                                         border-collapse: collapse;
                                                         width: 100%;
+                                                        max-width: 950px; /* Restrict table width to a maximum of 950px */
                                                         border-radius: 10px; /* Adjust the border radius as needed */
                                                         overflow: hidden; /* Ensure the border-radius is applied */
                                                     }

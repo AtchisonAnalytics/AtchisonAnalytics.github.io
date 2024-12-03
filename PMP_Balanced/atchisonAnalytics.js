@@ -19,16 +19,7 @@
 
     });
 
-    async function checkFileExists(url) {
-        try {
-            const response = await fetch(url);
-            return response.ok;
-        } catch (error) {
-            return false;
-    }
-}
-
-    async function loadContent(page) {
+    function loadContent(page) {
         let content = '';
         switch(page) {
             case 'settings':
@@ -40,22 +31,22 @@
             case '1-performance':
                 content = `
                     <h1>PMP Wealth Balanced Model</h1>
-                    <h4>Updated to: 30 September 2024</h2>
+                    <h4>Updated to: 30 November 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The PMP Wealth Balanced Model delivered 1.1% for the month, and 4.6% over the quarter. </p>
-                    <p>Over the last 12 months, the PMP Wealth Balanced Model delivered 20.7%, significantly beating Inflation by 17.3%. 
-                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has significantly outperformed over the last 12 months. </p>
+                    <p>The PMP Wealth Balanced Model delivered 2.6% for the month, and 3.4% over the quarter. </p>
+                    <p>Over the last 12 months, the PMP Wealth Balanced Model delivered 18.3%, significantly beating Inflation by 15.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the PMP Wealth Balanced Model has delivered 11.0%, significantly beating Inflation by 7.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has significantly outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the PMP Wealth Balanced Model has delivered 9.2%, significantly beating Inflation by 5.7%. 
+                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
@@ -68,8 +59,8 @@
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
                     
                     <p></p><p></p><p></p><p></p>
-                    <h4>Daily Return Analysis</h4>
-                    <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
+                    <h4>Last 90 Days - Return Analysis</h4>
+                    <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
@@ -123,9 +114,21 @@
                     <iframe src = "./Charts/3_Alloc_Ranges.html" height = "400px" width = "950px" > </iframe>
                     <h2>PORTFOLIO CONSTRUCTION</h2>
                     <h4>Allocation Adjustments Through Time</h4><iframe src = "./Charts/3_Allocation_History.html" height = "600px" width = "950px"></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level </h4><iframe src = "./Charts/3_Alloc_Mgr_Level_2.html" height = "770px" width = "950px" ></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level Categorised</h4><iframe src = "./Charts/3_Alloc_Mgr_Level_4.html" height = "770px" width = "950px" ></iframe>
-                    <h4>Historical Asset Class Overweight / Underweight</h4>
+                    
+                    <h4>Historical Asset Class Overweight / Underweight vs SAA</h4>
+                    <iframe src="./Charts/3_Allocation_RelSAA_History.html" height="580px" width="950px"></iframe>
+                    
+                    <h4>Historical Asset Class Overweight / Underweight vs TAA</h4>
                     <iframe src="./Charts/3_Allocation_Rel_History.html" height="580px" width="950px"></iframe>
-
+                    
+                    <h4>Detailed Current Holding Overweight / Underweight vs TAA</h4>
+                    <iframe src="./Charts/3_Holding_OWUW.html" height="580px" width="950px"></iframe>
+                    
+                    
+                    
+                    
+                    
+                    
                     
                     <h4>Historical Holding Level Weights</h4>
                     <iframe src="./Charts/3_Allocation_DH_FloatHistory.html" height="580px" width="950px"></iframe>
@@ -194,36 +197,9 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>              
-                    <h3>Contribution Analysis of Asset Class Sleeves</h3>
-                    <h4>Australian Shares - Contribution</h4>
-                    <iframe src="./Charts/5_AusEq_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-                    <h4>International Shares - Contribution</h4>
-                    <iframe src="./Charts/5_IntEq_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-                    <h4>Real Assets - Contribution</h4>
-                    <iframe src="./Charts/5_Real_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-                    <h4>Duration - Contribution</h4>
-                    <iframe src="./Charts/5_Duration_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-                    <h4>Floating Rate - Contribution</h4>
-                    <iframe src="./Charts/5_Floating_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-                    <h4>Cash - Contribution</h4>
-                    <iframe src="./Charts/5_Cash_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
-
-
+                    <h4>Contribution Analysis of Asset Class Sleeves</h4>
+                    <iframe src="./Charts/5_Sleeve_Contribs.html" height="380px" width="950px"></iframe>
                 `;
-
-                const fileList = [
-                    './Charts/5_Sleeve_Contribs.html',
-                    './Charts/5_Alts_Sleeve_Contribs.html',
-
-                ];
-
-                for (const file of fileList) {
-                    const exists = await checkFileExists(file);
-                    if (exists) {
-                        content += `<iframe src="${file}" height="380px" width="950px"></iframe><br>`;
-                    }
-                }
-
                 break;
             case '6-components':
                 content = `
@@ -235,7 +211,44 @@
                     
                     <div class="page-break"></div>
                     <h4>Manager Performance Summary</h4>
-                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="950px"></iframe>
+                    <iframe src="./Charts/6_Manager-Table.html" height="1020px" width="1050px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Sector Sleeve Components</h4>
+                    <iframe src="./Charts/6_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Australian Share Component Analysis</h4>
+                    <iframe src="./Charts/6_AusEq_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>International Share Component Analysis</h4>
+                    <iframe src="./Charts/6_IntEq_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Real Asset Component Analysis</h4>
+                    <iframe src="./Charts/6_Real_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Alternatives Component Analysis</h4>
+                    <iframe src="./Charts/6_Alts_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Duration Component Analysis</h4>
+                    <iframe src="./Charts/6_Duration_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Floating Rate Component Analysis</h4>
+                    <iframe src="./Charts/6_Floating_Sleeve_Components.html" height="400px" width="950px"></iframe>
+                `;
+                break;
+            case '7-heatmap':
+                content = `
+                    <br> 
+                    <h2>HEATMAP ANALYSIS</h2>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <br> 
                     
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Month</h4>
@@ -256,21 +269,51 @@
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap (Look Through) - Latest Quarter</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth.html" height="1020px" width="950px"></iframe>
-                    
-                    <div class="page-break"></div>
-                    <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Quarter</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth_Relative.html" height="1020px" width="950px"></iframe>
-                    
-                    <div class="page-break"></div>
-                    <h4>Portfolio Performance Heatmap (Look Through) - Latest Month</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth.html" height="1020px" width="950px"></iframe>
 
                     <div class="page-break"></div>
                     <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Month</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
+                    
                 `;
                 break;
-            case '7-mgr':
+            case '8-correls':
+                content = `
+                    <br> 
+                    <h2>CORRELATION ANALYSIS</h2>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <br> 
+                    
+                    <div class="page-break"></div>
+                    <h4>Sector Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Sleeve_MonthlyCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Australian Share Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_AusEq_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>International Share Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_IntEq_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Real Asset Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Real_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Alternatives Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Alts_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Duration Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Duration_MthCorrel.html" height="820px" width="950px"></iframe>
+                    
+                    <div class="page-break"></div>
+                    <h4>Floating Sleeve Correlations</h4>
+                    <iframe src="./Charts/6_Floating_MthCorrel.html" height="820px" width="950px"></iframe>
+                `;
+                break;
+            case '9-mgr':
                 content = `
                     <h1>Manager Analysis</h1><p>Manager analysis goes here...</p>
                 `;
@@ -302,7 +345,43 @@
                 break;
             case '30-help':
                 content = `
-                    <h1>Need Help?</h1><p>Help content goes here...</p>
+                    <h1>Need Help? Contact Us:</h1>
+                    <p>Atchison Consultants</p>
+                    <p>+61 3 9642 3835</p>
+                    <p>kev@atchison.com.au</p>
+                    <br>
+                    
+        <h2>GLOSSARY</h2>
+        <h3>Performance Analysis</h3>
+        <ul>
+            <li>Portfolio Performance is calculated after fee charged by the appointed portfolio manager and underlying ICRs (Indirect Costs Ratios). Portfolio manager fee includes services related to the management of the portfolio, such as asset allocation, investment selection, risk management, implementation, and reporting. An underlying ICR relates to the fee charged by individual underlying investments, such as managed funds or Exchange Traded Funds (ETFs), selected by the portfolio manager. The aggregate ICR of the portfolio will vary over time as a result of portfolio changes, as well as other factors, such as the underlying fund manager triggering a performance fee if relevant.</li>
+            <li>Returns assume reinvestment of all distributions. Returns for periods longer than1 year are annualised. Index returns do not allow for taxes, management, transaction, and operational costs.</li>
+            <li>SAA Benchmark is calculated by using the weighted average of the strategic asset allocation and the relevant index returns for each asset class.</li>
+            <li>Peer Group is developed FE Analytics (AMI) and constructed by aggregating data from a broad spectrum of funds, providing a comprehensive view of average returns within specific categories e.g. Balanced, Growth etc.</li>
+            <li>Inflation is measured using the CPI (consumer price index) published by the Australian Bureau of Statistics. CPI measures household inflation and includes statistics about price change for categories of household expenditure.</li>
+            <li>Performance of $100,000 Investment is an estimate of how much, since inception, the investment has compounded, over time, with any distributions re-invested, assuming no contributions or redemptions to the initial investment.</li>
+            <li>Key, Contributors, Detractors & Attribution by Asset Class evaluates the performance of the portfolio by asset class contribution to total return.</li>
+            <li>Portfolio Performance Heatmap is a graphical representation of each asset class and individual investment managers contribution to total portfolio performance represented as colours. Green showing positive changes and red showing negative changes. Click on any box to see the performance of the assert class and investment manager weighted return.</li>
+            <li>Latest Intra-Month Update is calculated on the most recent number of days within a period.</li>
+        </ul>
+        <br>
+        <h3>Risk Analysis</h3>
+        <ul>
+            <li>Volatility is a historical statistical measure of a dispersion of returns of a managed portfolio or benchmark.  A higher volatility means that a managed portfolio’s value can move dramatically over a shorter period-of-time, in either direction i.e. up or down. A lower volatility means that a managed portfolio’s value does not fluctuate dramatically, and returns tend to be steadier</li>
+            <li>Max Drawdown is a historical measure of a managed portfolio’s maximum loss in a peak-to-trough decline before a new peak is attained. It is an indicator of downside risk over a specified time of period.</li>
+            <li>Sharpe Ratio is a measure of a managed portfolio’s risk-adjusted returns. Calculated by dividing a portfolio’s excess returns (being above an industry benchmark e.g. risk-free asset such as cash return) by its volatility to assess risk- adjusted performance. Higher the Sharpe Ratio the better a portfolio’s historical risk-adjusted performance.</li>
+            <li>Calmar Ratio is a measure a portfolio’s investment efficiency on a risk-adjusted basis. It is calculated by dividing the investment’s annual return (typically over three years) by its maximum drawdown, reflecting performance versus potential losses. The lower the Calmar Ratio, the worse the performance of the portfolio, the higher the Calmar ratio, the better the performance, relative to the risk taken</li>
+            <li>Information Ratio quantifies the excess managed portfolio returns over the returns of the market benchmark, relative to the volatility of the returns. An Information Ratio of 0.4 or above is considered good, 0.70 or above is very good, and 1.0 or higher is exceptional.</li>
+            <li>Tracking Error is a measure of how closely a portfolio follows an index to which it is benchmarked. The risk, relative to the benchmark, is the tracking error.  A benchmark unaware approach will tend to have a high Tracking Error, and high volatility and inconsistency in portfolio returns exceeding the index.  A low tracking can have the opposite effect on a portfolio</li>
+            <li>Batting Average is a measure of a portfolio manager’s ability to consistently beat the market benchmark. A portfolio manager who meets or outperforms the benchmark every month over a given period would have a batting average of 100.</li>
+            <li>Inflation Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to inflation, inflation and returns are negatively correlated</li>
+            <li>ASX Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to ASX, Australian share market and total portfolio returns are positively correlated.</li>
+            <li>US Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to US market, US share market and total portfolio returns are positively correlated. </li>    
+            <li>Drawdown Periods & Recovery measures the total portfolio peak to trough decline over the period compared to the SAA benchmark and Peer Group and the time taken to recover.</li>
+        </ul>
+        <br>
+        <div class="page-break"></div>
+    
                 `;
                 break;
             case '31-settings':
@@ -324,6 +403,7 @@
                                                     table.dataframe {
                                                         border-collapse: collapse;
                                                         width: 100%;
+                                                        max-width: 950px; /* Restrict table width to a maximum of 950px */
                                                         border-radius: 10px; /* Adjust the border radius as needed */
                                                         overflow: hidden; /* Ensure the border-radius is applied */
                                                     }
