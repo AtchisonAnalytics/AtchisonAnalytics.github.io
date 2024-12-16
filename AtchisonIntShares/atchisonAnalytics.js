@@ -23,10 +23,54 @@
         let content = '';
         switch(page) {
             case 'settings':
-                content = `<h1>Portfolio Settings</h1><p>Settings content goes here...</p>`;
+                content = 
+                    `<h1>Portfolio Settings</h1><p>Settings content goes here...</p>
+                `;
                 break;
             case '0-summary':
-                content = `<h1>Summary Dashboard</h1><p>Summary content goes here...</p>`;
+                content = `
+                    <h2>Summary Dashboard for Atchison Active International Shares SMA as at 30 November 2024</h2>
+                    <h4>Portfolio Performance</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
+                        <iframe src="./Charts/1_Performance-Main_v2.html" height="370px" width="600px"></iframe>
+                    </div>
+                    
+                    <h4>Sector Sleeve Performance</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/1_Performance-SleeveTable_v1.html" height="600px" width="600px"></iframe>
+                        <iframe src="./Charts/6_Performance-Sleeve_v2.html" height="600px" width="600px"></iframe>
+                    </div>
+                    
+                    <h4>Exposure Summary</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="600px" width="600px"></iframe>
+                        <iframe src="./Charts/3_Allocation_History.html" height="600px" width="600px"></iframe>
+                    </div>
+                    
+                    
+                    <h4>Heatmap 3 Months</h4>
+                    <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="900px" width="600px"></iframe>
+                    
+                    <h4>Heatmap 1 Year</h4>
+                    <iframe src="./Charts/6_Sleeve_Treemap1_1Yr.html" height="900px" width="600px"></iframe>
+                    
+                    <h4>Correlation Analysis</h4>
+                    <iframe src="./Charts/6_Sleeve_MonthlyCorrel.html" height="820px" width="950px"></iframe>
+                
+                    <br>    
+                    <h4>Performance Comments</h4>                
+                    <p>The Atchison Active International Shares SMA delivered 3.9% for the month, and 6.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 28.8%, significantly beating Inflation by 25.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
+                    
+                    
+                    
+                    
+                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 24.1%, significantly beating Inflation by 20.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed since inception of the strategy. </p>
+                    
+                `;
                 break;
             case '1-performance':
                 content = `

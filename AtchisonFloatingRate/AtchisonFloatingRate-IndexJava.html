@@ -20,13 +20,34 @@
 
             .container {
                 background-color: white;
-                padding: 0 5%; /* Add a 5% padding on both sides */
-                box-sizing: border-box; /* Include padding in width calculation */
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                width: 90%;
+                max-width: 1600px;
+                min-width: 300px;
+                border-radius: 8px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             }
 
             .content {
-                max-width: 1000px; /* Adjust as needed */
-                margin: 0 auto; /* Center the content */
+                max-width: 1600px;
+                margin: 0 auto;
+            }
+            
+            .iframe-container {
+                display: flex;
+                justify-content: space-between; /* Adjust spacing between columns */
+                gap: 20px; /* Add consistent spacing between columns */
+                flex-wrap: wrap; /* Allows wrapping to the next row if space is limited */
+            }
+
+            .iframe-container iframe {
+                flex: 1 1 auto; /* Allow proportional resizing */
+                aspect-ratio: 17 / 9; /* Set the aspect ratio (width:height) */
+                width: 100%; /* Allow width to adjust automatically */
+                 max-width: 700px; /* Set a maximum width */
+                 height: auto; /* Adjust height automatically based on aspect ratio */
             }
 
             h1, h2 {
@@ -75,8 +96,8 @@
 
             @media only screen and (min-width: 600px) {
                 .container {
-                    margin-left: 15%;
-                    margin-right: 15%;
+                    margin-left: 5%;
+                    margin-right: 5%;
                 }
             }
 
@@ -134,7 +155,9 @@
         
                 <nav class="nav flex-column nav-pills">
                     
-                    <a class="nav-link active" href="#" onclick="loadContent('1-performance')"><i class="fa-solid fa-arrow-trend-up me-2"></i><span>Performance</span></a>
+                    <a class="nav-link active" href="#" onclick="loadContent('0-summary')"><i class="fa-solid fa-list-check me-2"></i><span>Summary</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                    <a class="nav-link" href="#" onclick="loadContent('1-performance')"><i class="fa-solid fa-arrow-trend-up me-2"></i><span>Performance</span></a>
                     <a class="nav-link" href="#" onclick="loadContent('2-risk')"><i class="fa-solid fa-face-surprise me-2"></i><span>Risk Analysis</span></a>
                     <a class="nav-link" href="#" onclick="loadContent('3-allocation')"><i class="fa-solid fa-chart-pie me-2"></i><span>Allocation / Exposure</span></a>
                     <a class="nav-link" href="#" onclick="loadContent('3a-equity')"><i class="fa-solid fa-industry me-2"></i><span>Equity Sleeve Detail</span></a>
