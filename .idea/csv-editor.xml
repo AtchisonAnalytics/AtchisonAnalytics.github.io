@@ -45,20 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\WattleClient0003\Wattle0003Christopher\Charts\1_Performance-Table.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\WattleClient0003\Wattle0003Christopher\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
