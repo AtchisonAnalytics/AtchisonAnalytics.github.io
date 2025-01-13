@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 30 November 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 31 December 2024</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -60,49 +60,50 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Alternatives SMA delivered 0.6% for the month, and 3.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.2%, significantly beating Inflation by 9.3%. 
+                    <p>The Atchison Active Alternatives SMA delivered 0.8% for the month, and 3.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.3%, significantly beating Inflation by 9.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.7%, significantly beating Inflation by 4.0%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has marginally outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.8%, significantly beating Inflation by 4.3%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  outperformed since inception of the strategy. </p>
                     
                 `;
                 break;
             case '1-performance':
                 content = `
                     <h1>Atchison Active Alternatives SMA</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Alternatives SMA delivered 0.6% for the month, and 3.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.2%, significantly beating Inflation by 9.3%. 
+                    <p>The Atchison Active Alternatives SMA delivered 0.8% for the month, and 3.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 12.3%, significantly beating Inflation by 9.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.7%, significantly beating Inflation by 4.0%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has marginally outperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Alternatives SMA has delivered 7.8%, significantly beating Inflation by 4.3%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
-                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been VanEck Global Listed Private Equity ETF</li><li>The holding that contributed the least to portfolio return was Ruffer Total Return International - Australia Fund</li><li>The current holding with the highest absolute return has been VanEck Global Listed Private Equity ETF<li>Whilst the current holding with the lowest absolute return has been Ruffer Total Return International - Australia Fund</li></ul>
+                    <p></p><p>The Fund is a total return strategy aiming to achieve low volatility, positive returns and capital preservation. The fund may have exposure to cash, debt, securities of any type (including government and corporate debt), equities and equity related securities plus commodities (including precious metals). Its inclusion enhances strategic diversification, aiming for consistent positive results in various market conditions.</p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

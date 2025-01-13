@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 30 November 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 31 December 2024</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -60,14 +60,14 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 70 SMA delivered 2.4% for the month, and 3.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 17.7%, significantly beating Inflation by 14.7%. 
+                    <p>The Atchison Active 70 SMA delivered -0.8% for the month, and 1.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 12.7%, significantly beating Inflation by 9.9%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 14.0%, significantly beating Inflation by 10.3%. 
+                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 12.9%, significantly beating Inflation by 9.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed since inception of the strategy. </p>
                     
                 `;
@@ -75,33 +75,34 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 2.4% for the month, and 3.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 17.7%, significantly beating Inflation by 14.7%. 
+                    <p>The Atchison Active 70 SMA delivered -0.8% for the month, and 1.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 12.7%, significantly beating Inflation by 9.9%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 14.0%, significantly beating Inflation by 10.3%. 
+                    <p>Since inception of the strategy, the Atchison Active 70 SMA has delivered 12.9%, significantly beating Inflation by 9.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    
+                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+12.90%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.53%)</li><li>The asset class with the highest absolute return was International Shares (+50.41%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+7.71%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.34%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.87%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>

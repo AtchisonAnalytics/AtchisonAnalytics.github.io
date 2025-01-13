@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active International Shares SMA as at 30 November 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active International Shares SMA as at 31 December 2024</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -60,14 +60,14 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active International Shares SMA delivered 3.9% for the month, and 6.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 28.8%, significantly beating Inflation by 25.9%. 
+                    <p>The Atchison Active International Shares SMA delivered 1.1% for the month, and 7.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 27.4%, significantly beating Inflation by 24.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 24.1%, significantly beating Inflation by 20.4%. 
+                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 23.7%, significantly beating Inflation by 20.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                 `;
@@ -75,34 +75,35 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active International Shares SMA</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active International Shares SMA delivered 3.9% for the month, and 6.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 28.8%, significantly beating Inflation by 25.9%. 
+                    <p>The Atchison Active International Shares SMA delivered 1.1% for the month, and 7.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 27.4%, significantly beating Inflation by 24.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 24.1%, significantly beating Inflation by 20.4%. 
+                    <p>Since inception of the strategy, the Atchison Active International Shares SMA has delivered 23.7%, significantly beating Inflation by 20.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
-                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Vanguard FTSE Europe Shares ETF</li><li>The current holding with the highest absolute return has been iShares S&P 500 ETF<li>Whilst the current holding with the lowest absolute return has been Man GLG Asia Opportunitie</li></ul>
+                    <p></p><p></p><p></p><p>The Man GLG Asia Opportunities Fund, with 35-45 positions, seeks to generate risk adjusted returns in Asian equities, using a fundamentals-driven approach. A specialist active investment strategy provides investors with the opportunity to participate in the growth and development of the Asian economy. Atchison’s current position is to tactically allocate to Asia, as opposed to investing across the broader Emerging Markets, which does not necessarily have the same overall growth profile as Asia.   </p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

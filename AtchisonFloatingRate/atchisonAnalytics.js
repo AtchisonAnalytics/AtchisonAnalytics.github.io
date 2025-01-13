@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 30 November 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 31 December 2024</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -60,14 +60,14 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Floating Rate SMA delivered 0.6% for the month, and 1.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 6.7%, materially beating Inflation by 3.8%. 
+                    <p>The Atchison Active Floating Rate SMA delivered 0.5% for the month, and 1.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.8%, materially beating Inflation by 3.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.0%, significantly beating Inflation by 2.3%. 
+                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.0%, significantly beating Inflation by 2.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has  outperformed since inception of the strategy. </p>
                     
                 `;
@@ -75,27 +75,28 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Floating Rate SMA</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Floating Rate SMA delivered 0.6% for the month, and 1.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 6.7%, materially beating Inflation by 3.8%. 
+                    <p>The Atchison Active Floating Rate SMA delivered 0.5% for the month, and 1.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.8%, materially beating Inflation by 3.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.0%, significantly beating Inflation by 2.3%. 
+                    <p>Since inception of the strategy, the Atchison Active Floating Rate SMA has delivered 6.0%, significantly beating Inflation by 2.5%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>

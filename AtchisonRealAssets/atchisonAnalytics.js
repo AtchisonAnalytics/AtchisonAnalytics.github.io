@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 30 November 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 31 December 2024</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -60,14 +60,14 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Real Assets SMA delivered 1.8% for the month, and 2.5% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 18.8%, significantly beating Inflation by 15.8%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Real Assets SMA delivered -4.8% for the month, and -5.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 6.3%, materially beating Inflation by 3.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 9.8%, significantly beating Inflation by 6.2%. 
+                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 6.8%, significantly beating Inflation by 3.2%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has  outperformed since inception of the strategy. </p>
                     
                 `;
@@ -75,34 +75,35 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered 1.8% for the month, and 2.5% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 18.8%, significantly beating Inflation by 15.8%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Real Assets SMA delivered -4.8% for the month, and -5.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 6.3%, materially beating Inflation by 3.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 9.8%, significantly beating Inflation by 6.2%. 
+                    <p>Since inception of the strategy, the Atchison Active Real Assets SMA has delivered 6.8%, significantly beating Inflation by 3.2%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
-                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been BlackRock iShares Global Listed Property Index</li><li>The holding that contributed the least to portfolio return was Invesco Global Real Estate Fund - Class A</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been ClearBridge RARE Infrastructure Income Fund - Hedged</li></ul>
+                    <p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p><p></p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>Clearbridge RARE Infrastructure, founded in 2006, offers investors a long-term reliable earnings stream, which is relatively resilient to changing economic conditions and is largely protected from inflation (based on income indexed to inflation). As such, the asset class typically displays less volatility than broader equities with a lower correlation to other asset classes over the medium to long term. </p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
