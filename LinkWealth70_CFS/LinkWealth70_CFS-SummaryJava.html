@@ -1,0 +1,185 @@
+
+       
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atchison Analytics Reporting</title>
+        <link rel="stylesheet" href="../assetsHTML/bootstrap.css"> <!-- Link to your custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                background-color: #3D555E;
+                color: #3D555E;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                line-height: 1.5;
+            }
+
+            .container {
+                background-color: white;
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                width: 90%;
+                max-width: 1600px;
+                min-width: 300px;
+                border-radius: 8px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .content {
+                max-width: 1600px;
+                margin: 0 auto;
+            }
+            
+            .iframe-container {
+                display: flex;
+                justify-content: space-between; /* Adjust spacing between columns */
+                gap: 20px; /* Add consistent spacing between columns */
+                flex-wrap: wrap; /* Allows wrapping to the next row if space is limited */
+            }
+
+            .iframe-container iframe {
+                flex: 1 1 auto; /* Allow proportional resizing */
+                aspect-ratio: 17 / 9; /* Set the aspect ratio (width:height) */
+                width: 100%; /* Allow width to adjust automatically */
+                 max-width: 700px; /* Set a maximum width */
+                 height: auto; /* Adjust height automatically based on aspect ratio */
+            }
+
+            h1, h2 {
+                color: #3D555E;
+            }
+
+            h4 {
+                font-style: italic;
+            }
+
+            table {
+                width: 50%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+                color: black;
+            }
+
+            iframe {
+                display: block;
+                margin: 20px auto;
+                border: none;
+                width: 100%;
+                max-width: 100%; /* Make sure iframes don't overflow */
+            }
+
+            p, ul {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+
+            .logo {
+                margin-right: 20px; /* Adjust the spacing between logos */
+            }
+
+            @media only screen and (min-width: 600px) {
+                .container {
+                    margin-left: 5%;
+                    margin-right: 5%;
+                }
+            }
+
+            /* Define styles for printing */
+            @media print {
+                body {
+                    margin: 0; /* Adjust the margin as needed */
+                    padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                    padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                }
+
+                .container {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .page-break {
+                    page-break-before: always;
+                }
+
+                h1, h2, h4, p, ul {
+                    orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                    widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                }
+
+                table, iframe {
+                    page-break-inside: avoid;
+                }
+
+            }
+
+        </style>
+    </head>
+
+    
+
+    <body>
+        <div class="container">
+
+            <!-- Left Sidebar -->
+            <div class="sidebar" id="sidebar-left-id">
+                <div class="sidebar-header">
+                    <div>
+                        <h2 style="color: #1DC8F2;">Atchison Analytics</h2>
+                        <br>
+                        <h4 style="color: #1DC8F2;">Link Wealth 70 SMA (CFS)</h4>          
+                        <h4 style="color: #1DC8F2;">Updated to: 03 January 2025</h4>       
+                        <h4 style="color: #1DC8F2;">Inception:  31 December 2022</h4>         
+                    </div>
+                </div>
+                <br>        
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <br>
+
+                <nav class="nav flex-column nav-pills">
+
+                    <a class="nav-link active" href="#" onclick="loadContent('0-summary')"><i class="fa-solid fa-list-check me-2"></i><span>Summary</span></a>
+                    <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;"> 
+                    <a class="nav-link" href="#" onclick="loadContent('2-risk')"><i class="fa-solid fa-face-surprise me-2"></i><span>Risk Analysis</span></a>
+                    <a class="nav-link" href="#" onclick="loadContent('31-settings')"><i class="fa-solid fa-gear me-2"></i><span>Analysis Settings</span></a>
+                    
+                </nav>
+            </div>
+
+            <div class="content" id="page-content">
+                <h1>Link Wealth 70 SMA (CFS)</h1>
+                <br>
+                <h2><---- SELECT MENU ITEMS ON LEFT TO NAVIGATE</h2>
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
+                <br>        
+                <br>
+                <br>
+            </div>
+
+        </div>
+
+
+        <!-- JavaScript File -->
+        <script src="./atchisonAnalytics.js"></script>
+    </body>
+    </html>
+
+    
