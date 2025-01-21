@@ -176,7 +176,7 @@
         } else {
           alert('Login successful');
           console.log("Login successful:", data);
-          window.location.href = "/secureportal";
+          window.location.href = "https://atchisonanalytics.github.io/secureportal/index.html";
         }
       });
 
@@ -204,16 +204,16 @@
         if (error) {
           alert(`Logout failed: ${error.message}`);
         } else {
-          window.location.href = "/login";
+          window.location.href = "https://atchisonanalytics.github.io/login/index.html";
         }
       });
 
     // Persistent Session Handling
     supabase.auth.onAuthStateChange((event, session) => {
         if (event === 'SIGNED_IN') {
-          window.location.href = "/secureportal";
+          window.location.href = "https://atchisonanalytics.github.io/secureportal/index.html";
         } else if (event === 'SIGNED_OUT') {
-          window.location.href = "/login";
+          window.location.href = "https://atchisonanalytics.github.io/login/index.html";
         }
     });
     </script>

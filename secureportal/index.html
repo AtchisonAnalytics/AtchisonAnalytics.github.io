@@ -15,7 +15,7 @@
         supabase.auth.getSession().then(({ data: { session } }) => {
             if (!session) {
                 alert("You must be logged in to access the secure portal.");
-                window.location.href = "/"; // Redirect to login page
+                window.location.href = "https://atchisonanalytics.github.io/login/index.html"; // Redirect to login page
             } else {
                 // Fetch and display user details
                 const user = session.user;
@@ -25,7 +25,7 @@
     </script>
 </head>
 <body>
-    <h1 id="welcome">Loading...</h1>
+    <h1 id="welcome">Welcome...made it to the body...Loading...</h1>
     <button id="logout-button">Logout</button>
     <script>
         // Logout Functionality
@@ -34,7 +34,7 @@
             if (error) {
                 alert(`Logout failed: ${error.message}`);
             } else {
-                window.location.href = "/";
+                window.location.href = "https://atchisonanalytics.github.io/login/index.html";
             }
         });
     </script>
