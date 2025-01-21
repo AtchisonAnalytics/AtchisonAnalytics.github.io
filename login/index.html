@@ -158,30 +158,63 @@
 
     // Login Functionality
     document.getElementById('login-form').addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const email = document.getElementById('email').value;
-      const password = document.getElementById('password').value;
+        e.preventDefault();
+        console.log("Login form submitted"); // Debugging log
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
 
-      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-      if (error) {
-        alert(`Login failed: ${error.message}`);
-      } else {
-        alert('Login successful');
-        console.log('User data:', data);
-        window.location.href = "/dashboard"; // Redirect after successful login
-      }
-    });
+        if (!email || !password) {
+          console.log("Missing email or password");
+          alert("Both email and password are required.");
+          return;
+        }
+
+        const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+        if (error) {
+          console.error("Login failed:", error.message);
+          alert(`Login failed: ${error.message}`);
+        } else {
+          alert('Login successful');
+          console.log("Login successful:", data);
+          window.location.href = "/secureportal";
+        }
+      });
 
     // Signup Functionality
     document.getElementById('signup-button').addEventListener('click', async () => {
-      const email = prompt('Enter your email:');
-      const password = prompt('Enter your password:');
-      const { data, error } = await supabase.auth.signUp({ email, password });
-      if (error) {
-        alert(`Signup failed: ${error.message}`);
-      } else {
-        alert('Signup successful! Check your email to confirm your account.');
-      }
+        const email = prompt('Enter your email:');
+        const password = prompt('Enter your password:');
+
+        if (!email || !password) {
+          alert("Email and password are required.");
+          return;
+        }
+
+        const { data, error } = await supabase.auth.signUp({ email, password });
+        if (error) {
+          alert(`Signup failed: ${error.message}`);
+        } else {
+          alert('Signup successful! Check your email to confirm your account.');
+        }
+      });
+
+    // Logout Functionality
+    document.getElementById('logout-button')?.addEventListener('click', async () => {
+        const { error } = await supabase.auth.signOut();
+        if (error) {
+          alert(`Logout failed: ${error.message}`);
+        } else {
+          window.location.href = "/login";
+        }
+      });
+
+    // Persistent Session Handling
+    supabase.auth.onAuthStateChange((event, session) => {
+        if (event === 'SIGNED_IN') {
+          window.location.href = "/secureportal";
+        } else if (event === 'SIGNED_OUT') {
+          window.location.href = "/login";
+        }
     });
     </script>
 </body>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Portal</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script>
+        // Supabase Initialization
+        const supabaseUrl = "https://bgpjemdguamonhzbmqsi.supabase.co"; // Replace with your Supabase URL
+        const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJncGplbWRndWFtb25oemJtcXNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc0MTAzMDksImV4cCI6MjA1Mjk4NjMwOX0.yyMUEHuErREP62eHtNjLJzqVmw7ALF0TeHUSIleyiuw"; // Replace with your Supabase Public Anon Key
+        const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+        // Ensure User is Logged In
+        supabase.auth.getSession().then(({ data: { session } }) => {
+            if (!session) {
+                alert("You must be logged in to access the secure portal.");
+                window.location.href = "/"; // Redirect to login page
+            } else {
+                // Fetch and display user details
+                const user = session.user;
+                document.getElementById('welcome').textContent = `Welcome, ${user.email}`;
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1 id="welcome">Loading...</h1>
+    <button id="logout-button">Logout</button>
+    <script>
+        // Logout Functionality
+        document.getElementById('logout-button').addEventListener('click', async () => {
+            const { error } = await supabase.auth.signOut();
+            if (error) {
+                alert(`Logout failed: ${error.message}`);
+            } else {
+                window.location.href = "/";
+            }
+        });
+    </script>
+</body>
+</html>
