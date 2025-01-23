@@ -6,11 +6,13 @@
     <title>Secure Portal</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js" defer></script>
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const supabaseUrl = "https://bgpjemdguamonhzbmqsi.supabase.co";
-            const supabaseKey = "your-anon-key";
-            const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+        // Initialize Supabase globally
+        const supabaseUrl = "https://bgpjemdguamonhzbmqsi.supabase.co";
+        const supabaseKey = "your-anon-key";
+        const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
+        // Ensure DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', () => {
             // Ensure User is Logged In
             supabase.auth.getSession().then(({ data: { session } }) => {
                 if (!session) {

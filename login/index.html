@@ -120,6 +120,7 @@
             }
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -135,11 +136,11 @@
         </div>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', async () => {
-            const supabaseUrl = "https://bgpjemdguamonhzbmqsi.supabase.co";
-            const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJncGplbWRndWFtb25oemJtcXNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc0MTAzMDksImV4cCI6MjA1Mjk4NjMwOX0.yyMUEHuErREP62eHtNjLJzqVmw7ALF0TeHUSIleyiuw";
-            const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+        const supabaseUrl = "https://bgpjemdguamonhzbmqsi.supabase.co";
+        const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJncGplbWRndWFtb25oemJtcXNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc0MTAzMDksImV4cCI6MjA1Mjk4NjMwOX0.yyMUEHuErREP62eHtNjLJzqVmw7ALF0TeHUSIleyiuw";
+        const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
+        document.addEventListener('DOMContentLoaded', () => {
             // Login functionality
             document.getElementById('login-form').addEventListener('submit', async (e) => {
                 e.preventDefault();
