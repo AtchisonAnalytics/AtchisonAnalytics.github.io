@@ -1,9 +1,9 @@
 
 
         Selected Name: PMP Wealth Real Assets Model
-        End Date: 12 August 2024
+        End Date: 31 December 2024
         Start Date: 31 December 2022
-        Heatmap Start Date: 30 June 2024  
-        Current Time: 23 August 2024 16:29         
+        Heatmap Start Date: 30 November 2024  
+        Current Time: 24 January 2025 13:34         
 
         

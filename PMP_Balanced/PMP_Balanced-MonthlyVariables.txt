@@ -1,9 +1,9 @@
 
 
         Selected Name: PMP Wealth Balanced Model
-        End Date: 30 November 2024
+        End Date: 31 December 2024
         Start Date: 31 December 2022
-        Heatmap Start Date: 31 October 2024  
-        Current Time: 03 December 2024 21:01         
+        Heatmap Start Date: 30 November 2024  
+        Current Time: 24 January 2025 13:33         
 
         

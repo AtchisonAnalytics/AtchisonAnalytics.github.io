@@ -23,35 +23,83 @@
         let content = '';
         switch(page) {
             case 'settings':
-                content = `<h1>Portfolio Settings</h1><p>Settings content goes here...</p>`;
+                content = 
+                    `<h1>Portfolio Settings</h1><p>Settings content goes here...</p>
+                `;
                 break;
             case '0-summary':
-                content = `<h1>Summary Dashboard</h1><p>Summary content goes here...</p>`;
+                content = `
+                    <h2>Summary Dashboard for PMP Wealth Balanced Model as at 31 December 2024</h2>
+                    <h4>Portfolio Performance</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
+                        <iframe src="./Charts/1_Performance-Main_v2.html" height="370px" width="600px"></iframe>
+                    </div>
+                    
+                    <h4>Sector Sleeve Performance</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/1_Performance-SleeveTable_v1.html" height="600px" width="600px"></iframe>
+                        <iframe src="./Charts/6_Performance-Sleeve_v2.html" height="600px" width="600px"></iframe>
+                    </div>
+                    
+                    <h4>Exposure Summary</h4>
+                    <div class="iframe-container">
+                        <iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="600px" width="600px"></iframe>
+                        <iframe src="./Charts/3_Allocation_History.html" height="600px" width="600px"></iframe>
+                    </div>
+                    
+                    
+                    <h4>Heatmap 3 Months</h4>
+                    <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="900px" width="600px"></iframe>
+                    
+                    <h4>Heatmap 1 Year</h4>
+                    <iframe src="./Charts/6_Sleeve_Treemap1_1Yr.html" height="900px" width="600px"></iframe>
+                    
+                    <h4>Correlation Analysis</h4>
+                    <iframe src="./Charts/6_Sleeve_MonthlyCorrel.html" height="820px" width="950px"></iframe>
+                
+                    <br>    
+                    <h4>Performance Comments</h4>                
+                    <p>The PMP Wealth Balanced Model delivered -1.2% for the month, and 0.9% over the quarter. </p>
+                    <p>Over the last 12 months, the PMP Wealth Balanced Model delivered 12.4%, significantly beating Inflation by 9.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has  outperformed over the last 12 months. </p>
+                    
+                    
+                    
+                    
+                    <p>Since inception of the strategy, the PMP Wealth Balanced Model has delivered 8.9%, significantly beating Inflation by 5.4%. 
+                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has  outperformed since inception of the strategy. </p>
+                    <h4>Key Contributors, Detractors & Attribution</h4>
+                    
+                    <p></p><p></p><p></p><p></p>
+                                                           
+                `;
                 break;
             case '1-performance':
                 content = `
                     <h1>PMP Wealth Balanced Model</h1>
-                    <h4>Updated to: 30 November 2024</h2>
+                    <h4>Updated to: 31 December 2024</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The PMP Wealth Balanced Model delivered 2.6% for the month, and 3.4% over the quarter. </p>
-                    <p>Over the last 12 months, the PMP Wealth Balanced Model delivered 18.3%, significantly beating Inflation by 15.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has materially outperformed over the last 12 months. </p>
+                    <p>The PMP Wealth Balanced Model delivered -1.2% for the month, and 0.9% over the quarter. </p>
+                    <p>Over the last 12 months, the PMP Wealth Balanced Model delivered 12.4%, significantly beating Inflation by 9.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has  outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the PMP Wealth Balanced Model has delivered 9.2%, significantly beating Inflation by 5.7%. 
+                    <p>Since inception of the strategy, the PMP Wealth Balanced Model has delivered 8.9%, significantly beating Inflation by 5.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), PMP Wealth Balanced Model has  outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
-                    <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
@@ -453,7 +501,7 @@
       <th>2</th>
       <td>Real Assets</td>
       <td>BM_RealAssets</td>
-      <td>20% AMI Property - Australia Direct + 25% Vanguard Global Infrastructure Index ETF + 30% BlackRock iShares Global Listed Property Index + 25% Vanguard Global Infrastructure Index ETF</td>
+      <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
     </tr>
     <tr>
       <th>3</th>
@@ -490,8 +538,6 @@
         <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
         <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
         <br>
-        <br>
-        <div class="page-break"></div>
     
                 `;
                 break;            

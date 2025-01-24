@@ -18,13 +18,34 @@
 
             .container {
                 background-color: white;
-                padding: 0 5%; /* Add a 5% padding on both sides */
-                box-sizing: border-box; /* Include padding in width calculation */
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                width: 90%;
+                max-width: 1600px;
+                min-width: 300px;
+                border-radius: 8px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             }
 
             .content {
-                max-width: 1000px; /* Adjust as needed */
-                margin: 0 auto; /* Center the content */
+                max-width: 1600px;
+                margin: 0 auto;
+            }
+            
+            .iframe-container {
+                display: flex;
+                justify-content: space-between; /* Adjust spacing between columns */
+                gap: 20px; /* Add consistent spacing between columns */
+                flex-wrap: wrap; /* Allows wrapping to the next row if space is limited */
+            }
+
+            .iframe-container iframe {
+                flex: 1 1 auto; /* Allow proportional resizing */
+                aspect-ratio: 17 / 9; /* Set the aspect ratio (width:height) */
+                width: 100%; /* Allow width to adjust automatically */
+                 max-width: 700px; /* Set a maximum width */
+                 height: auto; /* Adjust height automatically based on aspect ratio */
             }
 
             h1, h2 {
@@ -49,13 +70,12 @@
                 color: black;
             }
 
-
             iframe {
                 display: block;
                 margin: 20px auto;
                 border: none;
                 width: 100%;
-                max-width: 100%; /* Make sure iframes don't overflow */
+                max-width: 100%;
             }
 
             p, ul {
@@ -69,22 +89,20 @@
             }
 
             .logo {
-                margin-right: 20px; /* Adjust the spacing between logos */
+                margin-right: 20px;
             }
 
             @media only screen and (min-width: 600px) {
                 .container {
-                    margin-left: 15%;
-                    margin-right: 15%;
+                    width: 80%;
                 }
             }
 
-            /* Define styles for printing */
             @media print {
                 body {
-                    margin: 0; /* Adjust the margin as needed */
-                    padding-top: 3cm; /* Add padding to prevent cutting off the top */
-                    padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                    margin: 0;
+                    padding-top: 3cm;
+                    padding-bottom: 3cm;
                 }
 
                 .container {
@@ -97,19 +115,16 @@
                 }
 
                 h1, h2, h4, p, ul {
-                    orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
-                    widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                    orphans: 2;
+                    widows: 2;
                 }
 
                 table, iframe {
                     page-break-inside: avoid;
                 }
-
             }
-
         </style>
     </head>
-        
     
         
         <body>
@@ -118,26 +133,23 @@
                     <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
                     <div style="clear: left;"></div>
                     <h1>PMP Wealth Balanced Model</h1>
-                    <h2>30 November 2024</h2>
+                    <h2>31 December 2024</h2>
                     <br>
                     <br>
                     
-        <h2>MARKET OVERVIEW - October 2024</h2>
+        <h2>MARKET OVERVIEW - December 2024</h2>
         <ul>
-            <li>In local currency terms, Australian equities returned -1.1%, outperforming global equities by +0.35%. Japan’s Nikkei was the best performing developed market returning +3.1% in October.</li>
-            <li>Australia’s annual pace of inflation in the third quarter slowed to 2.8% from 3.8% thanks to lower electricity bill rebates and lower petrol prices. RBA’s next meets on 8 December.</li>
-            <li>RBA still wants further evidence of falling prices before cutting interest rates, possibly in early 2025. December quarter inflation will be out in January, and first meeting of 2025 will be in February.</li>
-            <li>Australian economic data releases over the last week suggest the economy is continuing to muddle along with weak growth. Retail sales rose a softer than expected 0.1% in September after warmer than normal weather.</li>
-            <li>Home building approvals rose 4.4% in September which was stronger than expected. Units appear to be bouncing sideways, but houses are trending up. The rising trend in approvals is good news.</li>
-            <li>US economic data over the month was mixed, September GDP came in at a solid 2.8% annualised, with strong domestic final sales growth of 3% annualised and consumer spending growth came in at a stelar 3.7% annualised.</li>
-            <li>US consumer confidence also rose, remaining above its long run average, however payrolls fell (possibly due hurricanes and a Boeing strike), and most forward-looking labour indicators are continuing to trend softer. </li>
-            <li>Eurozone GDP growth grew more than expected in the September quarter with a rise of 0.4% qoq or 0.9% yoy. Spain’s economy was up 0.8% qoq, France up 0.4% qoq, Germany 0.2% qoq but Italy’s remained flat.</li>
-            <li>Economic confidence across the Eurozone remains subdued consistent with recently released business surveys.</li>
-            <li>Eurozone CPI inflation rose to 2% yoy which is at target, with core inflation flat at 2.7% yoy, which is likely to keep the ECB gradual and on track to cut rates by 0.25% in December, and not by 0.5%.</li>
-            <li>The Bank of England and Swedish central bank are expected to cut by 0.25% and 0.5% respectively, taking their policy rates to 4.75% and 2.75% with both likely to provide dovish guidance.</li>
-            <li>Chinese authorities are demanding wealthy individuals and companies double-check their taxes for unpaid liabilities, as local governments hunt for revenue to refill coffers depleted by a property slump.</li>
-            <li>Australian inflation expected to remain above target until 2026, influencing bond market adjustments.</li>
-            <li>US 10-year Treasury yield fluctuated, ending around 4.3% amid economic and fiscal uncertainty.</li>
+            <li>Australia's S&P/ASX 200 Index (ASX: XJO) fell 3% in December, marking its worst monthly performance of the year. Real estate -6%, materials -5%, information technology -4% and financials -4% all weighed on the index. </li>
+            <li>The Momentum Factor was the top performer, returning 20% for the year. This, along with the outperformance of larger companies, contributed to a 4% underperformance in the Equal Weight index relative to the market-cap-weighted index. The High Dividend Factor also lagged.</li>
+            <li>Australian equity volatility remained relatively subdued compared to historical levels and global peers. The S&P/ASX 200 VIX (ASX: XJO VIX) closed the year up 11%, compared to the VIX (CBOE: VIX) at 17%.</li>
+            <li>Despite a pullback in December, U.S. equity markets had an extraordinary year in 2024, marked by 57 all-time closing highs. The S&P 500 Index (NYSE: SPX) ended the year up 25%, marking its strongest two-year performance since 1998. The S&P 500 Top 50 Index (NYSE: SPX50) performed even better, rising 34%, fuelled by the strength of mega-cap stocks, solid economic growth, and optimism surrounding AI.</li>
+            <li>While mid and small-cap stocks benefitted from the broader market rally, which was further amplified by the Presidential election results, fewer-than-expected Federal Reserve rate cuts led to their underperformance, with mid-caps and small-caps gaining 14% and 9% respectively - underperforming their large-cap counterparts.</li>
+            <li>Most large-cap sectors posted gains in 2024, with Communication Services, Information Technology, and Financials leading the way, all up more than 30%. </li>
+            <li>The FTSE100 finished down -1% for the month and up 5% for the year, with large growth stocks driving gains, whilst small-caps lagged. Novo Nordisk has been a drag over the last 12 months, down -9% - a noteworthy decline given Eli Lilly is up 34% over the same time period. </li>
+            <li>Both the CSI300 and Nikkei 225 finished in positive territory over 12 months, up 15% and 17% respectively. However, over the month the CSI300 is down 5% due to slowing economic growth, weak consumer spending, global trade tensions. </li>
+            <li>Bonds posted positive returns across the board in 2024, driven by moderating inflation and tightening spreads. The Reserve Bank of Australia (RBA) maintained a hawkish stance, limiting the return of the S&P/ASX Australian Fixed Interest 0+ Index (ASX: FIX) to 3%.</li>
+            <li>In 2024, credit markets performed well, particularly high-yield bonds, as the gap (or spread) between US bond yields and lower-rated bonds became historically narrow. This benefited high-yield bonds significantly, with the iBoxx USD Liquid High Yield Index outperforming the Investment Grade Index by 6%.</li>
+            <li>Commodity performance was mixed, with cocoa topping the commodity rally for the second year in a row up +170%, whilst iron ore continues to struggle following a strong US dollar and weak Chinese demand down -25%. Gold was another strong performer over 12 months up 30%, bolstered by its safe-haven demand. </li>            
         </ul>
         <br>
     
@@ -237,7 +249,7 @@
       <th>2</th>
       <td>Real Assets</td>
       <td>BM_RealAssets</td>
-      <td>20% AMI Property - Australia Direct + 25% Vanguard Global Infrastructure Index ETF + 30% BlackRock iShares Global Listed Property Index + 25% Vanguard Global Infrastructure Index ETF</td>
+      <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
     </tr>
     <tr>
       <th>3</th>
@@ -274,8 +286,6 @@
         <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
         <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
         <br>
-        <br>
-        <div class="page-break"></div>
     
                     
                     <br>
