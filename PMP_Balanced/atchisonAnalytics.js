@@ -72,7 +72,23 @@
                     <h4>Key Contributors, Detractors & Attribution</h4>
                     
                     <p></p><p></p><p></p><p></p>
-                                                           
+                    
+        <h2>MARKET OVERVIEW - December 2024</h2>
+        <ul>
+            <li>Australia's S&P/ASX 200 Index (ASX: XJO) fell 3% in December, marking its worst monthly performance of the year. Real estate -6%, materials -5%, information technology -4% and financials -4% all weighed on the index. </li>
+            <li>The Momentum Factor was the top performer, returning 20% for the year. This, along with the outperformance of larger companies, contributed to a 4% underperformance in the Equal Weight index relative to the market-cap-weighted index. The High Dividend Factor also lagged.</li>
+            <li>Australian equity volatility remained relatively subdued compared to historical levels and global peers. The S&P/ASX 200 VIX (ASX: XJO VIX) closed the year up 11%, compared to the VIX (CBOE: VIX) at 17%.</li>
+            <li>Despite a pullback in December, U.S. equity markets had an extraordinary year in 2024, marked by 57 all-time closing highs. The S&P 500 Index (NYSE: SPX) ended the year up 25%, marking its strongest two-year performance since 1998. The S&P 500 Top 50 Index (NYSE: SPX50) performed even better, rising 34%, fuelled by the strength of mega-cap stocks, solid economic growth, and optimism surrounding AI.</li>
+            <li>While mid and small-cap stocks benefitted from the broader market rally, which was further amplified by the Presidential election results, fewer-than-expected Federal Reserve rate cuts led to their underperformance, with mid-caps and small-caps gaining 14% and 9% respectively - underperforming their large-cap counterparts.</li>
+            <li>Most large-cap sectors posted gains in 2024, with Communication Services, Information Technology, and Financials leading the way, all up more than 30%. </li>
+            <li>The FTSE100 finished down -1% for the month and up 5% for the year, with large growth stocks driving gains, whilst small-caps lagged. Novo Nordisk has been a drag over the last 12 months, down -9% - a noteworthy decline given Eli Lilly is up 34% over the same time period. </li>
+            <li>Both the CSI300 and Nikkei 225 finished in positive territory over 12 months, up 15% and 17% respectively. However, over the month the CSI300 is down 5% due to slowing economic growth, weak consumer spending, global trade tensions. </li>
+            <li>Bonds posted positive returns across the board in 2024, driven by moderating inflation and tightening spreads. The Reserve Bank of Australia (RBA) maintained a hawkish stance, limiting the return of the S&P/ASX Australian Fixed Interest 0+ Index (ASX: FIX) to 3%.</li>
+            <li>In 2024, credit markets performed well, particularly high-yield bonds, as the gap (or spread) between US bond yields and lower-rated bonds became historically narrow. This benefited high-yield bonds significantly, with the iBoxx USD Liquid High Yield Index outperforming the Investment Grade Index by 6%.</li>
+            <li>Commodity performance was mixed, with cocoa topping the commodity rally for the second year in a row up +170%, whilst iron ore continues to struggle following a strong US dollar and weak Chinese demand down -25%. Gold was another strong performer over 12 months up 30%, bolstered by its safe-haven demand. </li>            
+        </ul>
+        <br>
+                                                              
                 `;
                 break;
             case '1-performance':
@@ -393,11 +409,6 @@
                 break;
             case '30-help':
                 content = `
-                    <h1>Need Help? Contact Us:</h1>
-                    <p>Atchison Consultants</p>
-                    <p>+61 3 9642 3835</p>
-                    <p>kev@atchison.com.au</p>
-                    <br>
                     
         <h2>GLOSSARY</h2>
         <h3>Performance Analysis</h3>
@@ -430,6 +441,12 @@
         <br>
         <div class="page-break"></div>
     
+                    <h1>Need Help? Contact Us:</h1>
+                    <p>Atchison Consultants</p>
+                    <p>+61 3 9642 3835</p>
+                    <p>kev@atchison.com.au</p>
+                    <br>
+                    
                 `;
                 break;
             case '31-settings':
