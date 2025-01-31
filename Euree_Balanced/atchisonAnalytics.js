@@ -185,14 +185,7 @@
                     <h4>Historical Asset Class Overweight / Underweight vs TAA</h4>
                     <iframe src="./Charts/3_Allocation_Rel_History.html" height="580px" width="950px"></iframe>
                     
-                    <h4>Detailed Current Holding Overweight / Underweight vs TAA</h4>
-                    <iframe src="./Charts/3_Holding_OWUW.html" height="580px" width="950px"></iframe>
-                    
-                    
-                    
-                    
-                    
-                    
+
                     
                     <h4>Historical Holding Level Weights</h4>
                     <iframe src="./Charts/3_Allocation_DH_FloatHistory.html" height="580px" width="950px"></iframe>
