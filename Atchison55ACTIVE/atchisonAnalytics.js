@@ -29,26 +29,25 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 55 SMA as at 31 December 2024</h2>
+                    <h2>Summary Dashboard for Atchison Active 55 SMA as at 31 January 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
                         <iframe src="./Charts/1_Performance-Main_v2.html" height="370px" width="600px"></iframe>
-                    </div>
-                    
+                    </div> 
+                   
                     <h4>Sector Sleeve Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-SleeveTable_v1.html" height="600px" width="600px"></iframe>
                         <iframe src="./Charts/6_Performance-Sleeve_v2.html" height="600px" width="600px"></iframe>
-                    </div>
-                    
+                    </div> 
+     
                     <h4>Exposure Summary</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="600px" width="600px"></iframe>
                         <iframe src="./Charts/3_Allocation_History.html" height="600px" width="600px"></iframe>
                     </div>
-                    
-                    
+                   
                     <h4>Heatmap 3 Months</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="900px" width="600px"></iframe>
                     
@@ -60,49 +59,69 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 55 SMA delivered -0.5% for the month, and 1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 10.9%, significantly beating Inflation by 8.0%. 
+                    <p>The Atchison Active 55 SMA delivered 1.9% for the month, and 3.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 11.8%, significantly beating Inflation by 9.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 11.2%, significantly beating Inflation by 7.7%. 
+                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 11.7%, significantly beating Inflation by 8.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has significantly outperformed since inception of the strategy. </p>
+                    <h4>Key Contributors, Detractors & Attribution</h4>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.87%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.85%)</li><li>The asset class with the highest absolute return was International Shares (+54.29%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+7.90%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.09%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.37%) impact on relative performance of the portfolio.</li></ul>
+                    <p></p><p></p><p></p><p></p>
                     
+        <h2>MARKET OVERVIEW - January 2024</h2>
+        <ul>
+            <li>Australian stocks surged, with the S&P/ASX 200 gaining 4.6% and hitting a record high.</li>
+            <li>Ten of eleven sectors in the ASX 200 rose, with Consumer Discretionary up 7.1% and Financials up 6.1%. Utilities were the only sector in negative territory -2.4% for the month. Utilities are defensive stocks that tend to outperform in low-rate environments due to their stable, bond-like dividend returns. However, as bond yields rose in early January, fixed income became more attractive relative to utilities, leading to a rotation out of the sector.</li>
+            <li>The S&P 500 hit a record high early in the month before a sharp decline triggered by the launch of a new AI model Deep Seek from China. However, strong earnings and consumer spending helped the index finish with a 3% monthly gain.</li>
+            <li>US Mid-Cap 3.9% and Small-Cap companies 2.9% outperformed the S&P500 2.8% for the month of January. As investors remain cautious about, potential Fed rate cuts, inflation, already high valuations on Mega Caps, implications of Deep Seek, and assess the knock-on effects (retaliation) of trade tariffs to neighbouring US partners. </li>
+            <li>Most sectors saw positive returns, led by Communication Services, Health Care, and Financials. Technology was the only sector to decline -2.9%, facing headwinds from AI-related concerns.</li>
+            <li>European stocks surged in January, driven by interest rate cuts and resilience to AI-related volatility. The FTSE100 climbed 6.8%. Financials and Technology led gains both up 8.4% gains, while Consumer Staples and Real Estate underperformed, rising just 2.2% and 2.4%.</li>
+            <li>Meanwhile, despite European mid- and small-cap stocks rising, they trailed large caps, gaining 5.9% and 3.8%, respectively.</li>
+            <li>Bond markets gained across the board, supported by falling 10-year Treasury yields and a flight to safety amid market volatility. High-yield credit outperformed investment-grade bonds, reflecting stronger investor risk appetite.</li>
+            <li>Australian bonds were mostly positive, as markets priced in an 80% probability of an RBA rate cut in February. This expectation drove bond yields lower and prices higher, in line with broader expectations of global monetary easing.</li>
+            <li>Eurozone government bonds declined in January as markets had already priced in expected ECB rate cuts. Additionally, improved economic sentiment led investors to rotate out of safe-haven bonds and into riskier assets. </li>
+            <li>Meanwhile, European corporate and high-yield bonds rose, benefiting from narrowing credit spreads, as investors perceived lower risk in corporate debt, due to anticipated lower borrowing costs, increasing demand for these bonds.</li> 
+            <li>Gold reached another record high, driving strong gains in Precious Metals, as investors sought safe-haven assets amid tariff uncertainty.</li>          
+        </ul>
+        <br>
+                                                              
                 `;
                 break;
             case '1-performance':
                 content = `
                     <h1>Atchison Active 55 SMA</h1>
-                    <h4>Updated to: 31 December 2024</h2>
+                    <h4>Updated to: 31 January 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 55 SMA delivered -0.5% for the month, and 1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 10.9%, significantly beating Inflation by 8.0%. 
+                    <p>The Atchison Active 55 SMA delivered 1.9% for the month, and 3.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 11.8%, significantly beating Inflation by 9.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 11.2%, significantly beating Inflation by 7.7%. 
+                    <p>Since inception of the strategy, the Atchison Active 55 SMA has delivered 11.7%, significantly beating Inflation by 8.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
                     <iframe src="./Charts/1_Performance-Main_v2.html" height="420px" width="950px"></iframe>
-                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="200px" width="950px"></iframe>
+                    <iframe src="./Charts/1_Performance-RelTable_v3.html" height="250px" width="950px"></iframe>
                     
                     <div class="page-break"></div>
                     <h4>Performance of $100,000 Investment</h4>
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed to the most to the portfolio return was International Shares at (+10.18%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.83%)</li><li>The asset class with the highest absolute return was International Shares (+50.13%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+7.66%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.10%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.61%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.87%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.85%)</li><li>The asset class with the highest absolute return was International Shares (+54.29%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+7.90%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.09%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.37%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
@@ -390,16 +409,11 @@
                 break;
             case '30-help':
                 content = `
-                    <h1>Need Help? Contact Us:</h1>
-                    <p>Atchison Consultants</p>
-                    <p>+61 3 9642 3835</p>
-                    <p>kev@atchison.com.au</p>
-                    <br>
                     
         <h2>GLOSSARY</h2>
         <h3>Performance Analysis</h3>
         <ul>
-            <li>Portfolio Performance is calculated after fee charged by the appointed portfolio manager and underlying ICRs (Indirect Costs Ratios). Portfolio manager fee includes services related to the management of the portfolio, such as asset allocation, investment selection, risk management, implementation, and reporting. An underlying ICR relates to the fee charged by individual underlying investments, such as managed funds or Exchange Traded Funds (ETFs), selected by the portfolio manager. The aggregate ICR of the portfolio will vary over time as a result of portfolio changes, as well as other factors, such as the underlying fund manager triggering a performance fee if relevant.</li>
+            <li>Portfolio Performance is calculated gross of any fees charged by the appointed portfolio manager and net of all underlying ICRs (Indirect Costs Ratios). An underlying ICR relates to the fees charged by individual underlying investments, such as managed funds or Exchange Traded Funds (ETFs), selected by the portfolio manager. The aggregate ICR of the portfolio will vary over time as a result of portfolio changes, as well as other factors, such as the underlying fund manager triggering a performance fee if relevant.</li>
             <li>Returns assume reinvestment of all distributions. Returns for periods longer than1 year are annualised. Index returns do not allow for taxes, management, transaction, and operational costs.</li>
             <li>SAA Benchmark is calculated by using the weighted average of the strategic asset allocation and the relevant index returns for each asset class.</li>
             <li>Peer Group is developed FE Analytics (AMI) and constructed by aggregating data from a broad spectrum of funds, providing a comprehensive view of average returns within specific categories e.g. Balanced, Growth etc.</li>
@@ -412,13 +426,13 @@
         <br>
         <h3>Risk Analysis</h3>
         <ul>
-            <li>Volatility is a historical statistical measure of a dispersion of returns of a managed portfolio or benchmark.  A higher volatility means that a managed portfolio’s value can move dramatically over a shorter period-of-time, in either direction i.e. up or down. A lower volatility means that a managed portfolio’s value does not fluctuate dramatically, and returns tend to be steadier</li>
-            <li>Max Drawdown is a historical measure of a managed portfolio’s maximum loss in a peak-to-trough decline before a new peak is attained. It is an indicator of downside risk over a specified time of period.</li>
-            <li>Sharpe Ratio is a measure of a managed portfolio’s risk-adjusted returns. Calculated by dividing a portfolio’s excess returns (being above an industry benchmark e.g. risk-free asset such as cash return) by its volatility to assess risk- adjusted performance. Higher the Sharpe Ratio the better a portfolio’s historical risk-adjusted performance.</li>
-            <li>Calmar Ratio is a measure a portfolio’s investment efficiency on a risk-adjusted basis. It is calculated by dividing the investment’s annual return (typically over three years) by its maximum drawdown, reflecting performance versus potential losses. The lower the Calmar Ratio, the worse the performance of the portfolio, the higher the Calmar ratio, the better the performance, relative to the risk taken</li>
+            <li>Volatility is a historical statistical measure of a dispersion of returns of a managed portfolio or benchmark.  A higher volatility means that a managed portfolio\'s value can move dramatically over a shorter period-of-time, in either direction i.e. up or down. A lower volatility means that a managed portfolio\'s value does not fluctuate dramatically, and returns tend to be steadier</li>
+            <li>Max Drawdown is a historical measure of a managed portfolio\'s maximum loss in a peak-to-trough decline before a new peak is attained. It is an indicator of downside risk over a specified time of period.</li>
+            <li>Sharpe Ratio is a measure of a managed portfolio\'s risk-adjusted returns. Calculated by dividing a portfolio's excess returns (being above an industry benchmark e.g. risk-free asset such as cash return) by its volatility to assess risk- adjusted performance. Higher the Sharpe Ratio the better a portfolio's historical risk-adjusted performance.</li>
+            <li>Calmar Ratio is a measure a portfolio\'s investment efficiency on a risk-adjusted basis. It is calculated by dividing the investment\'s annual return (typically over three years) by its maximum drawdown, reflecting performance versus potential losses. The lower the Calmar Ratio, the worse the performance of the portfolio, the higher the Calmar ratio, the better the performance, relative to the risk taken</li>
             <li>Information Ratio quantifies the excess managed portfolio returns over the returns of the market benchmark, relative to the volatility of the returns. An Information Ratio of 0.4 or above is considered good, 0.70 or above is very good, and 1.0 or higher is exceptional.</li>
             <li>Tracking Error is a measure of how closely a portfolio follows an index to which it is benchmarked. The risk, relative to the benchmark, is the tracking error.  A benchmark unaware approach will tend to have a high Tracking Error, and high volatility and inconsistency in portfolio returns exceeding the index.  A low tracking can have the opposite effect on a portfolio</li>
-            <li>Batting Average is a measure of a portfolio manager’s ability to consistently beat the market benchmark. A portfolio manager who meets or outperforms the benchmark every month over a given period would have a batting average of 100.</li>
+            <li>Batting Average is a measure of a portfolio manager\'s ability to consistently beat the market benchmark. A portfolio manager who meets or outperforms the benchmark every month over a given period would have a batting average of 100.</li>
             <li>Inflation Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to inflation, inflation and returns are negatively correlated</li>
             <li>ASX Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to ASX, Australian share market and total portfolio returns are positively correlated.</li>
             <li>US Market Sensitivity (Monthly Returns) measures the sensitivity of the total portfolio monthly returns to US market, US share market and total portfolio returns are positively correlated. </li>    
@@ -427,6 +441,12 @@
         <br>
         <div class="page-break"></div>
     
+                    <h1>Need Help? Contact Us:</h1>
+                    <p>Atchison Consultants</p>
+                    <p>+61 3 9642 3835</p>
+                    <p>kev@atchison.com.au</p>
+                    <br>
+                    
                 `;
                 break;
             case '31-settings':
@@ -498,7 +518,7 @@
       <th>2</th>
       <td>Real Assets</td>
       <td>BM_RealAssets</td>
-      <td>20% AMI Property - Australia Direct + 25% Vanguard Global Infrastructure Index ETF + 30% BlackRock iShares Global Listed Property Index + 25% Vanguard Global Infrastructure Index ETF</td>
+      <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
     </tr>
     <tr>
       <th>3</th>

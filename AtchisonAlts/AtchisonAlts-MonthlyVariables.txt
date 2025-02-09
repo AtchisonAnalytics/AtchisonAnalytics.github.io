@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Active Alternatives SMA
-        End Date: 31 December 2024
+        End Date: 31 January 2025
         Start Date: 31 December 2022
-        Heatmap Start Date: 30 November 2024  
-        Current Time: 15 January 2025 12:02         
+        Heatmap Start Date: 31 December 2024  
+        Current Time: 09 February 2025 23:16         
 
         
