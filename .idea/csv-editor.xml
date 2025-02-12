@@ -31,20 +31,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\AtchisonIntShares\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\AtchisonLongDuration\Charts\df_3alloc_holding_level.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
