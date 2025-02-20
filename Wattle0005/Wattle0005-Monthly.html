@@ -1,0 +1,381 @@
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - Wattle0005 - Monthly Performance Report</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+
+                    h4 {
+                        font-style: italic;
+                    }
+
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+
+
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+
+                    /* Define styles for printing */
+                    @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        .page-break {
+                            page-break-before: always;
+                        }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
+                    }
+
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>Wattle Client #5 - Full Portfolio</h1>
+                        <h2>31 January 2025</h2>
+                        <br>
+
+                        <h2>PORTFOLIO PERFORMANCE</h2>
+                        <p>The Wattle Client #5 - Full Portfolio delivered 2.6% for the month, and 7.5% over the quarter. </p>
+                        <p>Over the last 12 months, the Wattle Client #5 - Full Portfolio delivered 20.1%, significantly beating Inflation by 17.4%. 
+                        Relative to the Peer Group (FE AMI Peer Average), Wattle Client #5 - Full Portfolio has materially outperformed over the last 12 months. </p>
+                        
+                        
+                        
+                        
+                        <p>Since inception of the strategy, the Wattle Client #5 - Full Portfolio has delivered 9.1%, significantly beating Inflation by 5.2%. 
+                        Relative to the Peer Group (FE AMI Peer Average), Wattle Client #5 - Full Portfolio has significantly outperformed since inception of the strategy. </p>
+                        <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2021. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
+                        <h4>Returns vs Benchmarks</h4>
+                        <iframe src="./Charts/1_Performance-Daily.html" height="420px" width="950px"></iframe>
+                        <iframe src="./Charts/1_Performance-Table.html" height="200px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Performance of $100,000 Investment</h4>
+                        <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
+
+                        <br>
+                        <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
+                        
+                        <p></p><p></p><p></p><p></p>
+                        <h4>Daily Return Analysis</h4>
+                        <iframe src="./Charts/1_Performance-Bar30.html" height="370px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap - Latest Month</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap - Latest Quarter</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="850px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap - Latest 1 Year</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap1_1Yr.html" height="880px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap - Since Inception</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap1_SinceInc.html" height="1020px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap (Look Through) - Latest Quarter</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth.html" height="1020px" width="950px"></iframe>
+                        
+                        <div class="page-break"></div>
+                        <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Quarter</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_3Mth_Relative.html" height="1020px" width="950px"></iframe>
+                        
+                        <div class="page-break"></div>
+                        <h4>Portfolio Performance Heatmap (Look Through) - Latest Month</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth.html" height="1020px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h4>Relative Portfolio Performance to SAA Benchmark Heatmap (Look Through) - Latest Month</h4>
+                        <iframe src="./Charts/6_Sleeve_Treemap_LT_1Mth_Relative.html" height="1020px" width="950px"></iframe>
+
+
+                        <div class="page-break"></div>
+                        <h4>Attribution Analysis of Asset Allocation vs Manager/Security Selection</h4>
+                        <iframe src="./Charts/4_Attrib_Totals.html" height="380px" width="950px"></iframe>
+                        <h4>Aggregate Returns of Underlying Sector Sleeves</h4>
+                        <iframe src="./Charts/6_Sleeve_Components.html" height="380px" width="950px"></iframe>
+                        <h2>CURRENT POSITIONING vs TYPICAL HOLDING RANGE</h2>
+                        <iframe src = "./Charts/3_Alloc_Ranges.html" height = "400px" width = "950px" > </iframe>  
+                        <div class="page-break"></div>  
+                        <h2>PORTFOLIO CONSTRUCTION</h2>
+                        <h4>Allocation Adjustments Through Time</h4><iframe src = "./Charts/3_Allocation_History.html" height = "600px" width = "950px"></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level </h4><iframe src = "./Charts/3_Alloc_Mgr_Level_2.html" height = "770px" width = "950px" ></iframe><div class="page-break"></div><h4>Portfolio Construction - Manager Level Categorised</h4><iframe src = "./Charts/3_Alloc_Mgr_Level_4.html" height = "770px" width = "950px" ></iframe>       
+
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        <div class="page-break"></div> 
+
+
+                        <h2>SENSITIVITY ANALYSIS</h2>
+                        <h4>Inflation Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_InflationSensitivity.html" height="500px" width="950px"></iframe>
+                        <h4>ASX Market Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_AusEqSensitivity.html" height="500px" width="950px"></iframe>
+                        <h4>US Market Sensitivity (Monthly Returns)</h4>
+                        <iframe src="./Charts/2_USEqSensitivity.html" height="500px" width="950px"></iframe>
+                        <br>      
+                        <h2>RISK ANALYSIS</h2>
+                        <h4>Drawdown Periods & Recovery</h4>
+                        <iframe src="./Charts/2_Drawdown.html" height="400px" width="950px"></iframe>
+                        <h4>Rolling 3yr Calmar Ratio - Return over Drawdown Risk </h4>
+                        <p>The below Calmar Ratio explains the return achieved relative to the drawdown risk taken. A higher Calmar Ratio indicates a more favorable risk-adjusted return for the investment</p>
+                        <iframe src="./Charts/2_Calmar3yr.html" height="400px" width="950px"></iframe>
+                        <h4>Rolling 3yr Tracking Error - Level of Relative Risk Being Taken</h4>
+                        <iframe src="./Charts/2_TE3yr.html" height="400px" width="950px"></iframe>
+                        <h4>Rolling 3yr Batting Average - % of Months Outperforming Benchmark Return</h4>
+                        <iframe src="./Charts/2_Batting3yr.html" height="400px" width="950px"></iframe>
+                        <h4>90 Day Volatility</h4>
+                        <iframe src="./Charts/2_Vol90.html" height="400px" width="950px"></iframe>
+                        <h4>Risk Metrics</h4>
+                        <iframe src="./Charts/2_Risk-Table.html" height="500px" width="950px"></iframe>
+
+                        <div class="page-break"></div>
+                        <h2>UNDERLYING SECTOR SLEEVE ANALYSIS</h2>
+                        <p>Please find below links to detail of underlying asset class sleeves: </p>
+                        <ul>
+                            <li><a href="../AtchisonAusShares/AtchisonAusShares-Monthly.html">Atchison Australian Shares Sleeve</a></li>
+                            <li><a href="../AtchisonIntShares/AtchisonIntShares-Monthly.html">Atchison International Shares Sleeve</a></li>
+                            <li><a href="../AtchisonRealAssets/AtchisonRealAssets-Monthly.html">Atchison Real Assets Sleeve</a></li>
+                            <li><a href="../AtchisonAlts/AtchisonAlts-Monthly.html">Atchison Alternatives Sleeve</a></li>
+                            <li><a href="../AtchisonLongDuration/AtchisonLongDuration-Monthly.html">Atchison Long Duration Sleeve</a></li>
+                            <li><a href="../AtchisonFloatingRate/AtchisonFloatingRate-Monthly.html">Atchison Floating Rate Sleeve</a></li>
+                        </ul>
+                        <br>
+                        
+        <h2>MARKET OVERVIEW - January 2024</h2>
+        <ul>
+            <li>Australian stocks surged, with the S&P/ASX 200 gaining 4.6% and hitting a record high.</li>
+            <li>Ten of eleven sectors in the ASX 200 rose, with Consumer Discretionary up 7.1% and Financials up 6.1%. Utilities were the only sector in negative territory -2.4% for the month. Utilities are defensive stocks that tend to outperform in low-rate environments due to their stable, bond-like dividend returns. However, as bond yields rose in early January, fixed income became more attractive relative to utilities, leading to a rotation out of the sector.</li>
+            <li>The S&P 500 hit a record high early in the month before a sharp decline triggered by the launch of a new AI model Deep Seek from China. However, strong earnings and consumer spending helped the index finish with a 3% monthly gain.</li>
+            <li>US Mid-Cap 3.9% and Small-Cap companies 2.9% outperformed the S&P500 2.8% for the month of January. As investors remain cautious about, potential Fed rate cuts, inflation, already high valuations on Mega Caps, implications of Deep Seek, and assess the knock-on effects (retaliation) of trade tariffs to neighbouring US partners. </li>
+            <li>Most sectors saw positive returns, led by Communication Services, Health Care, and Financials. Technology was the only sector to decline -2.9%, facing headwinds from AI-related concerns.</li>
+            <li>European stocks surged in January, driven by interest rate cuts and resilience to AI-related volatility. The FTSE100 climbed 6.8%. Financials and Technology led gains both up 8.4% gains, while Consumer Staples and Real Estate underperformed, rising just 2.2% and 2.4%.</li>
+            <li>Meanwhile, despite European mid- and small-cap stocks rising, they trailed large caps, gaining 5.9% and 3.8%, respectively.</li>
+            <li>Bond markets gained across the board, supported by falling 10-year Treasury yields and a flight to safety amid market volatility. High-yield credit outperformed investment-grade bonds, reflecting stronger investor risk appetite.</li>
+            <li>Australian bonds were mostly positive, as markets priced in an 80% probability of an RBA rate cut in February. This expectation drove bond yields lower and prices higher, in line with broader expectations of global monetary easing.</li>
+            <li>Eurozone government bonds declined in January as markets had already priced in expected ECB rate cuts. Additionally, improved economic sentiment led investors to rotate out of safe-haven bonds and into riskier assets. </li>
+            <li>Meanwhile, European corporate and high-yield bonds rose, benefiting from narrowing credit spreads, as investors perceived lower risk in corporate debt, due to anticipated lower borrowing costs, increasing demand for these bonds.</li> 
+            <li>Gold reached another record high, driving strong gains in Precious Metals, as investors sought safe-haven assets amid tariff uncertainty.</li>          
+        </ul>
+        <br>
+    
+                        
+        <h2>HOW TO INVEST?</h2>
+        <p>Our SMA strategies are currently available on the following platforms:</p>
+        <div class="logo-container">
+            <img src="../assetsHTML/CFS-logo.png" class="logo" height="100px" width="250px">
+            <img src="../assetsHTML/HUB24-logo.jpg" class="logo" height="100px" width="auto">
+        </div>
+        <br>
+                           
+                        
+        <h2>CONTACT US</h2>
+        <p>Please reach out via phone or email below:</p>
+        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+        <br>
+    
+                        
+        <div class="page-break"></div> 
+        <h2>MODEL BENCHMARK ASSUMPTIONS</h2>
+        
+                                            <!DOCTYPE html>
+                                            <html lang="en">
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                <title>Performance Table</title>
+                                                <style>
+                                                    /* Add CSS style for table */
+                                                    table.dataframe {
+                                                        border-collapse: collapse;
+                                                        width: 100%;
+                                                        max-width: 950px; /* Restrict table width to a maximum of 950px */
+                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                    }
+
+                                                    table.dataframe th,
+                                                    table.dataframe td {
+                                                        border: none;
+                                                        padding: 8px; /* Adjust padding as needed */
+                                                        text-align: center; /* Adjust text alignment as needed */
+                                                    }
+
+                                                    table.dataframe th {
+                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                        color: #E7EAEB;
+                                                    }
+
+                                                    /* Add CSS rule for hover effect */
+                                                    tr:hover {
+                                                        background-color: #1DC8F2;
+                                                    }
+                                                </style>
+                                            </head>
+                                            <body>
+                                                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: justify;">
+      <th></th>
+      <th>G1</th>
+      <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Australian Shares</td>
+      <td>IOZ-AU</td>
+      <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>International Shares</td>
+      <td>BM_IntShares_85DM15EM</td>
+      <td>85% Vanguard MSCI Index International Shares ETF + 15% iShares MSCI Emerging Markets ETF</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Real Assets</td>
+      <td>BM_RealAssets</td>
+      <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alternatives</td>
+      <td>BILL-AU</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Long Duration</td>
+      <td>BM_Duration</td>
+      <td>50% iShares Core Composite Bond ETF + 50% Vanguard International Fixed Income ETF</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Floating Rate</td>
+      <td>FLOT-AU</td>
+      <td>100% VanEck Australian Floating Rate ETF</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Cash</td>
+      <td>BILL-AU</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+  </tbody>
+</table>
+                                            </body>
+                                            </html>
+                                            
+        <br>
+        <h2>FINE PRINT</h2>
+        <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
+        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+        <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
+        <br>
+    
+
+                    </div>
+                </div>
+            </body>
+            </html>
+
+        
