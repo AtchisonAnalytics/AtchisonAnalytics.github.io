@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Long Duration SMA as at 31 January 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Long Duration SMA as at 28 February 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,33 +59,32 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Long Duration SMA delivered 0.2% for the month, and 1.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 2.1%,  returned below Inflation by 0.7%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has materially underperformed over the last 12 months. </p>
+                    <p>The Atchison Active Long Duration SMA delivered 1.1% for the month, and 1.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 3.7%,  beating Inflation by 1.1%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 3.8%, marginally beating Inflation by 0.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  underperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 4.2%,  beating Inflation by 0.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally underperformed since inception of the strategy. </p>
                     <h4>Key Contributors, Detractors & Attribution</h4>
                     <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Western Asset Australian Bond Fund - Class A</li><li>The holding that contributed the least to portfolio return was Colchester Global Government Bond Fund Class I</li><li>The current holding with the highest absolute return has been Western Asset Australian Bond Fund - Class A<li>Whilst the current holding with the lowest absolute return has been Colchester Global Government Bond Fund Class I</li></ul>
                     <p>Western Asset Management (Western) established in 1971, invests in investment-grade rated, Australian dollar-denominated debt securities issued by the Australian government, state governments, supranational bodies, and Australian and foreign corporate entities. The Fund may also invest in mortgage-backed and asset-backed securities, inflation-linked bonds, and hybrid securities. This strategy tends to perform better during periods of declining or stable interest rates and contracting credit spreads (the difference in yield between two bonds with the same maturity date). </p><p>Colchester, established in 1999, is a value-oriented fixed income manager which mainly invests in developed market investment grade bonds, that generate income. Colchester does not invest in corporate bonds or derivatives. Conviction in this strategy occurs during rising interest and cash rates, that tend to have a detrimental impact on the value of long dated government bonds.</p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - January 2024</h2>
+        <h2>MARKET OVERVIEW - February 2025</h2>
         <ul>
-            <li>Australian stocks surged, with the S&P/ASX 200 gaining 4.6% and hitting a record high.</li>
-            <li>Ten of eleven sectors in the ASX 200 rose, with Consumer Discretionary up 7.1% and Financials up 6.1%. Utilities were the only sector in negative territory -2.4% for the month. Utilities are defensive stocks that tend to outperform in low-rate environments due to their stable, bond-like dividend returns. However, as bond yields rose in early January, fixed income became more attractive relative to utilities, leading to a rotation out of the sector.</li>
-            <li>The S&P 500 hit a record high early in the month before a sharp decline triggered by the launch of a new AI model Deep Seek from China. However, strong earnings and consumer spending helped the index finish with a 3% monthly gain.</li>
-            <li>US Mid-Cap 3.9% and Small-Cap companies 2.9% outperformed the S&P500 2.8% for the month of January. As investors remain cautious about, potential Fed rate cuts, inflation, already high valuations on Mega Caps, implications of Deep Seek, and assess the knock-on effects (retaliation) of trade tariffs to neighbouring US partners. </li>
-            <li>Most sectors saw positive returns, led by Communication Services, Health Care, and Financials. Technology was the only sector to decline -2.9%, facing headwinds from AI-related concerns.</li>
-            <li>European stocks surged in January, driven by interest rate cuts and resilience to AI-related volatility. The FTSE100 climbed 6.8%. Financials and Technology led gains both up 8.4% gains, while Consumer Staples and Real Estate underperformed, rising just 2.2% and 2.4%.</li>
-            <li>Meanwhile, despite European mid- and small-cap stocks rising, they trailed large caps, gaining 5.9% and 3.8%, respectively.</li>
-            <li>Bond markets gained across the board, supported by falling 10-year Treasury yields and a flight to safety amid market volatility. High-yield credit outperformed investment-grade bonds, reflecting stronger investor risk appetite.</li>
-            <li>Australian bonds were mostly positive, as markets priced in an 80% probability of an RBA rate cut in February. This expectation drove bond yields lower and prices higher, in line with broader expectations of global monetary easing.</li>
-            <li>Eurozone government bonds declined in January as markets had already priced in expected ECB rate cuts. Additionally, improved economic sentiment led investors to rotate out of safe-haven bonds and into riskier assets. </li>
-            <li>Meanwhile, European corporate and high-yield bonds rose, benefiting from narrowing credit spreads, as investors perceived lower risk in corporate debt, due to anticipated lower borrowing costs, increasing demand for these bonds.</li> 
-            <li>Gold reached another record high, driving strong gains in Precious Metals, as investors sought safe-haven assets amid tariff uncertainty.</li>          
+            <li>The main event locally in February was the Reserve Bank finally cutting the official cash rate by 0.25% to 4.10%. The quarter point reduction was the first by the RBA since late 2020 and reverses the isolated hike in November 2023.</li>
+            <li>In financial markets, investors pared back expectations of further official interest rate cuts, including US Federal Reserve on the uptick in inflation. Markets also trimmed futures market pricing for further rate cuts in Australia.</li>
+            <li>President Trump's flurry of executive orders dominated the global news flow in February. The most contentious being new tariffs on imports to the US from Canada, Mexico and China, alongside threatened tariffs on European exports.</li>
+            <li>The ASX 200 dropped -4.2% in February. Cyclical sectors led the losses, with Technology (-12.3%), Financials (-4.4%) and Consumer Discretionary (-3.1%) all suffering, while defensive sectors such as Consumer Staples (+1.5%) and Utilities (+3.2%) fared better.</li>
+            <li>Nearly 70% of major Australian companies have now reported December half earnings - bad news from the banks and resources companies but most companies are doing better</li>
+            <li>Another strong jobs report for January. Australian employment rose again by a stronger than expected 44,000, underemployment remained around its 2022 lows. Participation rate and share of population in employment rose.</li>
+            <li>The MSCI AC World fell -0.8% in February. Developed markets underperformed with a -0.9% return, dragged lower mainly by the US. Europe rallied further in February up +3.1% as strength came from recovering cyclical data</li>
+            <li>In the US, the S&P 500 hit record highs mid-month, but reversed earlier strength towards the end of the month.to end up -1.4% down, with the technology laden NASDAQ off -4.0%. Defensive stocks outperformed.</li>
+            <li>Emerging markets' performance of +0.8% was driven by a strong China market, with MSCI China and Hang Seng delivering +11.7% and +13.4% returns, respectively, buoyed by tailwinds from the AI theme and President Xi's meeting with technology leaders.</li>          
+            <li>Gold prices hit another record high USD 2.835/oz at month end as tariff risks fuelled demand for safe-haven assets.</li>  
+            <li>Brent crude oil fell-4.0% to USD 74.05 per barrel as potential Russian-Ukraine truce helps supply expectations and OPEC announcing increase in oil production.</li>  
         </ul>
         <br>
                                                               
@@ -94,22 +93,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Long Duration SMA</h1>
-                    <h4>Updated to: 31 January 2025</h2>
+                    <h4>Updated to: 28 February 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Long Duration SMA delivered 0.2% for the month, and 1.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 2.1%,  returned below Inflation by 0.7%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has materially underperformed over the last 12 months. </p>
+                    <p>The Atchison Active Long Duration SMA delivered 1.1% for the month, and 1.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 3.7%,  beating Inflation by 1.1%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 3.8%, marginally beating Inflation by 0.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has  underperformed since inception of the strategy. </p>
+                    <p>Since inception of the strategy, the Atchison Active Long Duration SMA has delivered 4.2%,  beating Inflation by 0.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally underperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
