@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Australian Shares SMA as at 28 February 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Australian Shares SMA as at 31 March 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,32 +59,30 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Australian Shares SMA delivered -3.0% for the month, and -2.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 9.9%, significantly beating Inflation by 7.3%. 
+                    <p>The Atchison Active Australian Shares SMA delivered -3.6% for the month, and -2.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 2.6%, marginally beating Inflation by 0.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 11.4%, significantly beating Inflation by 8.1%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 9.1%, significantly beating Inflation by 6.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Invesco Wholesale Australian Smaller Companies</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Australian Eagle Trust</li></ul>
-                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p>Invesco Wholesale Australian Smaller Companies Fund is a small-cap blended fund consisting of 80 to 120 stocks, primarily investing in companies listed on the Australian Stock Exchange that fall outside the S&P/ASX 100 index, with market capitalizations exceeding $40 million. By tactically allocating to the Australian small-cap sector, investors can seek out new sources of capital appreciation outside traditional efficient large-cap exposures. </p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p>Australian Eagle Trust aims to provide capital growth through a leveraged investment in Australian stocks. The strategy buys a leveraged exposure (i.e., borrowing additional capital to increase the size of the Funds long position) and by short selling stocks that are deemed lower quality and identified as underperformers. Reason for inclusion includes, portfolio diversification, enhanced risk but also enhanced upside returns, reduced correlation to standard market movements.  </p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Hyperion Australian Growth Companies Fund</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Invesco Wholesale Australian Smaller Companies</li></ul>
+                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p></p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p>Invesco Wholesale Australian Smaller Companies Fund is a small-cap blended fund consisting of 80 to 120 stocks, primarily investing in companies listed on the Australian Stock Exchange that fall outside the S&P/ASX 100 index, with market capitalizations exceeding $40 million. By tactically allocating to the Australian small-cap sector, investors can seek out new sources of capital appreciation outside traditional efficient large-cap exposures. </p>
                     
-        <h2>MARKET OVERVIEW - February 2025</h2>
+        <h2>MARKET OVERVIEW - March 2025</h2>
         <ul>
-            <li>The main event locally in February was the Reserve Bank finally cutting the official cash rate by 0.25% to 4.10%. The quarter point reduction was the first by the RBA since late 2020 and reverses the isolated hike in November 2023.</li>
-            <li>In financial markets, investors pared back expectations of further official interest rate cuts, including US Federal Reserve on the uptick in inflation. Markets also trimmed futures market pricing for further rate cuts in Australia.</li>
-            <li>President Trump's flurry of executive orders dominated the global news flow in February. The most contentious being new tariffs on imports to the US from Canada, Mexico and China, alongside threatened tariffs on European exports.</li>
-            <li>The ASX 200 dropped -4.2% in February. Cyclical sectors led the losses, with Technology (-12.3%), Financials (-4.4%) and Consumer Discretionary (-3.1%) all suffering, while defensive sectors such as Consumer Staples (+1.5%) and Utilities (+3.2%) fared better.</li>
-            <li>Nearly 70% of major Australian companies have now reported December half earnings - bad news from the banks and resources companies but most companies are doing better</li>
-            <li>Another strong jobs report for January. Australian employment rose again by a stronger than expected 44,000, underemployment remained around its 2022 lows. Participation rate and share of population in employment rose.</li>
-            <li>The MSCI AC World fell -0.8% in February. Developed markets underperformed with a -0.9% return, dragged lower mainly by the US. Europe rallied further in February up +3.1% as strength came from recovering cyclical data</li>
-            <li>In the US, the S&P 500 hit record highs mid-month, but reversed earlier strength towards the end of the month.to end up -1.4% down, with the technology laden NASDAQ off -4.0%. Defensive stocks outperformed.</li>
-            <li>Emerging markets' performance of +0.8% was driven by a strong China market, with MSCI China and Hang Seng delivering +11.7% and +13.4% returns, respectively, buoyed by tailwinds from the AI theme and President Xi's meeting with technology leaders.</li>          
-            <li>Gold prices hit another record high USD 2.835/oz at month end as tariff risks fuelled demand for safe-haven assets.</li>  
-            <li>Brent crude oil fell-4.0% to USD 74.05 per barrel as potential Russian-Ukraine truce helps supply expectations and OPEC announcing increase in oil production.</li>  
+            <li>Australian share market took a lead from the US share market and dropped -3.3% in March on fears of a global trade war and intensifying fears of recession. Recent events highlight the challenges our economy faces, namely our reliance on exports to China. Australia sends around 35% of its iron ore to China.</li>
+            <li>The Trump administration scheduled to announce at the beginning of April a raft of new reciprocal tariffs on trading partners worldwide. The size and extent of those tariffs remained unknown, and that kind of uncertainty did zero to boost investor sentiment.</li>
+            <li>Markets interpreted the expected new tariffs as the catalyst to crimp global economic growth and potentially reignite inflation, leading to fewer than originally expected interest rate cuts over CY 2025.</li>
+            <li>More recent views (post March 2025) are that after the dust settles, effective tariffs on US imports could settle around 15% next year, compared to figures currently pushed out by the Trump administration, 15% doesn't seem that high, but still the highest in almost a century.</li>
+            <li>Global market fell -5.0% in the month March led by the US S&P 500 Index down -6.2%. The tech-heavy NASDAQ benchmark was down -8.2% for the month. European markets fared slightly better, benefiting from ongoing rotation from investors seeking alternatives to the US. The STOXX Europe 600 benchmark was down -3.7%.</li>
+            <li>The Reserve Bank of Australia (RBA) has previously noted that the enduring strength in employment was a potential roadblock to further rate cuts. In the US, the Federal Reserve maintained rates at the current level with minimal changes to the dot-plot projections. The US dollar continued to weaken against major currencies.</li>
+            <li>The monthly CPI indicator rose +2.4% in the 12 months to February. Largest contributors to the annual movement were Food and non-alcoholic beverages (+3.1%), Alcohol and tobacco (+6.7%), and Housing (+1.8%).</li>
+            <li>Bond yields rose slightly in March, the Australian 10-year bond rate was up 13 bps to 4.42% bps. Whilst US 10-year bond edged up 1 bps to 4.21% but was higher mid-month.</li> 
+            <li>Gold continued to hit record highs with the yellow metal topping US$3000 for the first time and closing about US$3100.</li>   
         </ul>
         <br>
                                                               
@@ -93,21 +91,21 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Australian Shares SMA</h1>
-                    <h4>Updated to: 28 February 2025</h2>
+                    <h4>Updated to: 31 March 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Australian Shares SMA delivered -3.0% for the month, and -2.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 9.9%, significantly beating Inflation by 7.3%. 
+                    <p>The Atchison Active Australian Shares SMA delivered -3.6% for the month, and -2.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 2.6%, marginally beating Inflation by 0.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 11.4%, significantly beating Inflation by 8.1%. 
+                    <p>Since inception of the strategy, the Atchison Active Australian Shares SMA has delivered 9.1%, significantly beating Inflation by 6.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has significantly outperformed since inception of the strategy. </p>
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
@@ -120,8 +118,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Invesco Wholesale Australian Smaller Companies</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Australian Eagle Trust</li></ul>
-                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p>Invesco Wholesale Australian Smaller Companies Fund is a small-cap blended fund consisting of 80 to 120 stocks, primarily investing in companies listed on the Australian Stock Exchange that fall outside the S&P/ASX 100 index, with market capitalizations exceeding $40 million. By tactically allocating to the Australian small-cap sector, investors can seek out new sources of capital appreciation outside traditional efficient large-cap exposures. </p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p>Australian Eagle Trust aims to provide capital growth through a leveraged investment in Australian stocks. The strategy buys a leveraged exposure (i.e., borrowing additional capital to increase the size of the Funds long position) and by short selling stocks that are deemed lower quality and identified as underperformers. Reason for inclusion includes, portfolio diversification, enhanced risk but also enhanced upside returns, reduced correlation to standard market movements.  </p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Core S&P/ASX 200 ETF</li><li>The holding that contributed the least to portfolio return was Hyperion Australian Growth Companies Fund</li><li>The current holding with the highest absolute return has been Ausbil Australian SmallCap Fund<li>Whilst the current holding with the lowest absolute return has been Invesco Wholesale Australian Smaller Companies</li></ul>
+                    <p>The iShares Core S&P/ASX 200 ETF provides a low-cost price and yield performance of the market, as indicated by the S&P/ASX 200 Accumulation Index, less the investment management fee of 0.05 per cent pa. </p><p></p><p>Ausbil is a style agnostic manager, aiming to exploit opportunities in small (listed ASX companies with a market value of between A$300 million to A$2 billion) and micro-cap markets (listed ASX companies with a market value of less than A$300 million). Typically, active small-cap managers over the long-term have the capacity to outperform their benchmark due to the inefficiencies within the index consisting of roughly 2000 names. </p><p>Invesco Wholesale Australian Smaller Companies Fund is a small-cap blended fund consisting of 80 to 120 stocks, primarily investing in companies listed on the Australian Stock Exchange that fall outside the S&P/ASX 100 index, with market capitalizations exceeding $40 million. By tactically allocating to the Australian small-cap sector, investors can seek out new sources of capital appreciation outside traditional efficient large-cap exposures. </p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -504,7 +502,7 @@
     <tr>
       <th>0</th>
       <td>Australian Shares</td>
-      <td>IOZ-AU</td>
+      <td>BM_AusShares</td>
       <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
     </tr>
     <tr>
@@ -522,7 +520,7 @@
     <tr>
       <th>3</th>
       <td>Alternatives</td>
-      <td>BILL-AU</td>
+      <td>BM_Alts</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
     <tr>
@@ -534,13 +532,13 @@
     <tr>
       <th>5</th>
       <td>Floating Rate</td>
-      <td>FLOT-AU</td>
+      <td>BM_Floating</td>
       <td>100% VanEck Australian Floating Rate ETF</td>
     </tr>
     <tr>
       <th>6</th>
       <td>Cash</td>
-      <td>BILL-AU</td>
+      <td>BM_Cash</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
   </tbody>
