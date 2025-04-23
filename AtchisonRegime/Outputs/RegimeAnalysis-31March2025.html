@@ -1,0 +1,311 @@
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - Macro Regime Analysis</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+
+                    h4 {
+                        font-style: italic;
+                    }
+
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+
+
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+
+                    /* Define styles for printing */
+                    @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        .page-break {
+                            page-break-before: always;
+                        }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
+                    }
+
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>Atchison Macro Regime Analysis</h1>
+                        <h2>April 2025</h2>
+                        <br>
+
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>BACKGROUND</h2>
+
+                        <p>Proprietary research has built a signal model to identify key current economic conditions on a Country-by-Country basis that then provides predictive power regarding expected forward equity market returns.</p>
+                        <p>The intent is to provide repeatable insights as to the relative attractiveness of major global equity markets – as well as assist in the decision regarding timing of active management decisions – whether expressed via use of Country or Industry specific ETFs or via selection of Active Managers.</p>
+                        <p>Significant research highlights persistent underlying factors within equity market driving absolute and relative attractiveness of different strategies.</p>
+                        <p>Further details regarding our method applied and current regime settings are provided below.</p>
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>EQUITY MARKET REGIME METHOD</h2>
+                        <p>Our primary equity market model identifies the current intersection of inflation and forward looking growth signals per country.</p>
+                        <p></p>
+
+                        <h4>Regime Quartiles</h4>
+                        <iframe src="./BackgroundImages/RegimeQuartilesSmall.png" height="550px" width="950px"></iframe>
+                        <h4>Summary Results of Historical Trend Analysis</h4>
+                        <iframe src="./BackgroundImages/US_BackTestTable.png" height="350px" width="950px"></iframe>
+                        <h4>US Growth Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/CLIRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Inflation Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/InflationRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Signal Distribution Since 1958</h4>
+                        <iframe src="./USA/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>CURRENT REGIME POSITIONING</h2>
+                        <h4>Current Major Economic Regime Position</h4>
+                        <p>The below chart provides current signal positioning across major economies. The large circles represent the latest datapoint with the trail showing their paths over the last 12 months.</p>
+                        <iframe src="./All_Country_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <ul>
+                            <li>US Regime is deteriating, and is likely to move from strengthening growth to weakening growth in April. This makes it relatively less attractive, but not immidately a dire signal.</li>
+                            <li>The underlying US economy is still relatively strong relative to fear in equity markets.</li>
+                            <li>Europe, China and UK all have improving fundamental signals.</li>
+                        </ul>
+                        <p>If we zoom into the US position, we highlight six simliar historical points in time regarding growth and inflation signals.</p>
+                        <iframe src="./BackgroundImages/US_CurrentZoom.png" height="350px" width="950px"></iframe>
+
+                        <p>The forward 12 month returns for these 6x prior events (many decades apart), all produced signficant returns - even if not as attractive as average Type 1 events.</p>
+                        <iframe src="./BackgroundImages/US_CurrentSimilar.png" height="280px" width="950px"></iframe>
+                        <p>Our model trades as a 6-18 month time horizon, and therefore we would not suggest material change and implementation of risk-off stance until further deteriation of forward indicators are confirmed. </p>
+                        <br>
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>US INDUSTRY (HEALTHCARE) ANALYSIS</h2>
+
+                        <iframe src="./BackgroundImages/US_SectorTable.png" height="400px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>MARKET OVERVIEW - March 2025</h2>
+                        <ul>
+                            <li>Australian share market took a lead from the US share market and dropped -3.3% in March on fears of a global trade war and intensifying fears of recession. Recent events highlight the challenges our economy faces, namely our reliance on exports to China. Australia sends around 35% of its iron ore to China.</li>
+                            <li>The Trump administration scheduled to announce at the beginning of April a raft of new reciprocal tariffs on trading partners worldwide. The size and extent of those tariffs remained unknown, and that kind of uncertainty did zero to boost investor sentiment.</li>
+                            <li>Markets interpreted the expected new tariffs as the catalyst to crimp global economic growth and potentially reignite inflation, leading to fewer than originally expected interest rate cuts over CY 2025.</li>
+                            <li>More recent views (post March 2025) are that after the dust settles, effective tariffs on US imports could settle around 15% next year, compared to figures currently pushed out by the Trump administration, 15% doesn't seem that high, but still the highest in almost a century.</li>
+                            <li>Global market fell -5.0% in the month March led by the US S&P 500 Index down -6.2%. The tech-heavy NASDAQ benchmark was down -8.2% for the month. European markets fared slightly better, benefiting from ongoing rotation from investors seeking alternatives to the US. The STOXX Europe 600 benchmark was down -3.7%.</li>
+                            <li>The Reserve Bank of Australia (RBA) has previously noted that the enduring strength in employment was a potential roadblock to further rate cuts. In the US, the Federal Reserve maintained rates at the current level with minimal changes to the dot-plot projections. The US dollar continued to weaken against major currencies.</li>
+                            <li>The monthly CPI indicator rose +2.4% in the 12 months to February. Largest contributors to the annual movement were Food and non-alcoholic beverages (+3.1%), Alcohol and tobacco (+6.7%), and Housing (+1.8%).</li>
+                            <li>Bond yields rose slightly in March, the Australian 10-year bond rate was up 13 bps to 4.42% bps. Whilst US 10-year bond edged up 1 bps to 4.21% but was higher mid-month.</li>
+                            <li>Gold continued to hit record highs with the yellow metal topping US$3000 for the first time and closing about US$3100.</li>
+                        </ul>
+                        <br>
+
+                        <h2>CONTACT US</h2>
+                        <p>Please reach out via phone or email below:</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+                        <br>
+
+                        <div class="page-break"></div>
+                        <h2>MODEL BENCHMARK ASSUMPTIONS</h2>
+        
+                                            <!DOCTYPE html>
+                                            <html lang="en">
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                <title>Performance Table</title>
+                                                <style>
+                                                    /* Add CSS style for table */
+                                                    table.dataframe {
+                                                        border-collapse: collapse;
+                                                        width: 100%;
+                                                        max-width: 950px; /* Restrict table width to a maximum of 950px */
+                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                    }
+
+                                                    table.dataframe th,
+                                                    table.dataframe td {
+                                                        border: none;
+                                                        padding: 8px; /* Adjust padding as needed */
+                                                        text-align: center; /* Adjust text alignment as needed */
+                                                    }
+
+                                                    table.dataframe th {
+                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                        color: #E7EAEB;
+                                                    }
+
+                                                    /* Add CSS rule for hover effect */
+                                                    tr:hover {
+                                                        background-color: #1DC8F2;
+                                                    }
+                                                </style>
+                                            </head>
+                                            <body>
+                                                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: justify;">
+      <th></th>
+      <th>G1</th>
+      <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Australian Shares</td>
+      <td>BM_AusShares</td>
+      <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>International Shares</td>
+      <td>BM_IntShares_85DM15EM</td>
+      <td>85% Vanguard MSCI Index International Shares ETF + 15% iShares MSCI Emerging Markets ETF</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Real Assets</td>
+      <td>BM_RealAssets</td>
+      <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alternatives</td>
+      <td>BM_Alts</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Long Duration</td>
+      <td>BM_Duration</td>
+      <td>50% iShares Core Composite Bond ETF + 50% Vanguard International Fixed Income ETF</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Floating Rate</td>
+      <td>BM_Floating</td>
+      <td>100% VanEck Australian Floating Rate ETF</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Cash</td>
+      <td>BM_Cash</td>
+      <td>100% iShares Core Cash ETF</td>
+    </tr>
+  </tbody>
+</table>
+                                            </body>
+                                            </html>
+                                            
+        <br>
+        <h2>FINE PRINT</h2>
+        <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
+        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+        <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
+        <br>
+    
+
+                    </div>
+                </div>
+            </body>
+            </html>
+
+        
