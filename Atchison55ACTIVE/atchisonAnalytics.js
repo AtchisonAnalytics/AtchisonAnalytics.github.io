@@ -60,7 +60,7 @@
                     <br>    
                     <h4>Performance Comments</h4>                
                     <p>The Atchison Active 55 SMA delivered 0.6% for the month, and -1.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 8.5%, significantly beating Inflation by 6.7%. 
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 8.5%, significantly beating Inflation by 5.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -100,7 +100,7 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
                     <p>The Atchison Active 55 SMA delivered 0.6% for the month, and -1.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 8.5%, significantly beating Inflation by 6.7%. 
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 8.5%, significantly beating Inflation by 5.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -503,7 +503,7 @@
     <tr>
       <th>0</th>
       <td>Australian Shares</td>
-      <td>BM_AusShares</td>
+      <td>IOZ-AU</td>
       <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
     </tr>
     <tr>
@@ -521,7 +521,7 @@
     <tr>
       <th>3</th>
       <td>Alternatives</td>
-      <td>BM_Alts</td>
+      <td>BILL-AU</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
     <tr>
@@ -533,13 +533,13 @@
     <tr>
       <th>5</th>
       <td>Floating Rate</td>
-      <td>BM_Floating</td>
+      <td>FLOT-AU</td>
       <td>100% VanEck Australian Floating Rate ETF</td>
     </tr>
     <tr>
       <th>6</th>
       <td>Cash</td>
-      <td>BM_Cash</td>
+      <td>BILL-AU</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
   </tbody>

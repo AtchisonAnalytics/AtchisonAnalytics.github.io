@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Active 70 SMA
-        End Date: 31 March 2025
+        End Date: 30 April 2025
         Start Date: 31 December 2022
-        Heatmap Start Date: 28 February 2025  
-        Current Time: 22 April 2025 11:11         
+        Heatmap Start Date: 31 March 2025  
+        Current Time: 13 May 2025 00:08         
 
         

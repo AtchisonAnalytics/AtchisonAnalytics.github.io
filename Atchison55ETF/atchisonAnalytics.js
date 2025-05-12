@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Dynamic ETF 55 SMA as at 31 March 2025</h2>
+                    <h2>Summary Dashboard for Atchison Dynamic ETF 55 SMA as at 30 April 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,30 +59,31 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Dynamic ETF 55 SMA delivered -1.7% for the month, and -0.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 5.8%, materially beating Inflation by 3.5%. 
+                    <p>The Atchison Dynamic ETF 55 SMA delivered 1.0% for the month, and -1.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 8.9%, significantly beating Inflation by 5.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Dynamic ETF 55 SMA has delivered 9.5%, significantly beating Inflation by 6.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has  outperformed since inception of the strategy. </p>
+                    
+                    
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.47%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.23%)</li><li>The asset class with the highest absolute return was International Shares (+45.74%)</li><li>Whilst the asset class with the lowest absolute return was Alternatives (+4.59%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.16%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.40%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.14%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.45%)</li><li>The asset class with the highest absolute return was International Shares (+42.54%)</li><li>Whilst the asset class with the lowest absolute return was Alternatives (+8.21%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.21%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.47%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - March 2025</h2>
+        <h2>MARKET OVERVIEW - April 2025</h2>
         <ul>
-            <li>Australian share market took a lead from the US share market and dropped -3.3% in March on fears of a global trade war and intensifying fears of recession. Recent events highlight the challenges our economy faces, namely our reliance on exports to China. Australia sends around 35% of its iron ore to China.</li>
-            <li>The Trump administration scheduled to announce at the beginning of April a raft of new reciprocal tariffs on trading partners worldwide. The size and extent of those tariffs remained unknown, and that kind of uncertainty did zero to boost investor sentiment.</li>
-            <li>Markets interpreted the expected new tariffs as the catalyst to crimp global economic growth and potentially reignite inflation, leading to fewer than originally expected interest rate cuts over CY 2025.</li>
-            <li>More recent views (post March 2025) are that after the dust settles, effective tariffs on US imports could settle around 15% next year, compared to figures currently pushed out by the Trump administration, 15% doesn't seem that high, but still the highest in almost a century.</li>
-            <li>Global market fell -5.0% in the month March led by the US S&P 500 Index down -6.2%. The tech-heavy NASDAQ benchmark was down -8.2% for the month. European markets fared slightly better, benefiting from ongoing rotation from investors seeking alternatives to the US. The STOXX Europe 600 benchmark was down -3.7%.</li>
-            <li>The Reserve Bank of Australia (RBA) has previously noted that the enduring strength in employment was a potential roadblock to further rate cuts. In the US, the Federal Reserve maintained rates at the current level with minimal changes to the dot-plot projections. The US dollar continued to weaken against major currencies.</li>
-            <li>The monthly CPI indicator rose +2.4% in the 12 months to February. Largest contributors to the annual movement were Food and non-alcoholic beverages (+3.1%), Alcohol and tobacco (+6.7%), and Housing (+1.8%).</li>
-            <li>Bond yields rose slightly in March, the Australian 10-year bond rate was up 13 bps to 4.42% bps. Whilst US 10-year bond edged up 1 bps to 4.21% but was higher mid-month.</li> 
-            <li>Gold continued to hit record highs with the yellow metal topping US$3000 for the first time and closing about US$3100.</li>   
+            <li>Australian share market recorded its first monthly gain since January returning 3.6% for the month of April and 9.8% for the 12 months. The Australia market followed the lead from the US share market on news of trade deals.</li>
+            <li>Australia copped a 10% US tariff on our exports, however only 5% of Australian exports go to the US. The bigger threat to Australian exports comes from reduced exports to China and Asia.</li>
+            <li>10 out of 11 sectors in the S&P/ASX 200 posted gains, led by Communication Services, Information Technology and Consumer Discretionary, each rising by 6%. Energy was the only sector to report a loss.</li>
+            <li>China's manufacturing sector contracted in April, with the official PMI falling to 49.0, its lowest since December 2023, due to escalating U.S. tariffs and weakening export demand.</li>
+            <li>Trump placed eye-watering 145% tariff on China but for most other nations a 90-day pause on reciprocal tariffs, leaving a 10% universal tariff in place.</li>
+            <li>Global share markets plunged at the beginning of the month on worries about a full-blown trade war, The Trump Dump initially caused US shares to fall 17%, 16% globally and 10% in Australia. While gold surged to new highs.</li>
+            <li>The Federal Open Market Committee (FOMC) left the Federal Funds Rate unchanged at the range of 4.25 - 4.50% at the March meeting and projected two rate cuts later this year.</li>
+            <li>The RBA left interest rates on hold at 4.10%, but is expected to engage in another rate cut of 0.25% in May. Australia's headline inflation (total inflation) remained steady in Q1 2025 at 2.4% annually, within the target band of 2 - 3%. </li>
+            <li>Most fixed income indices advanced as rates declined on weaker economic growth expectations. The Australian Government 0+ index was among the best performers, rising by 2% for the month, with the index's yield falling to 4%.</li>
+            <li>Gold maintained its winning streak in 2025, reaching historic peak of US$3,500 per ounce before experiencing volatility. A significant driver behind's gold's stellar performance has been the substantial decline in the US dollar.</li>  
         </ul>
         <br>
                                                               
@@ -91,22 +92,22 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 55 SMA</h1>
-                    <h4>Updated to: 31 March 2025</h2>
+                    <h4>Updated to: 30 April 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 55 SMA delivered -1.7% for the month, and -0.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 5.8%, materially beating Inflation by 3.5%. 
+                    <p>The Atchison Dynamic ETF 55 SMA delivered 1.0% for the month, and -1.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 8.9%, significantly beating Inflation by 5.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
                     
-                    <p>Since inception of the strategy, the Atchison Dynamic ETF 55 SMA has delivered 9.5%, significantly beating Inflation by 6.4%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has  outperformed since inception of the strategy. </p>
+                    
+                    
                     
                     <p>All performance metrics listed above are net of appointed investment management fees but before tax. Where noted, the Since Inception date of this analysis is: 31 December 2022. All performance is based on daily asset returns using portfolio target weights. Where a portfolio target weight change has been input into the dataset, it is assumed to have been applied as at the end of day asset valuations. </p>          
                     <h4>Returns vs Benchmarks</h4>
@@ -118,7 +119,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.47%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.23%)</li><li>The asset class with the highest absolute return was International Shares (+45.74%)</li><li>Whilst the asset class with the lowest absolute return was Alternatives (+4.59%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.16%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.40%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.14%)</li><li>The asset class that contributed the least to portfolio return was Alternatives at (+0.45%)</li><li>The asset class with the highest absolute return was International Shares (+42.54%)</li><li>Whilst the asset class with the lowest absolute return was Alternatives (+8.21%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.21%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.47%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
@@ -502,7 +503,7 @@
     <tr>
       <th>0</th>
       <td>Australian Shares</td>
-      <td>BM_AusShares</td>
+      <td>IOZ-AU</td>
       <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
     </tr>
     <tr>
@@ -520,7 +521,7 @@
     <tr>
       <th>3</th>
       <td>Alternatives</td>
-      <td>BM_Alts</td>
+      <td>BILL-AU</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
     <tr>
@@ -532,13 +533,13 @@
     <tr>
       <th>5</th>
       <td>Floating Rate</td>
-      <td>BM_Floating</td>
+      <td>FLOT-AU</td>
       <td>100% VanEck Australian Floating Rate ETF</td>
     </tr>
     <tr>
       <th>6</th>
       <td>Cash</td>
-      <td>BM_Cash</td>
+      <td>BILL-AU</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
   </tbody>
