@@ -1,0 +1,218 @@
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - Macro Regime Analysis</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+
+                    h4 {
+                        font-style: italic;
+                    }
+
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+
+
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+
+                    /* Define styles for printing */
+                    @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        .page-break {
+                            page-break-before: always;
+                        }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
+                    }
+
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>Atchison Macro Regime Analysis</h1>
+                        <h2>May 2025</h2>
+                        <br>
+
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>BACKGROUND</h2>
+
+                        <p>Proprietary research has built a signal model to identify key current economic conditions on a Country-by-Country basis that then provides predictive power regarding expected forward equity market returns.</p>
+                        <p>The intent is to provide repeatable insights as to the relative attractiveness of major global equity markets – as well as assist in the decision regarding timing of active management decisions – whether expressed via use of Country or Industry specific ETFs or via selection of Active Managers.</p>
+                        <p>Significant research highlights persistent underlying factors within equity market driving absolute and relative attractiveness of different strategies.</p>
+                        <p>Further details regarding our method applied and current regime settings are provided below.</p>
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>EQUITY MARKET REGIME METHOD</h2>
+                        <p>Our primary equity market model identifies the current intersection of inflation and forward looking growth signals per country.</p>
+                        <p></p>
+
+                        <h4>Regime Quartiles</h4>
+                        <iframe src="./BackgroundImages/RegimeQuartilesSmall.png" height="420px" width="950px"></iframe>
+                        <h4>Summary Results of Historical Trend Analysis</h4>
+                        <iframe src="./BackgroundImages/US_BackTestTable.png" height="350px" width="950px"></iframe>
+                        <h4>US Growth Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/CLIRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Inflation Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/InflationRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./USA/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <h4>Aust Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./Aust/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>CURRENT REGIME POSITIONING</h2>
+                        <h4>Current Major Economic Regime Position</h4>
+                        <p>The below chart provides current signal positioning across major economies. The large circles represent the latest datapoint with the trail showing their paths over the last 12 months.</p>
+                        <iframe src="./All_Country_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <ul>
+                            <li>US Regime is deteriating, with 2nd month of growth indicators falling below the line, continuing the current trend of being relatively less attractive.</li>
+                            <li>The underlying US economy is still relatively strong relative to fear in equity markets.</li>
+                            <li>Europe, China and UK all remain type 1 with improving fundamental signals.</li>
+                            <li>Japan has had a spike in growth signals, moving from Type 4 (typically the worst regime for equities) to Type 2.</li>
+                        </ul>
+
+
+                        <p>Our model trades as a 6-18 month time horizon. Relative to recent positions, the model suggests reduction of US equities and increase of Japanese betas.</p>
+                        <br>
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>US INDUSTRY ANALYSIS</h2>
+
+                        <iframe src="./BackgroundImages/US_SectorTable.png" height="400px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>MARKET OVERVIEW - April 2025</h2>
+                        <ul>
+                            <li>Australian share market recorded its first monthly gain since January returning 3.6% for the month of April and 9.8% for the 12 months. The Australia market followed the lead from the US share market on news of trade deals.</li>
+                            <li>Australia copped a 10% US tariff on our exports, however only 5% of Australian exports go to the US. The bigger threat to Australian exports comes from reduced exports to China and Asia.</li>
+                            <li>10 out of 11 sectors in the S&P/ASX 200 posted gains, led by Communication Services, Information Technology and Consumer Discretionary, each rising by 6%. Energy was the only sector to report a loss.</li>
+                            <li>China's manufacturing sector contracted in April, with the official PMI falling to 49.0, its lowest since December 2023, due to escalating U.S. tariffs and weakening export demand.</li>
+                            <li>Trump placed eye-watering 145% tariff on China but for most other nations a 90-day pause on reciprocal tariffs, leaving a 10% universal tariff in place.</li>
+                            <li>Global share markets plunged at the beginning of the month on worries about a full-blown trade war, The Trump Dump initially caused US shares to fall 17%, 16% globally and 10% in Australia. While gold surged to new highs.</li>
+                            <li>The Federal Open Market Committee (FOMC) left the Federal Funds Rate unchanged at the range of 4.25 – 4.50% at the March meeting and projected two rate cuts later this year.</li>
+                            <li>The RBA left interest rates on hold at 4.10%, but is expected to engage in another rate cut of 0.25% in May. Australia’s headline inflation (total inflation) remained steady in Q1 2025 at 2.4% annually, within the target band of 2 – 3%. </li>
+                            <li>Most fixed income indices advanced as rates declined on weaker economic growth expectations. The Australian Government 0+ index was among the best performers, rising by 2% for the month, with the index's yield falling to 4%.</li>
+                            <li>Gold maintained its winning streak in 2025, reaching historic peak of US$3,500 per ounce before experiencing volatility. A significant driver behind’s gold’s stellar performance has been the substantial decline in the US dollar.</li>
+                        </ul>
+                        <br>
+
+                        <h2>CONTACT US</h2>
+                        <p>Please reach out via phone or email below:</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+                        <br>
+
+
+        <br>
+        <h2>FINE PRINT</h2>
+        <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
+        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+        <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
+        <br>
+    
+
+                    </div>
+                </div>
+            </body>
+            </html>
+
+        

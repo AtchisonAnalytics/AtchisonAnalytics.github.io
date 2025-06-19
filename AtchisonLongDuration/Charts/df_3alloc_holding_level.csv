@@ -1,7 +1,7 @@
-Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,PeerGroup,OptimiserCategory,Type
-22.066291812416555,iShares Core Composite Bond ETF,Defensive,Long Duration,Australian Fixed Interest,Australian Fixed Interest,ETF Index,,,Core Australian Bonds,,Australian Bonds,Australian Fixed Interest,ETF
-14.24073167948845,iShares Government Inflation ETF,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,ETF Index,,,Inflation Linked Bonds,,Inflation linked Bonds,Inflation Linked Government Bonds,ETF
-14.951473473396662,iShares Global Aggregate Bond ESG (AUD Hedged) ETF,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,ETF Index,,,Global Aggregate Bonds,,Global Bonds ,International Fixed Interest,ETF
-1.185758521983255,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Domestic Cash,Cash,Cash
-32.07845707498589,Western Asset Australian Bond Fund - Class A,Defensive,Long Duration,Australian Fixed Interest,Australian Fixed Interest,Active Manager,,,Australian Bonds,,Australian Bonds,Australian Fixed Interest,MF
-15.477287437729203,Colchester Global Government Bond Fund Class I,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,Active Manager,,,Global DM & EM Bonds ,,Global Bonds ,International Fixed Interest,MF
+Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,G11,PeerGroup,OptimiserCategory,Type
+22.052228226935846,iShares Core Composite Bond ETF,Defensive,Long Duration,Australian Fixed Interest,Australian Fixed Interest,ETF Index,,,Core Australian Bonds,,Long Duration,Australian Bonds,Australian Fixed Interest,ETF
+14.256058118842036,iShares Government Inflation ETF,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,ETF Index,,,Inflation Linked Bonds,,Long Duration,Inflation linked Bonds,Inflation Linked Government Bonds,ETF
+14.89335304764432,iShares Global Aggregate Bond ESG (AUD Hedged) ETF,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,ETF Index,,,Global Aggregate Bonds,,Long Duration,Global Bonds ,International Fixed Interest,ETF
+1.1900557700134862,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Cash,Domestic Cash,Cash,Cash
+32.16309526601145,Western Asset Australian Bond Fund - Class A,Defensive,Long Duration,Australian Fixed Interest,Australian Fixed Interest,Active Manager,,,Australian Bonds,,Long Duration,Australian Bonds,Australian Fixed Interest,MF
+15.445209570552878,Colchester Global Government Bond Fund Class I,Defensive,Long Duration,Global Fixed Interest,Global Fixed Interest,Active Manager,,,Global DM & EM Bonds ,,Long Duration,Global Bonds ,International Fixed Interest,MF

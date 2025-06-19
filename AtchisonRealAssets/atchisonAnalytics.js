@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 30 April 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 31 May 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Real Assets SMA delivered 1.9% for the month, and 0.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 10.4%, significantly beating Inflation by 7.1%. 
+                    <p>The Atchison Active Real Assets SMA delivered 2.5% for the month, and 3.0% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 10.3%, significantly beating Inflation by 8.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -69,21 +69,22 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ClearBridge RARE Infrastructure Income Fund - Hedged</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been BlackRock iShares Global Listed Property Index</li></ul>
-                    <p>Clearbridge RARE Infrastructure, founded in 2006, offers investors a long-term reliable earnings stream, which is relatively resilient to changing economic conditions and is largely protected from inflation (based on income indexed to inflation). As such, the asset class typically displays less volatility than broader equities with a lower correlation to other asset classes over the medium to long term. </p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
+                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
                     
         <h2>MARKET OVERVIEW - April 2025</h2>
         <ul>
-            <li>Australian share market recorded its first monthly gain since January returning 3.6% for the month of April and 9.8% for the 12 months. The Australia market followed the lead from the US share market on news of trade deals.</li>
-            <li>Australia copped a 10% US tariff on our exports, however only 5% of Australian exports go to the US. The bigger threat to Australian exports comes from reduced exports to China and Asia.</li>
-            <li>10 out of 11 sectors in the S&P/ASX 200 posted gains, led by Communication Services, Information Technology and Consumer Discretionary, each rising by 6%. Energy was the only sector to report a loss.</li>
-            <li>China's manufacturing sector contracted in April, with the official PMI falling to 49.0, its lowest since December 2023, due to escalating U.S. tariffs and weakening export demand.</li>
-            <li>Trump placed eye-watering 145% tariff on China but for most other nations a 90-day pause on reciprocal tariffs, leaving a 10% universal tariff in place.</li>
-            <li>Global share markets plunged at the beginning of the month on worries about a full-blown trade war, The Trump Dump initially caused US shares to fall 17%, 16% globally and 10% in Australia. While gold surged to new highs.</li>
-            <li>The Federal Open Market Committee (FOMC) left the Federal Funds Rate unchanged at the range of 4.25 - 4.50% at the March meeting and projected two rate cuts later this year.</li>
-            <li>The RBA left interest rates on hold at 4.10%, but is expected to engage in another rate cut of 0.25% in May. Australia's headline inflation (total inflation) remained steady in Q1 2025 at 2.4% annually, within the target band of 2 - 3%. </li>
-            <li>Most fixed income indices advanced as rates declined on weaker economic growth expectations. The Australian Government 0+ index was among the best performers, rising by 2% for the month, with the index's yield falling to 4%.</li>
-            <li>Gold maintained its winning streak in 2025, reaching historic peak of US$3,500 per ounce before experiencing volatility. A significant driver behind's gold's stellar performance has been the substantial decline in the US dollar.</li>  
+            <li>Smaller companies outperformed their broader counterparts, with the Small Ordinaries rising 6%, whilst the ASX 200 advanced 4%</li>
+            <li>All sectors within the ASX 200 recorded gains. Information Technology led with a 20% jump, followed by Energy at 9%, while traditionally defensive sectors - Utilities, Consumer Staples, and Health Care lagged.</li>
+            <li>All Australian factor indices ended the month in positive territory. Momentum, Equal Weight, and Growth factors outpaced others, whereas High Dividend and Value underperformed, echoing sector-level trends.</li>
+            <li>China's equity markets posted solid gains in May 2025, supported by tech earnings and fresh monetary easing, including rate and reserve ratio cuts. However, mixed economic data and external pressures, such as weaker U.S. exports, highlight ongoing structural and geopolitical challenges.</li>
+            <li>U.S. equities staged a strong rebound in May, driven by renewed optimism over easing trade tensions. The S&P 500 rose 6%, marking its best May performance since 1990. Solid earnings from major technology firms also propelled the rally. </li>
+            <li>Most sectors registered gains, led by Information Technology and Communication Services, which rose 11% and 10% respectively. Health Care was the notable underperformer.</li>
+            <li>Risk appetite continued to improve, with Momentum, High Beta, and Growth factors leading for the second consecutive month, reflecting a continued rotation away from defensiveness.</li>
+            <li>European equities maintained their positive trajectory, with the European Index gaining approximately 11% year-to-date, outperforming the U.S. market. This performance was supported by easing trade tensions and investor optimism.</li>
+            <li>In May, the RBA cut rates for the second time this year, and delivered a dovish outlook, but Australian bond yields still rose, driven by global market forces including rising yields in the U.S. and Japan.</li> 
+            <li>U.S. Treasury yields rose sharply following a weak 20-year note auction and persistent fiscal concerns. As a result, the U.S. Treasury Bond Index declined by 1% in May, its first monthly loss of the year.</li> 
+            <li>Within commodities, Energy and Livestock were standout performers. Meanwhile, safe-haven demand for Gold was mixed, leading to slight underperformance in Precious Metals over the month.</li> 
         </ul>
         <br>
                                                               
@@ -92,15 +93,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 30 April 2025</h2>
+                    <h4>Updated to: 31 May 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered 1.9% for the month, and 0.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 10.4%, significantly beating Inflation by 7.1%. 
+                    <p>The Atchison Active Real Assets SMA delivered 2.5% for the month, and 3.0% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 10.3%, significantly beating Inflation by 8.1%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -119,8 +120,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ClearBridge RARE Infrastructure Income Fund - Hedged</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been BlackRock iShares Global Listed Property Index</li></ul>
-                    <p>Clearbridge RARE Infrastructure, founded in 2006, offers investors a long-term reliable earnings stream, which is relatively resilient to changing economic conditions and is largely protected from inflation (based on income indexed to inflation). As such, the asset class typically displays less volatility than broader equities with a lower correlation to other asset classes over the medium to long term. </p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
+                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
@@ -503,43 +504,43 @@
     <tr>
       <th>0</th>
       <td>Australian Shares</td>
-      <td>IOZ-AU</td>
+      <td>BM_Rajomon_AE</td>
       <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
     </tr>
     <tr>
       <th>1</th>
       <td>International Shares</td>
-      <td>BM_IntShares_85DM15EM</td>
+      <td>BM_Rajomon_IE</td>
       <td>85% Vanguard MSCI Index International Shares ETF + 15% iShares MSCI Emerging Markets ETF</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Real Assets</td>
-      <td>BM_RealAssets</td>
+      <td>BM_Rajomon_PS</td>
       <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Alternatives</td>
-      <td>BILL-AU</td>
+      <td>BM_Rajomon_Alts</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Long Duration</td>
-      <td>BM_Duration</td>
+      <td>BM_Rajomon_IS</td>
       <td>50% iShares Core Composite Bond ETF + 50% Vanguard International Fixed Income ETF</td>
     </tr>
     <tr>
       <th>5</th>
       <td>Floating Rate</td>
-      <td>FLOT-AU</td>
+      <td>BM_Rajomon_Credit</td>
       <td>100% VanEck Australian Floating Rate ETF</td>
     </tr>
     <tr>
       <th>6</th>
       <td>Cash</td>
-      <td>BILL-AU</td>
+      <td>BM_Cash</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
   </tbody>
