@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 31 May 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 30 June 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Floating Rate SMA delivered 0.3% for the month, and 1.0% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.9%, materially beating Inflation by 3.7%. 
+                    <p>The Atchison Active Floating Rate SMA delivered 0.4% for the month, and 1.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.8%, materially beating Inflation by 3.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -72,19 +72,19 @@
                     <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been VanEck Australian Floating Rate ETF</li><li>The holding that contributed the least to portfolio return was Janus Henderson Diversified Credit Fund</li><li>The current holding with the highest absolute return has been Janus Henderson Diversified Credit Fund<li>Whilst the current holding with the lowest absolute return has been iShares Enhanced Cash ETF</li></ul>
                     <p></p><p>The Janus Henderson Diversified Credit Fund aims to provide investors with Australian and global higher yielding securities, including corporate debt, asset backed securities, secured loans, and emerging markets corporate debt securities. This Fund is included in the Fixed Income asset class to provide the potential for higher yields relative to traditional fixed income securities and cash.</p><p>The Janus Henderson Diversified Credit Fund aims to provide investors with Australian and global higher yielding securities, including corporate debt, asset backed securities, secured loans, and emerging markets corporate debt securities. This Fund is included in the Fixed Income asset class to provide the potential for higher yields relative to traditional fixed income securities and cash.</p><p></p>
                     
-        <h2>MARKET OVERVIEW - April 2025</h2>
+        <h2>MARKET OVERVIEW - June 2025</h2>
         <ul>
-            <li>Smaller companies outperformed their broader counterparts, with the Small Ordinaries rising 6%, whilst the ASX 200 advanced 4%</li>
-            <li>All sectors within the ASX 200 recorded gains. Information Technology led with a 20% jump, followed by Energy at 9%, while traditionally defensive sectors - Utilities, Consumer Staples, and Health Care lagged.</li>
-            <li>All Australian factor indices ended the month in positive territory. Momentum, Equal Weight, and Growth factors outpaced others, whereas High Dividend and Value underperformed, echoing sector-level trends.</li>
-            <li>China's equity markets posted solid gains in May 2025, supported by tech earnings and fresh monetary easing, including rate and reserve ratio cuts. However, mixed economic data and external pressures, such as weaker U.S. exports, highlight ongoing structural and geopolitical challenges.</li>
-            <li>U.S. equities staged a strong rebound in May, driven by renewed optimism over easing trade tensions. The S&P 500 rose 6%, marking its best May performance since 1990. Solid earnings from major technology firms also propelled the rally. </li>
-            <li>Most sectors registered gains, led by Information Technology and Communication Services, which rose 11% and 10% respectively. Health Care was the notable underperformer.</li>
-            <li>Risk appetite continued to improve, with Momentum, High Beta, and Growth factors leading for the second consecutive month, reflecting a continued rotation away from defensiveness.</li>
-            <li>European equities maintained their positive trajectory, with the European Index gaining approximately 11% year-to-date, outperforming the U.S. market. This performance was supported by easing trade tensions and investor optimism.</li>
-            <li>In May, the RBA cut rates for the second time this year, and delivered a dovish outlook, but Australian bond yields still rose, driven by global market forces including rising yields in the U.S. and Japan.</li> 
-            <li>U.S. Treasury yields rose sharply following a weak 20-year note auction and persistent fiscal concerns. As a result, the U.S. Treasury Bond Index declined by 1% in May, its first monthly loss of the year.</li> 
-            <li>Within commodities, Energy and Livestock were standout performers. Meanwhile, safe-haven demand for Gold was mixed, leading to slight underperformance in Precious Metals over the month.</li> 
+            <li>The Australian share market rose for the third consecutive month rising a modest +1.1% for the month but a stellar +16% since April and +10.2% for the 12 months to June 2025, after a +7.8% rise one year earlier and +9.6% in the year end June 2023. Performance during the year was mainly driven by technology and financial sectors.</li>
+            <li>Australia's economy grew 0.2% q-o-q in Q1 2025. While this fell short of the 0.4% market forecast, it marked the 14th consecutive quarter of expansion. OECD adjusted its GDP growth forecast for Australia in 2025 from 1.9% to 1.8%.</li>
+            <li>Australian household net worth reached A$17.3 trillion in the March quarter, up from A$16.2 trillion a year earlier. Property remained the largest asset class at A$11.7 trillion, growing by 5.9% annually. Superannuation assets increased by 6.6% to A$4.14 trillion, while shares and equities rose by 8% to A$1.57 trillion.</li>
+            <li>The World Bank left its forecast for China unchanged at 4.5% from January, saying Beijing still had monetary and fiscal space to support its economy and stimulate growth.</li>
+            <li>President Trump has upended global trade with a series of on-again, off-again tariff hikes that have increased the effective U.S. tariff rate from below 3% to the mid-teens - its highest level in almost a century - and triggered retaliation by China and other countries.</li>
+            <li>The US economy remained resilient in June, with equity markets hitting record highs amid easing geopolitical risks from the Iran-Israel ceasefire and a rollback of reciprocal tariffs. Expectations for 2-3 Fed rate cuts by year-end strengthened as inflation showed signs of moderation and financial conditions remained supportive.</li>
+            <li>A weakening U.S. dollar has reinvigorated investor interest in Emerging Market assets. Notably, emerging market local currency debt experienced a resurgence, with bond funds recording eight consecutive weeks of inflows and returns exceeding 10% year-to-date.</li>
+            <li>The eurozone's GDP is projected to grow by 0.9% in 2025, a downward revision from earlier forecasts, primarily due to heightened trade tensions and global uncertainty. Inflation is expected to average 2.0% in 2025, aligning with the European Central Bank's (ECB) target, before dipping to 1.6%.</li>
+            <li>The US 10-year yield rose over the month as strong jobs data and sticky inflation reduced the likelihood of a July Fed rate cut, while fiscal concerns mounted following Senate approval of a $3.3 trillion deficit-financed tax bill.</li>
+            <li>Australian government bond yields ended June slightly higher at the long end, while the 2-year yield eased as markets began to price in rate cuts in 2026 amid softening growth momentum. The yield curve steepened modestly, with RBA commentary remaining hawkish due to persistent services inflation and a tight labour market.</li>
+            <li>Gold miners delivered 60% for the year. Gold is set to surpass metallurgical coal to become Australia's 3rd biggest resource export earner in 2025-2026.</li>
         </ul>
         <br>
                                                               
@@ -93,15 +93,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Floating Rate SMA</h1>
-                    <h4>Updated to: 31 May 2025</h2>
+                    <h4>Updated to: 30 June 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Floating Rate SMA delivered 0.3% for the month, and 1.0% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.9%, materially beating Inflation by 3.7%. 
+                    <p>The Atchison Active Floating Rate SMA delivered 0.4% for the month, and 1.2% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 5.8%, materially beating Inflation by 3.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has materially outperformed over the last 12 months. </p>
                     
                     
