@@ -1,0 +1,219 @@
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - Macro Regime Analysis</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+
+                    h4 {
+                        font-style: italic;
+                    }
+
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+
+
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+
+                    /* Define styles for printing */
+                    @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        .page-break {
+                            page-break-before: always;
+                        }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
+                    }
+
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>Atchison Macro Regime Analysis</h1>
+                        <h2>30 June 2025</h2>
+                        <br>
+
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>BACKGROUND</h2>
+
+                        <p>Proprietary research has built a signal model to identify key current economic conditions on a Country-by-Country basis that then provides predictive power regarding expected forward equity market returns.</p>
+                        <p>The intent is to provide repeatable insights as to the relative attractiveness of major global equity markets – as well as assist in the decision regarding timing of active management decisions – whether expressed via use of Country or Industry specific ETFs or via selection of Active Managers.</p>
+                        <p>Significant research highlights persistent underlying factors within equity market driving absolute and relative attractiveness of different strategies.</p>
+                        <p>Further details regarding our method applied and current regime settings are provided below.</p>
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>EQUITY MARKET REGIME METHOD</h2>
+                        <p>Our primary equity market model identifies the current intersection of inflation and forward looking growth signals per country.</p>
+                        <p></p>
+
+                        <h4>Regime Quartiles</h4>
+                        <iframe src="./BackgroundImages/RegimeQuartilesSmall.png" height="420px" width="950px"></iframe>
+                        <h4>Summary Results of Historical Trend Analysis</h4>
+                        <iframe src="./BackgroundImages/US_BackTestTable.png" height="350px" width="950px"></iframe>
+                        <h4>US Growth Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/CLIRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Inflation Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/InflationRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./USA/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <h4>Aust Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./Aust/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>CURRENT REGIME POSITIONING</h2>
+                        <h4>Current Major Economic Regime Position</h4>
+                        <p>The below chart provides current signal positioning across major economies. The large circles represent the latest datapoint with the trail showing their paths over the last 12 months.</p>
+                        <iframe src="./All_Country_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <ul>
+                            <li>US Regime is deteriating, with 2nd month of growth indicators falling below the line, continuing the current trend of being relatively less attractive.</li>
+                            <li>The underlying US economy is still relatively strong relative to fear in equity markets.</li>
+                            <li>Europe, China and UK all remain type 1 with improving fundamental signals.</li>
+                            <li>Japan has had a spike in growth signals, moving from Type 4 (typically the worst regime for equities) to Type 2.</li>
+                        </ul>
+
+
+                        <p>Our model trades as a 6-18 month time horizon. Relative to recent positions, the model suggests reduction of US equities and increase of Japanese betas.</p>
+                        <br>
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>US INDUSTRY ANALYSIS</h2>
+
+                        <iframe src="./BackgroundImages/US_SectorTable.png" height="400px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>MARKET OVERVIEW - June 2025</h2>
+                        <ul>
+                            <li>The Australian share market rose for the third consecutive month rising a modest +1.1% for the month but a stellar +16% since April and +10.2% for the 12 months to June 2025, after a +7.8% rise one year earlier and +9.6% in the year end June 2023. Performance during the year was mainly driven by technology and financial sectors.</li>
+                            <li>Australia’s economy grew 0.2% q-o-q in Q1 2025. While this fell short of the 0.4% market forecast, it marked the 14th consecutive quarter of expansion. OECD adjusted its GDP growth forecast for Australia in 2025 from 1.9% to 1.8%.</li>
+                            <li>Australian household net worth reached A$17.3 trillion in the March quarter, up from A$16.2 trillion a year earlier. Property remained the largest asset class at A$11.7 trillion, growing by 5.9% annually. Superannuation assets increased by 6.6% to A$4.14 trillion, while shares and equities rose by 8% to A$1.57 trillion.</li>
+                            <li>The World Bank left its forecast for China unchanged at 4.5% from January, saying Beijing still had monetary and fiscal space to support its economy and stimulate growth.</li>
+                            <li>President Trump has upended global trade with a series of on-again, off-again tariff hikes that have increased the effective U.S. tariff rate from below 3% to the mid-teens - its highest level in almost a century - and triggered retaliation by China and other countries.</li>
+                            <li>The US economy remained resilient in June, with equity markets hitting record highs amid easing geopolitical risks from the Iran-Israel ceasefire and a rollback of reciprocal tariffs. Expectations for 2–3 Fed rate cuts by year-end strengthened as inflation showed signs of moderation and financial conditions remained supportive.</li>
+                            <li>A weakening U.S. dollar has reinvigorated investor interest in Emerging Market assets. Notably, emerging market local currency debt experienced a resurgence, with bond funds recording eight consecutive weeks of inflows and returns exceeding 10% year-to-date.</li>
+                            <li>The eurozone's GDP is projected to grow by 0.9% in 2025, a downward revision from earlier forecasts, primarily due to heightened trade tensions and global uncertainty. Inflation is expected to average 2.0% in 2025, aligning with the European Central Bank's (ECB) target, before dipping to 1.6%.</li>
+                            <li>The US 10-year yield rose over the month as strong jobs data and sticky inflation reduced the likelihood of a July Fed rate cut, while fiscal concerns mounted following Senate approval of a $3.3 trillion deficit-financed tax bill.</li>
+                            <li>Australian government bond yields ended June slightly higher at the long end, while the 2-year yield eased as markets began to price in rate cuts in 2026 amid softening growth momentum. The yield curve steepened modestly, with RBA commentary remaining hawkish due to persistent services inflation and a tight labour market.</li>
+                            <li>Gold miners delivered 60% for the year. Gold is set to surpass metallurgical coal to become Australia's 3rd biggest resource export earner in 2025–2026.</li>
+                        </ul>
+                        <br>
+
+                        <h2>CONTACT US</h2>
+                        <p>Please reach out via phone or email below:</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+                        <br>
+
+
+        <br>
+        <h2>FINE PRINT</h2>
+        <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
+        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+        <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
+        <br>
+    
+
+                    </div>
+                </div>
+            </body>
+            </html>
+
+        
