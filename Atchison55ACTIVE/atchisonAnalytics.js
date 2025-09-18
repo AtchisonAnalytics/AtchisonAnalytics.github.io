@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 55 SMA as at 30 June 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active 55 SMA as at 31 August 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 55 SMA delivered 0.9% for the month, and 3.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 55 SMA delivered 1.3% for the month, and 3.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 9.4%, significantly beating Inflation by 7.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,22 +69,22 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.80%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.96%)</li><li>The asset class with the highest absolute return was International Shares (+55.23%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.91%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+3.33%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.99%) impact on relative performance of the portfolio.</li></ul>
+                    
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - June 2025</h2>
+        <h2>MARKET OVERVIEW - August 2025</h2>
         <ul>
-            <li>The Australian share market rose for the third consecutive month rising a modest +1.1% for the month but a stellar +16% since April and +10.2% for the 12 months to June 2025, after a +7.8% rise one year earlier and +9.6% in the year end June 2023. Performance during the year was mainly driven by technology and financial sectors.</li>
-            <li>Australia's economy grew 0.2% q-o-q in Q1 2025. While this fell short of the 0.4% market forecast, it marked the 14th consecutive quarter of expansion. OECD adjusted its GDP growth forecast for Australia in 2025 from 1.9% to 1.8%.</li>
-            <li>Australian household net worth reached A$17.3 trillion in the March quarter, up from A$16.2 trillion a year earlier. Property remained the largest asset class at A$11.7 trillion, growing by 5.9% annually. Superannuation assets increased by 6.6% to A$4.14 trillion, while shares and equities rose by 8% to A$1.57 trillion.</li>
-            <li>The World Bank left its forecast for China unchanged at 4.5% from January, saying Beijing still had monetary and fiscal space to support its economy and stimulate growth.</li>
-            <li>President Trump has upended global trade with a series of on-again, off-again tariff hikes that have increased the effective U.S. tariff rate from below 3% to the mid-teens - its highest level in almost a century - and triggered retaliation by China and other countries.</li>
-            <li>The US economy remained resilient in June, with equity markets hitting record highs amid easing geopolitical risks from the Iran-Israel ceasefire and a rollback of reciprocal tariffs. Expectations for 2-3 Fed rate cuts by year-end strengthened as inflation showed signs of moderation and financial conditions remained supportive.</li>
-            <li>A weakening U.S. dollar has reinvigorated investor interest in Emerging Market assets. Notably, emerging market local currency debt experienced a resurgence, with bond funds recording eight consecutive weeks of inflows and returns exceeding 10% year-to-date.</li>
-            <li>The eurozone's GDP is projected to grow by 0.9% in 2025, a downward revision from earlier forecasts, primarily due to heightened trade tensions and global uncertainty. Inflation is expected to average 2.0% in 2025, aligning with the European Central Bank's (ECB) target, before dipping to 1.6%.</li>
-            <li>The US 10-year yield rose over the month as strong jobs data and sticky inflation reduced the likelihood of a July Fed rate cut, while fiscal concerns mounted following Senate approval of a $3.3 trillion deficit-financed tax bill.</li>
-            <li>Australian government bond yields ended June slightly higher at the long end, while the 2-year yield eased as markets began to price in rate cuts in 2026 amid softening growth momentum. The yield curve steepened modestly, with RBA commentary remaining hawkish due to persistent services inflation and a tight labour market.</li>
-            <li>Gold miners delivered 60% for the year. Gold is set to surpass metallurgical coal to become Australia's 3rd biggest resource export earner in 2025-2026.</li>
+            <li>August delivered broad gains across global equities and bonds, driven by actual and expected rate cuts.</li>
+            <li>9 of 11 S&P/ASX 200 sectors advanced, with Materials and Consumer Discretionary leading gains. Meanwhile Health Care fell 13% due to a CSL sell-off following its spinoff announcement. Information Technology remained under pressure.</li>
+            <li>Value, Equal Weight, and High Dividend each rose 6%. Growth lagged as the weakest performer year-to-date.</li>
+            <li>Chinese equities outperformed, as onshore markets rebounded and narrowed the gap with offshore stocks.</li>
+            <li>U.S. equities recorded a fourth consecutive month of gains, with the S&P 500 rising 2% in August, despite a sharp final-day sell-off. Market sentiment was supported by optimism around potential Federal Reserve rate cuts and continued strength in Big Tech.</li>
+            <li>The rally broadened across market segments, with mid- and small-cap stocks outperforming large caps.</li>
+            <li>Most sectors posted positive returns, led by Materials and Health Care; Health Care recovered losses from July. Utilities was the only sector to decline.</li>
+            <li>European equities gained for the month, extending their positive run for the quarter. Sector leaders were Health Care (+4%+) and Consumer Staples (+3%+). Information Technology, Utilities, and Industrials posted modest losses of under 2%, not enough to offset the index's overall gains.</li>
+            <li>US fixed income indices all posted gains amid fluctuating yields and shifting rate expectations.</li>
+            <li>The Reserve Bank of Australia and Reserve Bank of New Zealand each reduced key rates by 25bps.</li>
+            <li>Commodities participated in the rally, led by Livestock. Precious Metals strengthened, with Gold reaching another record high, driven by renewed safe-haven demand.</li>           
         </ul>
         <br>
                                                               
@@ -93,16 +93,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 55 SMA</h1>
-                    <h4>Updated to: 30 June 2025</h2>
+                    <h4>Updated to: 31 August 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 55 SMA delivered 0.9% for the month, and 3.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 55 SMA delivered 1.3% for the month, and 3.5% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 55 SMA delivered 9.4%, significantly beating Inflation by 7.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 55 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
@@ -120,7 +120,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+10.80%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.96%)</li><li>The asset class with the highest absolute return was International Shares (+55.23%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.91%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+3.33%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.99%) impact on relative performance of the portfolio.</li></ul>
+                    
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
