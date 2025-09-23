@@ -44,7 +44,7 @@
      
                     <h4>Exposure Summary</h4>
                     <div class="iframe-container">
-                        <iframe src="./Charts/3_Alloc_Mgr_Level_2.html" height="600px" width="600px"></iframe>
+                        <iframe src="./Charts/3_Alloc_Mgr_Level_2_small.html" height="720px" width="600px"></iframe>
                         <iframe src="./Charts/3_Allocation_History.html" height="600px" width="600px"></iframe>
                     </div>
                    
