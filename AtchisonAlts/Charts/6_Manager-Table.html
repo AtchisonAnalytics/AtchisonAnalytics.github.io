@@ -9,7 +9,7 @@
                                             /* Add CSS style for table */
                                             table.dataframe {
                                                 border-collapse: collapse;
-                                                max-width: 950px; /* Restrict table width to a maximum of 950px */
+                                                max-width: 1250px; /* Restrict table width to a maximum of 950px */
                                                 width: 100%;
                                                 border-radius: 10px; /* Adjust the border radius as needed */
                                                 overflow: hidden; /* Ensure the border-radius is applied */
@@ -21,6 +21,13 @@
                                                 padding: 8px; /* Adjust padding as needed */
                                                 text-align: center; /* Adjust text alignment as needed */
                                             }
+                                            
+                                            /* Make second column (names) wider */
+                                            table.dataframe td:nth-child(2),
+                                            table.dataframe th:nth-child(2) {
+                                                width: 300px;  /* or adjust as needed */
+                                                text-align: left;
+                                            }
 
                                             table.dataframe th {
                                                 background-color: #3D555E; /* Optional: Add background color for header */
@@ -31,203 +38,185 @@
                                             tr:hover {
                                                 background-color: #1DC8F2;
                                             }
+                                            
+                                            table.dataframe {
+                                                border-collapse: collapse;
+                                                max-width: 1300px;
+                                                width: 100%;
+                                                border-radius: 10px;
+                                                overflow: hidden;
+                                            }
+                                        
+                                            table.dataframe th,
+                                            table.dataframe td {
+                                                border: none;
+                                                padding: 8px;
+                                                text-align: center;
+                                            }
+                                        
+                                            table.dataframe th {
+                                                background-color: #3D555E;
+                                                color: #E7EAEB;
+                                            }
+                                        
+                                            /* Base hover effect */
+                                            tr:hover {
+                                                background-color: #1DC8F2;
+                                            }
+                                        
+                                            tr.bm-row {
+                                                background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
                                         </style>
                                     </head>
                                     <body>
-                                        <table border="1" class="dataframe">
+                                        <table class="dataframe">
   <thead>
-    <tr style="text-align: center;">
+    <tr>
       <th></th>
+      <th>ShortName</th>
       <th>1 Month</th>
-      <th>2 Months</th>
       <th>3 Months</th>
       <th>6 Months</th>
       <th>1 Year</th>
       <th>2 Years (p.a.)</th>
       <th>3 Years (p.a.)</th>
-      <th>4 Years (p.a.)</th>
       <th>5 Years (p.a.)</th>
-      <th>6 Years (p.a.)</th>
       <th>7 Years (p.a.)</th>
-      <th>8 Years (p.a.)</th>
       <th>Since Inception (p.a.)</th>
-    </tr>
-    <tr>
-      <th>Code</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>GPEQ-AU</th>
+      <td>VE Global Listed P Private ETF</td>
       <td>-1.99</td>
-      <td>3.16</td>
       <td>7.35</td>
       <td>0.52</td>
       <td>19.99</td>
       <td>23.92</td>
       <td>24.17</td>
-      <td>8.71</td>
       <td>6.91</td>
-      <td>5.72</td>
       <td>4.89</td>
-      <td>4.26</td>
       <td>4.17</td>
     </tr>
     <tr>
       <th>AUS0035AU</th>
+      <td>Talaria GE</td>
       <td>2.17</td>
-      <td>2.59</td>
       <td>1.43</td>
-      <td>-0.90</td>
+      <td>-0.9</td>
       <td>5.36</td>
       <td>5.48</td>
       <td>10.43</td>
-      <td>8.97</td>
       <td>11.39</td>
-      <td>8.42</td>
       <td>8.04</td>
-      <td>9.15</td>
       <td>8.63</td>
     </tr>
     <tr>
       <th>MAQ5143AU</th>
+      <td>P/E FX Alpha</td>
       <td>-5.51</td>
-      <td>3.08</td>
       <td>-4.28</td>
       <td>-15.86</td>
       <td>-0.77</td>
-      <td>-0.70</td>
+      <td>-0.7</td>
       <td>0.43</td>
-      <td>8.13</td>
       <td>5.93</td>
-      <td>3.80</td>
-      <td>5.80</td>
-      <td>6.77</td>
-      <td>5.50</td>
+      <td>5.8</td>
+      <td>5.5</td>
     </tr>
     <tr>
       <th>CNA0805AU</th>
+      <td>Invesco Senior Secured</td>
       <td>0.79</td>
-      <td>1.66</td>
       <td>1.62</td>
       <td>2.07</td>
       <td>5.15</td>
       <td>5.99</td>
       <td>6.17</td>
-      <td>4.25</td>
       <td>5.73</td>
-      <td>4.24</td>
       <td>3.92</td>
-      <td>4.03</td>
       <td>4.02</td>
     </tr>
     <tr>
       <th>PER0728AU</th>
+      <td>Pyford Global Abs</td>
       <td>0.74</td>
-      <td>1.54</td>
       <td>1.99</td>
       <td>5.07</td>
       <td>8.48</td>
       <td>8.31</td>
       <td>9.11</td>
-      <td>6.89</td>
       <td>7.24</td>
-      <td>6.25</td>
       <td>6.19</td>
-      <td>6.21</td>
-      <td>6.00</td>
+      <td>6.0</td>
     </tr>
     <tr>
       <th>GLDN-AU</th>
+      <td>iShares Physical Gold</td>
       <td>2.12</td>
-      <td>3.83</td>
       <td>1.69</td>
       <td>13.08</td>
       <td>40.92</td>
       <td>28.72</td>
       <td>18.34</td>
-      <td>13.46</td>
       <td>10.64</td>
-      <td>8.78</td>
       <td>7.48</td>
-      <td>6.52</td>
       <td>6.38</td>
     </tr>
     <tr>
       <th>PIM7967AU</th>
+      <td>Barwon LPE</td>
       <td>1.06</td>
-      <td>4.64</td>
       <td>9.41</td>
       <td>1.47</td>
       <td>6.33</td>
       <td>15.85</td>
       <td>15.19</td>
-      <td>5.78</td>
       <td>13.45</td>
-      <td>11.79</td>
       <td>10.02</td>
-      <td>8.72</td>
       <td>8.53</td>
     </tr>
-    <tr>
+    <tr class="bm-row">
       <th>BM_Alts</th>
+      <td>BM: Alternatives</td>
       <td>0.31</td>
-      <td>0.63</td>
       <td>0.96</td>
       <td>2.02</td>
       <td>4.34</td>
       <td>4.42</td>
       <td>4.09</td>
-      <td>3.15</td>
       <td>2.52</td>
-      <td>2.21</td>
       <td>2.14</td>
-      <td>2.10</td>
       <td>2.09</td>
     </tr>
     <tr>
       <th>BILL-AU</th>
-      <td>0.30</td>
-      <td>0.62</td>
+      <td>iShares Cash</td>
+      <td>0.3</td>
       <td>0.93</td>
       <td>2.02</td>
       <td>4.35</td>
       <td>4.41</td>
       <td>4.08</td>
-      <td>3.14</td>
       <td>2.53</td>
-      <td>2.22</td>
       <td>2.16</td>
-      <td>2.12</td>
       <td>2.12</td>
     </tr>
     <tr>
       <th>AUD</th>
+      <td>Cash</td>
       <td>0.31</td>
-      <td>0.63</td>
       <td>0.96</td>
       <td>2.02</td>
       <td>4.34</td>
       <td>4.42</td>
       <td>4.09</td>
-      <td>3.15</td>
       <td>2.52</td>
-      <td>2.21</td>
       <td>2.14</td>
-      <td>2.10</td>
       <td>2.09</td>
     </tr>
   </tbody>

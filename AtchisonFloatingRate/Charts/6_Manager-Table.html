@@ -9,7 +9,7 @@
                                             /* Add CSS style for table */
                                             table.dataframe {
                                                 border-collapse: collapse;
-                                                max-width: 950px; /* Restrict table width to a maximum of 950px */
+                                                max-width: 1250px; /* Restrict table width to a maximum of 950px */
                                                 width: 100%;
                                                 border-radius: 10px; /* Adjust the border radius as needed */
                                                 overflow: hidden; /* Ensure the border-radius is applied */
@@ -21,6 +21,13 @@
                                                 padding: 8px; /* Adjust padding as needed */
                                                 text-align: center; /* Adjust text alignment as needed */
                                             }
+                                            
+                                            /* Make second column (names) wider */
+                                            table.dataframe td:nth-child(2),
+                                            table.dataframe th:nth-child(2) {
+                                                width: 300px;  /* or adjust as needed */
+                                                text-align: left;
+                                            }
 
                                             table.dataframe th {
                                                 background-color: #3D555E; /* Optional: Add background color for header */
@@ -31,155 +38,146 @@
                                             tr:hover {
                                                 background-color: #1DC8F2;
                                             }
+                                            
+                                            table.dataframe {
+                                                border-collapse: collapse;
+                                                max-width: 1300px;
+                                                width: 100%;
+                                                border-radius: 10px;
+                                                overflow: hidden;
+                                            }
+                                        
+                                            table.dataframe th,
+                                            table.dataframe td {
+                                                border: none;
+                                                padding: 8px;
+                                                text-align: center;
+                                            }
+                                        
+                                            table.dataframe th {
+                                                background-color: #3D555E;
+                                                color: #E7EAEB;
+                                            }
+                                        
+                                            /* Base hover effect */
+                                            tr:hover {
+                                                background-color: #1DC8F2;
+                                            }
+                                        
+                                            tr.bm-row {
+                                                background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
                                         </style>
                                     </head>
                                     <body>
-                                        <table border="1" class="dataframe">
+                                        <table class="dataframe">
   <thead>
-    <tr style="text-align: center;">
+    <tr>
       <th></th>
+      <th>ShortName</th>
       <th>1 Month</th>
-      <th>2 Months</th>
       <th>3 Months</th>
       <th>6 Months</th>
       <th>1 Year</th>
       <th>2 Years (p.a.)</th>
       <th>3 Years (p.a.)</th>
-      <th>4 Years (p.a.)</th>
       <th>5 Years (p.a.)</th>
-      <th>6 Years (p.a.)</th>
       <th>7 Years (p.a.)</th>
-      <th>8 Years (p.a.)</th>
       <th>Since Inception (p.a.)</th>
-    </tr>
-    <tr>
-      <th>Code</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>FLOT-AU</th>
+      <td>VanEck FRN</td>
       <td>0.54</td>
-      <td>1.05</td>
       <td>1.25</td>
       <td>2.45</td>
       <td>5.28</td>
       <td>5.21</td>
       <td>4.93</td>
-      <td>3.61</td>
       <td>3.02</td>
-      <td>2.79</td>
       <td>2.78</td>
-      <td>2.74</td>
       <td>2.75</td>
     </tr>
     <tr>
       <th>ISEC-AU</th>
-      <td>0.30</td>
-      <td>0.58</td>
+      <td>iShares Enh Cash</td>
+      <td>0.3</td>
       <td>0.97</td>
       <td>2.06</td>
       <td>4.46</td>
       <td>4.53</td>
       <td>4.21</td>
-      <td>3.23</td>
       <td>2.62</td>
-      <td>2.32</td>
       <td>2.28</td>
-      <td>2.26</td>
       <td>2.27</td>
     </tr>
     <tr>
       <th>IOF0127AU</th>
+      <td>Janus Div Credit</td>
       <td>0.73</td>
-      <td>1.64</td>
       <td>1.52</td>
       <td>3.09</td>
       <td>6.81</td>
       <td>7.04</td>
       <td>6.87</td>
-      <td>4.37</td>
       <td>4.64</td>
-      <td>4.63</td>
       <td>4.59</td>
-      <td>4.40</td>
-      <td>4.40</td>
+      <td>4.4</td>
     </tr>
     <tr>
       <th>WPC1963AU</th>
+      <td>Daintree Core Inc</td>
       <td>0.63</td>
-      <td>1.29</td>
       <td>1.74</td>
       <td>2.35</td>
       <td>6.07</td>
       <td>7.26</td>
       <td>6.38</td>
-      <td>3.94</td>
       <td>3.71</td>
-      <td>3.35</td>
       <td>3.49</td>
-      <td>3.40</td>
-      <td>3.40</td>
+      <td>3.4</td>
     </tr>
     <tr>
       <th>CSA0038AU</th>
+      <td>Bentham Global Inc</td>
       <td>-0.16</td>
-      <td>-0.38</td>
       <td>0.59</td>
       <td>1.32</td>
       <td>2.74</td>
       <td>6.79</td>
       <td>5.01</td>
-      <td>3.94</td>
       <td>4.84</td>
-      <td>4.35</td>
       <td>3.77</td>
-      <td>4.01</td>
       <td>3.98</td>
     </tr>
-    <tr>
+    <tr class="bm-row">
       <th>BM_Floating</th>
+      <td>BM: Floating</td>
       <td>0.44</td>
-      <td>0.86</td>
       <td>1.22</td>
       <td>2.38</td>
       <td>5.05</td>
       <td>5.21</td>
       <td>4.86</td>
-      <td>3.59</td>
       <td>3.02</td>
       <td>2.78</td>
-      <td>2.78</td>
-      <td>2.73</td>
       <td>2.76</td>
     </tr>
     <tr>
       <th>AUD</th>
+      <td>Cash</td>
       <td>0.31</td>
-      <td>0.63</td>
       <td>0.96</td>
       <td>2.02</td>
       <td>4.34</td>
       <td>4.42</td>
       <td>4.09</td>
-      <td>3.15</td>
       <td>2.52</td>
-      <td>2.21</td>
       <td>2.14</td>
-      <td>2.10</td>
       <td>2.09</td>
     </tr>
   </tbody>

@@ -9,7 +9,7 @@
                                             /* Add CSS style for table */
                                             table.dataframe {
                                                 border-collapse: collapse;
-                                                max-width: 950px; /* Restrict table width to a maximum of 950px */
+                                                max-width: 1250px; /* Restrict table width to a maximum of 950px */
                                                 width: 100%;
                                                 border-radius: 10px; /* Adjust the border radius as needed */
                                                 overflow: hidden; /* Ensure the border-radius is applied */
@@ -21,6 +21,13 @@
                                                 padding: 8px; /* Adjust padding as needed */
                                                 text-align: center; /* Adjust text alignment as needed */
                                             }
+                                            
+                                            /* Make second column (names) wider */
+                                            table.dataframe td:nth-child(2),
+                                            table.dataframe th:nth-child(2) {
+                                                width: 300px;  /* or adjust as needed */
+                                                text-align: left;
+                                            }
 
                                             table.dataframe th {
                                                 background-color: #3D555E; /* Optional: Add background color for header */
@@ -31,187 +38,172 @@
                                             tr:hover {
                                                 background-color: #1DC8F2;
                                             }
+                                            
+                                            table.dataframe {
+                                                border-collapse: collapse;
+                                                max-width: 1300px;
+                                                width: 100%;
+                                                border-radius: 10px;
+                                                overflow: hidden;
+                                            }
+                                        
+                                            table.dataframe th,
+                                            table.dataframe td {
+                                                border: none;
+                                                padding: 8px;
+                                                text-align: center;
+                                            }
+                                        
+                                            table.dataframe th {
+                                                background-color: #3D555E;
+                                                color: #E7EAEB;
+                                            }
+                                        
+                                            /* Base hover effect */
+                                            tr:hover {
+                                                background-color: #1DC8F2;
+                                            }
+                                        
+                                            tr.bm-row {
+                                                background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
                                         </style>
                                     </head>
                                     <body>
-                                        <table border="1" class="dataframe">
+                                        <table class="dataframe">
   <thead>
-    <tr style="text-align: center;">
+    <tr>
       <th></th>
+      <th>ShortName</th>
       <th>1 Month</th>
-      <th>2 Months</th>
       <th>3 Months</th>
       <th>6 Months</th>
       <th>1 Year</th>
       <th>2 Years (p.a.)</th>
       <th>3 Years (p.a.)</th>
-      <th>4 Years (p.a.)</th>
       <th>5 Years (p.a.)</th>
-      <th>6 Years (p.a.)</th>
       <th>7 Years (p.a.)</th>
-      <th>8 Years (p.a.)</th>
       <th>Since Inception (p.a.)</th>
-    </tr>
-    <tr>
-      <th>Code</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>IOZ-AU</th>
+      <td>iShares ASX 200</td>
       <td>3.16</td>
-      <td>5.54</td>
       <td>7.09</td>
       <td>11.76</td>
       <td>14.79</td>
       <td>14.72</td>
       <td>12.98</td>
-      <td>8.58</td>
       <td>12.23</td>
-      <td>9.14</td>
       <td>9.07</td>
-      <td>9.85</td>
       <td>9.72</td>
     </tr>
     <tr>
       <th>HOW2217AU</th>
+      <td>Merlon Concentrated AusEq</td>
       <td>1.99</td>
-      <td>6.31</td>
       <td>6.93</td>
       <td>8.21</td>
       <td>13.17</td>
       <td>12.46</td>
-      <td>13.30</td>
-      <td>12.27</td>
+      <td>13.3</td>
       <td>15.19</td>
-      <td>10.83</td>
       <td>9.54</td>
-      <td>9.38</td>
       <td>9.27</td>
     </tr>
     <tr>
       <th>AAP5529AU</th>
+      <td>Ausbil Aus Small</td>
       <td>12.56</td>
-      <td>16.89</td>
       <td>17.97</td>
       <td>26.81</td>
       <td>43.63</td>
       <td>34.48</td>
-      <td>24.00</td>
-      <td>15.28</td>
+      <td>24.0</td>
       <td>22.79</td>
-      <td>21.59</td>
       <td>18.39</td>
-      <td>18.58</td>
       <td>18.53</td>
     </tr>
     <tr>
       <th>CNA0812AU</th>
-      <td>8.40</td>
-      <td>10.36</td>
+      <td>Invesco Aus Small</td>
+      <td>8.4</td>
       <td>10.43</td>
       <td>15.31</td>
       <td>21.67</td>
       <td>17.83</td>
       <td>12.08</td>
-      <td>6.46</td>
       <td>10.64</td>
-      <td>9.32</td>
-      <td>8.10</td>
-      <td>9.82</td>
+      <td>8.1</td>
       <td>9.71</td>
     </tr>
     <tr>
       <th>HOW0035AU</th>
+      <td>Greencape High Convic</td>
       <td>1.04</td>
-      <td>4.12</td>
       <td>4.46</td>
       <td>3.49</td>
       <td>6.37</td>
-      <td>11.20</td>
+      <td>11.2</td>
       <td>11.71</td>
-      <td>6.91</td>
       <td>10.99</td>
-      <td>9.80</td>
       <td>8.86</td>
-      <td>10.21</td>
       <td>10.19</td>
     </tr>
     <tr>
       <th>BNT0003AU</th>
+      <td>Hyperion Aus Growth</td>
       <td>-3.48</td>
-      <td>1.55</td>
       <td>3.56</td>
       <td>6.86</td>
       <td>8.04</td>
       <td>16.81</td>
       <td>14.35</td>
-      <td>2.39</td>
       <td>8.86</td>
-      <td>11.54</td>
       <td>10.24</td>
-      <td>12.51</td>
       <td>11.59</td>
     </tr>
     <tr>
       <th>CNA0811AU</th>
+      <td>Invesco WS Aus Share</td>
       <td>3.01</td>
-      <td>4.49</td>
       <td>5.51</td>
-      <td>11.60</td>
+      <td>11.6</td>
       <td>15.28</td>
       <td>15.95</td>
-      <td>13.10</td>
-      <td>8.64</td>
+      <td>13.1</td>
       <td>11.89</td>
-      <td>9.62</td>
       <td>9.07</td>
-      <td>10.30</td>
       <td>10.21</td>
     </tr>
-    <tr>
+    <tr class="bm-row">
       <th>BM_AusShares</th>
-      <td>3.10</td>
-      <td>5.52</td>
-      <td>7.00</td>
+      <td>BM: Australian Shares</td>
+      <td>3.1</td>
+      <td>7.0</td>
       <td>11.61</td>
       <td>14.66</td>
       <td>14.68</td>
       <td>12.94</td>
-      <td>8.57</td>
       <td>12.21</td>
-      <td>9.11</td>
       <td>9.07</td>
-      <td>9.82</td>
-      <td>9.70</td>
+      <td>9.7</td>
     </tr>
     <tr>
       <th>AUD</th>
+      <td>Cash</td>
       <td>0.31</td>
-      <td>0.63</td>
       <td>0.96</td>
       <td>2.02</td>
       <td>4.34</td>
       <td>4.42</td>
       <td>4.09</td>
-      <td>3.15</td>
       <td>2.52</td>
-      <td>2.21</td>
       <td>2.14</td>
-      <td>2.10</td>
       <td>2.09</td>
     </tr>
   </tbody>
