@@ -1,0 +1,221 @@
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Atchison - Macro Regime Analysis</title>
+                <style>
+                    body {
+                        background-color: #3D555E;
+                        color: #3D555E;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                        line-height: 1.5;
+                    }
+
+                    .container {
+                        background-color: white;
+                        padding: 0 5%; /* Add a 5% padding on both sides */
+                        box-sizing: border-box; /* Include padding in width calculation */
+                    }
+
+                    .content {
+                        max-width: 1000px; /* Adjust as needed */
+                        margin: 0 auto; /* Center the content */
+                    }
+
+                    h1, h2 {
+                        color: #3D555E;
+                    }
+
+                    h4 {
+                        font-style: italic;
+                    }
+
+                    table {
+                        width: 50%;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                        color: black;
+                    }
+
+
+                    iframe {
+                        display: block;
+                        margin: 20px auto;
+                        border: none;
+                        width: 100%;
+                        max-width: 100%; /* Make sure iframes don't overflow */
+                    }
+
+                    p, ul {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    .logo-container {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .logo {
+                        margin-right: 20px; /* Adjust the spacing between logos */
+                    }
+
+                    @media only screen and (min-width: 600px) {
+                        .container {
+                            margin-left: 15%;
+                            margin-right: 15%;
+                        }
+                    }
+
+                    /* Define styles for printing */
+                    @media print {
+                        body {
+                            margin: 0; /* Adjust the margin as needed */
+                            padding-top: 3cm; /* Add padding to prevent cutting off the top */
+                            padding-bottom: 3cm; /* Add padding to prevent cutting off the bottom */
+                        }
+
+                        .container {
+                            padding: 0;
+                            margin: 0;
+                        }
+
+                        .page-break {
+                            page-break-before: always;
+                        }
+
+                        h1, h2, h4, p, ul {
+                            orphans: 2; /* Minimum number of lines to be left at the bottom of the page */
+                            widows: 2;  /* Minimum number of lines to be left at the top of the page */
+                        }
+
+                        table, iframe {
+                            page-break-inside: avoid;
+                        }
+
+                    }
+
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="content">
+                        <iframe src="../assetsHTML/Atchison-logo.png" height="50px" width="auto" style="float: left;">></iframe>
+                        <div style="clear: left;"></div>
+                        <h1>Atchison Macro Regime Analysis</h1>
+                        <h2>31 August 2025</h2>
+                        <br>
+
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>CURRENT REGIME POSITIONING</h2>
+                        <h4>Current Major Economic Regime Position</h4>
+                        <p>The below chart provides current signal positioning across major economies. The large circles represent the latest datapoint with the trail showing their paths over the last 12 months.</p>
+                        <iframe src="./All_Country_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <ul>
+                            <li>US Regime remains resilient, with 4th month of growth indicators landing above the line, continuing the current trend of indicator improvements since Liberation Day fears.</li>
+                            <li>Europe, Australia and UK all remain type 1 with improving fundamental signals.</li>
+                            <li>China remains in falling growth territory, however relative improvement has occurred in the last month.</li>
+                            <li>Japan maintains a spike in growth signals, and is looking like it will transition from Type 2 to Type 1 as early inflation peak signals appear.</li>
+                        </ul>
+
+
+                        <p>Our model trades as a 6-18 month time horizon. Relative to recent positions, the model suggests overweight developed equities, particuarly US, and a relative increase of Japanese betas.</p>
+                        <br>
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+
+                        <h2>BACKGROUND</h2>
+
+                        <p>Proprietary research has built a signal model to identify key current economic conditions on a Country-by-Country basis that then provides predictive power regarding expected forward equity market returns.</p>
+                        <p>The intent is to provide repeatable insights as to the relative attractiveness of major global equity markets – as well as assist in the decision regarding timing of active management decisions – whether expressed via use of Country or Industry specific ETFs or via selection of Active Managers.</p>
+                        <p>Significant research highlights persistent underlying factors within equity market driving absolute and relative attractiveness of different strategies.</p>
+                        <p>Further details regarding our method applied and current regime settings are provided below.</p>
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>EQUITY MARKET REGIME METHOD</h2>
+                        <p>Our primary equity market model identifies the current intersection of inflation and forward looking growth signals per country.</p>
+                        <p></p>
+
+                        <h4>Regime Quartiles</h4>
+                        <iframe src="./BackgroundImages/RegimeQuartilesSmall.png" height="420px" width="950px"></iframe>
+                        <h4>Summary Results of Historical Trend Analysis</h4>
+                        <iframe src="./BackgroundImages/US_BackTestTable.png" height="350px" width="950px"></iframe>
+                        <h4>US Growth Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/CLIRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Inflation Signal Overlay vs S&P 500</h4>
+                        <iframe src="./USA/USA500/InflationRegimes.html" height="650px" width="950px"></iframe>
+                        <h4>US Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./USA/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+                        <h4>Aust Raw Signal Distribution Since 1958</h4>
+                        <iframe src="./Aust/Last_60Yr_SNAILTRAIL.html" height="750px" width="950px"></iframe>
+
+
+                        <br>
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+
+                        <h2>US INDUSTRY ANALYSIS</h2>
+
+                        <iframe src="./BackgroundImages/US_SectorTable.png" height="400px" width="950px"></iframe>
+
+
+
+                        <br>
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <hr style="border-color: #1DC8F2; width: 100%; margin: 0 auto;">
+                        <h2>MARKET OVERVIEW - August 2025</h2>
+                        <ul>
+                            <li>August delivered broad gains across global equities and bonds, driven by actual and expected rate cuts.</li>
+            <li>9 of 11 S&P/ASX 200 sectors advanced, with Materials and Consumer Discretionary leading gains. Meanwhile Health Care fell 13% due to a CSL sell-off following its spinoff announcement. Information Technology remained under pressure.</li>
+            <li>Value, Equal Weight, and High Dividend each rose 6%. Growth lagged as the weakest performer year-to-date.</li>
+            <li>Chinese equities outperformed, as onshore markets rebounded and narrowed the gap with offshore stocks.</li>
+            <li>U.S. equities recorded a fourth consecutive month of gains, with the S&P 500 rising 2% in August, despite a sharp final-day sell-off. Market sentiment was supported by optimism around potential Federal Reserve rate cuts and continued strength in Big Tech.</li>
+            <li>The rally broadened across market segments, with mid- and small-cap stocks outperforming large caps.</li>
+            <li>Most sectors posted positive returns, led by Materials and Health Care; Health Care recovered losses from July. Utilities was the only sector to decline.</li>
+            <li>European equities gained for the month, extending their positive run for the quarter. Sector leaders were Health Care (+4%+) and Consumer Staples (+3%+). Information Technology, Utilities, and Industrials posted modest losses of under 2%, not enough to offset the index’s overall gains.</li>
+            <li>US fixed income indices all posted gains amid fluctuating yields and shifting rate expectations.</li>
+            <li>The Reserve Bank of Australia and Reserve Bank of New Zealand each reduced key rates by 25bps.</li>
+            <li>Commodities participated in the rally, led by Livestock. Precious Metals strengthened, with Gold reaching another record high, driven by renewed safe-haven demand.</li>
+                        </ul>
+                        <br>
+
+                        <h2>CONTACT US</h2>
+                        <p>Please reach out via phone or email below:</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+                        <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+                        <br>
+
+
+        <br>
+        <h2>FINE PRINT</h2>
+        <p>Important Notice: This document is published by TAG Asset Consulting Group Pty Ltd, trading as Atchison Consultants, ABN 58 097 703 047, AFSL 230 846. Atchison Consultants distributes its investment solutions via platform and dealer groups (financial advisory groups).</p> 
+        <p>Warning: Please be advised that past performance is not indicative of future performance. The returns discussed herein are based on model asset allocations and are for illustrative purposes only. Actual returns may differ due to variations in fees, timing of model change implementation, and the need to substitute individual holdings where reliable data was not available from our data providers. Any insights or recommendations provided in this document are intended for general advice purposes only and are based on our opinion of the investment merits of the financial products discussed, independent of the financial circumstances of any individual. Before proceeding with any investment based on the information provided, recipients must assess its suitability to their financial situation and consider seeking advice from an independent financial advisor.</p> 
+        <p>Disclaimer: While care is taken to ensure the accuracy and completeness of the information presented herein, no warranties or representations are made as to its reliability. The content provided is derived from publicly available sources, or external data providers, which have not been independently verified by Atchison Consultants. Atchison Consultants, along with its directors, officers, employees, and agents, expressly disclaims any liability for errors, inaccuracies, or omissions in this document, as well as for any loss or damage that may arise from reliance on its contents. Readers are cautioned to verify all information independently before taking any actions based on this report.</p>
+        <br>
+    
+
+                    </div>
+                </div>
+            </body>
+            </html>
+
+        
