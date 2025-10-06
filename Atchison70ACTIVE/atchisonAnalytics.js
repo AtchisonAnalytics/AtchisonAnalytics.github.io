@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 31 August 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 30 September 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 70 SMA delivered 1.5% for the month, and 4.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 10.6%, significantly beating Inflation by 8.7%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 70 SMA delivered 0.5% for the month, and 3.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,22 +69,23 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.02%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.71%)</li><li>The asset class with the highest absolute return was International Shares (+61.94%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.07%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - August 2025</h2>
+        <h2>MARKET OVERVIEW - September 2025</h2>
         <ul>
-            <li>August delivered broad gains across global equities and bonds, driven by actual and expected rate cuts.</li>
-            <li>9 of 11 S&P/ASX 200 sectors advanced, with Materials and Consumer Discretionary leading gains. Meanwhile Health Care fell 13% due to a CSL sell-off following its spinoff announcement. Information Technology remained under pressure.</li>
-            <li>Value, Equal Weight, and High Dividend each rose 6%. Growth lagged as the weakest performer year-to-date.</li>
-            <li>Chinese equities outperformed, as onshore markets rebounded and narrowed the gap with offshore stocks.</li>
-            <li>U.S. equities recorded a fourth consecutive month of gains, with the S&P 500 rising 2% in August, despite a sharp final-day sell-off. Market sentiment was supported by optimism around potential Federal Reserve rate cuts and continued strength in Big Tech.</li>
-            <li>The rally broadened across market segments, with mid- and small-cap stocks outperforming large caps.</li>
-            <li>Most sectors posted positive returns, led by Materials and Health Care; Health Care recovered losses from July. Utilities was the only sector to decline.</li>
-            <li>European equities gained for the month, extending their positive run for the quarter. Sector leaders were Health Care (+4%+) and Consumer Staples (+3%+). Information Technology, Utilities, and Industrials posted modest losses of under 2%, not enough to offset the index's overall gains.</li>
-            <li>US fixed income indices all posted gains amid fluctuating yields and shifting rate expectations.</li>
-            <li>The Reserve Bank of Australia and Reserve Bank of New Zealand each reduced key rates by 25bps.</li>
-            <li>Commodities participated in the rally, led by Livestock. Precious Metals strengthened, with Gold reaching another record high, driven by renewed safe-haven demand.</li>           
+            <li>September saw global equities extend their rally, supported by the start of the U.S. easing cycle and improving growth sentiment. Bonds also gained as yields moved lower, particularly at the long end of the curve.</li>
+            <li>The S&P/ASX 200 declined 0.8% in September, snapping its five-month winning streak. 9 out of 11 sectors reported losses with financials falling 1.4% detracting meaningfully given their index weight. Energy took the biggest fall returning -9.8% on the back of lower oil price. </li>
+            <li>Materials stood out as the strongest performer on the ASX, rising 6.1% on the back of strength in gold and diversified miners.</li>
+            <li>Emerging markets (+5.7%), particularly China (China Top 50 +6.7%), outperformed developed peers. Improving macro data and continued policy support underpinned performance. </li>
+            <li>U.S. equities recorded a fifth consecutive month of gains. The S&P 500 posted its best September month in 15 years, gaining 3.7%, in what has historically been the worst month for stocks. This was supported by a Federal Reserve rate cut.</li>
+            <li>Large cap equities outperformed mid and smalls in the US. Growth was the dominant factor outperforming value.</li>
+            <li>Sector performance was split in September, with Technology leading the way, bouncing back from a negative August, advancing over 7.5%. Consumer Staples, Materials, and Energy all went negative, with Financials virtually flat at 0.1% in September.</li>
+            <li>European equities advanced 1% for September continuing their positive run. However, german equities have been a drag for the quarter falling 1.2% behind political uncertainty.</li>
+            <li>The Federal Reserve cut the federal funds rate by 25bps in September 2025, bringing it to the 4.00%-4.25% range, in line with expectations. It is the first reduction in borrowing costs since December.</li>
+            <li>The RBA decided to leave the cash rate unchanged at 3.60 per cent at its September meeting. Bond indices were positive or neutral for the month.</li>
+            <li>Commodites exteneded their rally. Gold reached record highs and copper saw a surge in prices. Rare earths performed well due to supply chain strain.</li>
+                       
         </ul>
         <br>
                                                               
@@ -93,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 31 August 2025</h2>
+                    <h4>Updated to: 30 September 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 1.5% for the month, and 4.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 10.6%, significantly beating Inflation by 8.7%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 70 SMA delivered 0.5% for the month, and 3.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
@@ -120,13 +121,13 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.02%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.71%)</li><li>The asset class with the highest absolute return was International Shares (+61.94%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.07%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
-                    <h4>Portfolio Performance Heatmap - Latest Month</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
+                    <h4>Portfolio Performance Heatmap - Latest 3 Months</h4>
+                    <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="1020px" width="950px"></iframe>
                     <br>
                     <h2>LATEST INTRA-MONTH UPDATE</h2>
                     <iframe src="./Charts/1_Performance-Latest.html" height="370px" width="950px"></iframe>
@@ -152,17 +153,14 @@
                     <br>      
                     <h4>Drawdown Periods & Recovery</h4>
                     <iframe src="./Charts/2_Drawdown.html" height="370px" width="950px"></iframe>
-                    <h4>Rolling 3yr Calmar Ratio - Return over Drawdown Risk </h4>
-                    <p>The below Calmar Ratio explains the return achieved relative to the drawdown risk taken. A higher Calmar Ratio indicates a more favorable risk-adjusted return for the investment</p>
-                    <iframe src="./Charts/2_Calmar3yr.html" height="370px" width="950px"></iframe>
+                    
                     <h4>Rolling 3yr Tracking Error - Level of Relative Risk Being Taken</h4>
                     <iframe src="./Charts/2_TE3yr.html" height="370px" width="950px"></iframe>
                     <h4>Rolling 3yr Batting Average - % of Months Outperforming Benchmark Return</h4>
                     <iframe src="./Charts/2_Batting3yr.html" height="370px" width="950px"></iframe>
                     <h4>90 Day Volatility</h4>
                     <iframe src="./Charts/2_Vol90.html" height="370px" width="950px"></iframe>
-                    <h4>1 Year Volatility</h4>
-                    <iframe src="./Charts/2_Vol1yr.html" height="370px" width="950px"></iframe>
+                    
                     
                 `;
                 break;
@@ -312,11 +310,7 @@
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br> 
-                    
-                    <div class="page-break"></div>
-                    <h4>Portfolio Performance Heatmap - Latest Month</h4>
-                    <iframe src="./Charts/6_Sleeve_Treemap1_1Mth.html" height="1020px" width="950px"></iframe>
-
+                                        
                     <div class="page-break"></div>
                     <h4>Portfolio Performance Heatmap - Latest Quarter</h4>
                     <iframe src="./Charts/6_Sleeve_Treemap1_3Mth.html" height="1020px" width="950px"></iframe>
@@ -504,37 +498,37 @@
     <tr>
       <th>0</th>
       <td>Australian Shares</td>
-      <td>BM_Rajomon_AE</td>
+      <td>BM_AusShares</td>
       <td>100% iShares Core S&amp;P/ASX 200 ETF</td>
     </tr>
     <tr>
       <th>1</th>
       <td>International Shares</td>
-      <td>BM_Rajomon_IE</td>
+      <td>BM_IntShares_85DM15EM</td>
       <td>85% Vanguard MSCI Index International Shares ETF + 15% iShares MSCI Emerging Markets ETF</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Real Assets</td>
-      <td>BM_Rajomon_PS</td>
+      <td>BM_RealAssets</td>
       <td>20% AMI Property - Australia Direct + 25% iShares Australian Listed Property ETF + 30% BlackRock iShares Global Listed Property Index (hedged) + 25% Vanguard Global Infrastructure Index ETF</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Alternatives</td>
-      <td>BM_Rajomon_Alts</td>
+      <td>BM_Alts</td>
       <td>100% iShares Core Cash ETF</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Long Duration</td>
-      <td>BM_Rajomon_IS</td>
+      <td>BM_Duration</td>
       <td>50% iShares Core Composite Bond ETF + 50% Vanguard International Fixed Income ETF</td>
     </tr>
     <tr>
       <th>5</th>
       <td>Floating Rate</td>
-      <td>BM_Rajomon_Credit</td>
+      <td>BM_Floating</td>
       <td>100% VanEck Australian Floating Rate ETF</td>
     </tr>
     <tr>
