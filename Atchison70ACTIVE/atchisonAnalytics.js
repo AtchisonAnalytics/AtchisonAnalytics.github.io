@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 30 September 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 31 October 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 70 SMA delivered 0.5% for the month, and 3.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 70 SMA delivered 1.1% for the month, and 3.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 10.4%, significantly beating Inflation by 8.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has marginally underperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,7 +69,7 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.02%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.71%)</li><li>The asset class with the highest absolute return was International Shares (+61.94%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.07%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.97%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.72%)</li><li>The asset class with the highest absolute return was International Shares (+66.42%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+12.47%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
         <h2>MARKET OVERVIEW - September 2025</h2>
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 30 September 2025</h2>
+                    <h4>Updated to: 31 October 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 0.5% for the month, and 3.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 9.6%, significantly beating Inflation by 7.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has  outperformed over the last 12 months. </p>
+                    <p>The Atchison Active 70 SMA delivered 1.1% for the month, and 3.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 10.4%, significantly beating Inflation by 8.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has marginally underperformed over the last 12 months. </p>
                     
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.02%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.71%)</li><li>The asset class with the highest absolute return was International Shares (+61.94%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.07%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.97%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.72%)</li><li>The asset class with the highest absolute return was International Shares (+66.42%)</li><li>Whilst the asset class with the lowest absolute return was Cash (+12.47%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>

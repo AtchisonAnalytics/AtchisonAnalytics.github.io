@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 30 September 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 31 October 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Alternatives SMA delivered 1.4% for the month, and 3.5% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 10.2%, significantly beating Inflation by 8.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Alternatives SMA delivered 0.5% for the month, and 1.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 8.5%, significantly beating Inflation by 6.1%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,8 +69,8 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Physical Gold ETF</li><li>The holding that contributed the least to portfolio return was P/E Global FX Alpha Fund</li><li>The current holding with the highest absolute return has been VanEck Global Listed Private Equity ETF<li>Whilst the current holding with the lowest absolute return has been P/E Global FX Alpha Fund</li></ul>
-                    <p></p><p>P/E Global FX Alpha Fund, established in 1995, offers a strategy focused on actively managed currencies and gold, aiming to deliver attractive absolute returns with low correlation to traditional asset classes like equities and fixed income, particularly excelling in 'risk-off' scenarios – and benchmarked against the RBA Cash Rate. The fund seeks to offer diversification benefits and enhance the risk/return profile within an investor's portfolio.</p><p></p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Physical Gold ETF</li><li>The holding that contributed the least to portfolio return was Barwon Global Listed Private Equity Fund</li><li>The current holding with the highest absolute return has been iShares Physical Gold ETF<li>Whilst the current holding with the lowest absolute return has been P/E Global FX Alpha Fund</li></ul>
+                    <p></p><p></p><p></p><p>P/E Global FX Alpha Fund, established in 1995, offers a strategy focused on actively managed currencies and gold, aiming to deliver attractive absolute returns with low correlation to traditional asset classes like equities and fixed income, particularly excelling in 'risk-off' scenarios – and benchmarked against the RBA Cash Rate. The fund seeks to offer diversification benefits and enhance the risk/return profile within an investor's portfolio.</p>
                     
         <h2>MARKET OVERVIEW - September 2025</h2>
         <ul>
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Alternatives SMA</h1>
-                    <h4>Updated to: 30 September 2025</h2>
+                    <h4>Updated to: 31 October 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Alternatives SMA delivered 1.4% for the month, and 3.5% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 10.2%, significantly beating Inflation by 8.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Alternatives SMA delivered 0.5% for the month, and 1.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 8.5%, significantly beating Inflation by 6.1%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -121,8 +121,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Physical Gold ETF</li><li>The holding that contributed the least to portfolio return was P/E Global FX Alpha Fund</li><li>The current holding with the highest absolute return has been VanEck Global Listed Private Equity ETF<li>Whilst the current holding with the lowest absolute return has been P/E Global FX Alpha Fund</li></ul>
-                    <p></p><p>P/E Global FX Alpha Fund, established in 1995, offers a strategy focused on actively managed currencies and gold, aiming to deliver attractive absolute returns with low correlation to traditional asset classes like equities and fixed income, particularly excelling in 'risk-off' scenarios – and benchmarked against the RBA Cash Rate. The fund seeks to offer diversification benefits and enhance the risk/return profile within an investor's portfolio.</p><p></p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares Physical Gold ETF</li><li>The holding that contributed the least to portfolio return was Barwon Global Listed Private Equity Fund</li><li>The current holding with the highest absolute return has been iShares Physical Gold ETF<li>Whilst the current holding with the lowest absolute return has been P/E Global FX Alpha Fund</li></ul>
+                    <p></p><p></p><p></p><p>P/E Global FX Alpha Fund, established in 1995, offers a strategy focused on actively managed currencies and gold, aiming to deliver attractive absolute returns with low correlation to traditional asset classes like equities and fixed income, particularly excelling in 'risk-off' scenarios – and benchmarked against the RBA Cash Rate. The fund seeks to offer diversification benefits and enhance the risk/return profile within an investor's portfolio.</p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

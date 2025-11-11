@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 30 September 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 31 October 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Real Assets SMA delivered -0.1% for the month, and 3.7% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 3.2%,  beating Inflation by 1.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Real Assets SMA delivered 0.4% for the month, and 2.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 6.2%, materially beating Inflation by 3.8%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,8 +69,8 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been BlackRock iShares Global Listed Property Index</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been Alceon Australian Property</li></ul>
-                    <p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ClearBridge RARE Infrastructure Income Fund - Hedged</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been BlackRock iShares Global Listed Property Index</li></ul>
+                    <p>Clearbridge RARE Infrastructure, founded in 2006, offers investors a long-term reliable earnings stream, which is relatively resilient to changing economic conditions and is largely protected from inflation (based on income indexed to inflation). As such, the asset class typically displays less volatility than broader equities with a lower correlation to other asset classes over the medium to long term. </p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p>
                     
         <h2>MARKET OVERVIEW - September 2025</h2>
         <ul>
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 30 September 2025</h2>
+                    <h4>Updated to: 31 October 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered -0.1% for the month, and 3.7% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 3.2%,  beating Inflation by 1.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Real Assets SMA delivered 0.4% for the month, and 2.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 6.2%, materially beating Inflation by 3.8%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -121,8 +121,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been BlackRock iShares Global Listed Property Index</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been Alceon Australian Property</li></ul>
-                    <p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ClearBridge RARE Infrastructure Income Fund - Hedged</li><li>The holding that contributed the least to portfolio return was Alceon Australian Property</li><li>The current holding with the highest absolute return has been BlackRock iShares WholeSale Australian Listed Property Index<li>Whilst the current holding with the lowest absolute return has been BlackRock iShares Global Listed Property Index</li></ul>
+                    <p>Clearbridge RARE Infrastructure, founded in 2006, offers investors a long-term reliable earnings stream, which is relatively resilient to changing economic conditions and is largely protected from inflation (based on income indexed to inflation). As such, the asset class typically displays less volatility than broader equities with a lower correlation to other asset classes over the medium to long term. </p><p>Alceon Group, established in 2010, aims to provide investors with an actively managed portfolio of recurring income through rental leases, and value add developments via assets with gearing. The Fund comprises a hybrid of listed and unlisted property and infrastructure (like a Fund of Funds, with a mix of about 15-20 Managed Funds). Unlisted and listed property can provide diversification benefits, to diversify away from the volatility of equities. </p><p>The iShares Wholesale Australian Listed Property Index Fund (S Class) tracks the S&P/ASX 300 A-REIT (TR) index, less investment management fee of 0.20 per cent pa, and as such focuses on Australian listed property securities, before fees. Suitable if seeking stability and income potential through real estate investments within Australia.</p><p>iShares Global Listed Property Index Fund (Hedged S Class) delivers investors the market's performance of the FTSE EPRA/NAREIT Developed Index Net TR Index (AUD Hedged), less investment management fees of 0.15 per cent. This Fund provides diversification within the property asset class and is a cost-efficient method of accessing the global listed property sector.</p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>
