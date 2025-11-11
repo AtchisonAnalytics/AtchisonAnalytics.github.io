@@ -1,8 +1,8 @@
 Current Weight,Name,G0,G1,G2,G3,G4,G5,G6,G7,G8,G11,PeerGroup,OptimiserCategory,Type
-30.65735988189806,iShares S&P 500 ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,US,AUD,US,,International Shares,World Other Equity,International Equities - Unhedged,ETF
-31.03741821916201,iShares S&P 500 AUD Hedged ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,US,USD,US,,International Shares,World Other Equity,International Equities - Unhedged,ETF
-11.844786634234188,Vanguard FTSE Europe Shares ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,Europe,AUD,Europe,,International Shares,Europe Equity,International Equities - Unhedged,ETF
-0.980909350625428,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Cash,Domestic Cash,Cash,Cash
-10.615190696468705,GQG Partners Global Equity Fund - A Class,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Quality Bias - Fundamental,,International Shares,World Large Growth Equity,International Equities - Unhedged,MF
-9.324315722433315,Man GLG Asia Opportunitie,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Asia ex. Japan,,International Shares,Asia Pacific ex Japan Equity,International Equities - Unhedged,MF
-5.54001949517829,Fairlight Global Small & Mid Cap Fund (SMID) Class A,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Global SMID,,International Shares,World Mid Small Equity,International Equities - Small Cap,MF
+31.03950789012381,iShares S&P 500 ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,US,AUD,US,,International Shares,World Other Equity,International Equities - Unhedged,ETF
+31.152678421615253,iShares S&P 500 AUD Hedged ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,US,USD,US,,International Shares,World Other Equity,International Equities - Unhedged,ETF
+11.811595308688478,Vanguard FTSE Europe Shares ETF,Growth,International Shares,Global Shares,Global Shares,ETF Index,Europe,AUD,Europe,,International Shares,Europe Equity,International Equities - Unhedged,ETF
+0.9577311063043286,Bank Account,Defensive,Cash,Cash,Cash,ASXStock,Cash,Cash,Bank Account,Cash,Cash,Domestic Cash,Cash,Cash
+10.211835433623202,GQG Partners Global Equity Fund - A Class,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Quality Bias - Fundamental,,International Shares,World Large Growth Equity,International Equities - Unhedged,MF
+9.473200382320938,Man GLG Asia Opportunitie,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Asia ex. Japan,,International Shares,Asia Pacific ex Japan Equity,International Equities - Unhedged,MF
+5.353451457323978,Fairlight Global Small & Mid Cap Fund (SMID) Class A,Growth,International Shares,Global Shares,Global Shares,Active Manager,,,Global SMID,,International Shares,World Mid Small Equity,International Equities - Small Cap,MF

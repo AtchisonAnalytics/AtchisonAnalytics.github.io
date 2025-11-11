@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Dynamic ETF 85 SMA as at 30 September 2025</h2>
+                    <h2>Summary Dashboard for Atchison Dynamic ETF 85 SMA as at 31 October 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Dynamic ETF 85 SMA delivered 1.4% for the month, and 5.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 15.2%, significantly beating Inflation by 13.1%. 
+                    <p>The Atchison Dynamic ETF 85 SMA delivered 2.1% for the month, and 5.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 16.3%, significantly beating Inflation by 14.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 85 SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -69,7 +69,7 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+21.70%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.49%)</li><li>The asset class with the highest absolute return was International Shares (+65.15%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.78%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+23.64%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was International Shares (+71.53%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.17%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
         <h2>MARKET OVERVIEW - September 2025</h2>
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 85 SMA</h1>
-                    <h4>Updated to: 30 September 2025</h2>
+                    <h4>Updated to: 31 October 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 85 SMA delivered 1.4% for the month, and 5.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 15.2%, significantly beating Inflation by 13.1%. 
+                    <p>The Atchison Dynamic ETF 85 SMA delivered 2.1% for the month, and 5.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 16.3%, significantly beating Inflation by 14.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 85 SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+21.70%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.49%)</li><li>The asset class with the highest absolute return was International Shares (+65.15%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.78%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+23.64%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was International Shares (+71.53%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.17%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
