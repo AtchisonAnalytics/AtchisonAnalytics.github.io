@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Dynamic ETF 55 SMA
-        End Date: 31 October 2025
+        End Date: 30 November 2025
         Start Date: 31 December 2022
-        Heatmap Start Date: 30 September 2025  
-        Current Time: 14 November 2025 16:27         
+        Heatmap Start Date: 31 October 2025  
+        Current Time: 04 December 2025 22:26         
 
         

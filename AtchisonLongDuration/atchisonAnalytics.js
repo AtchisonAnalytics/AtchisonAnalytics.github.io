@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Long Duration SMA as at 31 October 2025</h2>
+                    <h2>Summary Dashboard for Atchison Active Long Duration SMA as at 30 November 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Long Duration SMA delivered 0.4% for the month, and 1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 5.9%, materially beating Inflation by 3.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Long Duration SMA delivered -0.7% for the month, and 0.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 4.1%, marginally beating Inflation by 0.3%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally underperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,23 +69,23 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Western Asset Australian Bond Fund - Class A</li><li>The holding that contributed the least to portfolio return was iShares Global Aggregate Bond ESG (AUD Hedged) ETF</li><li>The current holding with the highest absolute return has been Western Asset Australian Bond Fund - Class A<li>Whilst the current holding with the lowest absolute return has been iShares Global Aggregate Bond ESG (AUD Hedged) ETF</li></ul>
-                    <p>Western Asset Management (Western) established in 1971, invests in investment-grade rated, Australian dollar-denominated debt securities issued by the Australian government, state governments, supranational bodies, and Australian and foreign corporate entities. The Fund may also invest in mortgage-backed and asset-backed securities, inflation-linked bonds, and hybrid securities. This strategy tends to perform better during periods of declining or stable interest rates and contracting credit spreads (the difference in yield between two bonds with the same maturity date). </p><p></p><p></p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
+                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
                     
-        <h2>MARKET OVERVIEW - September 2025</h2>
+        <h2>MARKET OVERVIEW - November 2025</h2>
         <ul>
-            <li>September saw global equities extend their rally, supported by the start of the U.S. easing cycle and improving growth sentiment. Bonds also gained as yields moved lower, particularly at the long end of the curve.</li>
-            <li>The S&P/ASX 200 declined 0.8% in September, snapping its five-month winning streak. 9 out of 11 sectors reported losses with financials falling 1.4% detracting meaningfully given their index weight. Energy took the biggest fall returning -9.8% on the back of lower oil price. </li>
-            <li>Materials stood out as the strongest performer on the ASX, rising 6.1% on the back of strength in gold and diversified miners.</li>
-            <li>Emerging markets (+5.7%), particularly China (China Top 50 +6.7%), outperformed developed peers. Improving macro data and continued policy support underpinned performance. </li>
-            <li>U.S. equities recorded a fifth consecutive month of gains. The S&P 500 posted its best September month in 15 years, gaining 3.7%, in what has historically been the worst month for stocks. This was supported by a Federal Reserve rate cut.</li>
-            <li>Large cap equities outperformed mid and smalls in the US. Growth was the dominant factor outperforming value.</li>
-            <li>Sector performance was split in September, with Technology leading the way, bouncing back from a negative August, advancing over 7.5%. Consumer Staples, Materials, and Energy all went negative, with Financials virtually flat at 0.1% in September.</li>
-            <li>European equities advanced 1% for September continuing their positive run. However, german equities have been a drag for the quarter falling 1.2% behind political uncertainty.</li>
-            <li>The Federal Reserve cut the federal funds rate by 25bps in September 2025, bringing it to the 4.00%-4.25% range, in line with expectations. It is the first reduction in borrowing costs since December.</li>
-            <li>The RBA decided to leave the cash rate unchanged at 3.60 per cent at its September meeting. Bond indices were positive or neutral for the month.</li>
-            <li>Commodites exteneded their rally. Gold reached record highs and copper saw a surge in prices. Rare earths performed well due to supply chain strain.</li>
-                       
+            <li>Australia's S&P/ASX 200 retreated 3 percent, while New Zealand's S&P/NZX 50 also finished the month slightly lower.</li>
+            <li>The weakness in the S&P/ASX 200 was driven primarily by Financials, which fell 7 percent. Information Technology performed even more poorly, sliding 12 percent. By contrast, Health Care and Consumer Staples were relative bright spots, each advancing 2 percent.</li>
+            <li>For the month, low volatility as a factor stood out as the only index to deliver a positive return. Growth and Momentum factors, however, were among the weakest performers.</li>
+            <li>Chinese equities dipped in November as early-month gains faded. Weak manufacturing and services data, ongoing property-sector strain, and softer domestic demand weighed on market sentiment.</li>
+            <li>The S&P500 finished muted for the month up 0.13%. Sector performance among large-caps was mixed. Health Care delivered an exceptional 9 percent return. Information Technology fell 4 percent amid renewed worries about an AI-driven valuation bubble, although it recovered strongly toward month end.</li>
+            <li>Mid and small-capitalisation stocks outperformed, with midcaps rising 2 percent and smallcaps gaining 3 percent.</li>
+            <li>Factor performance shifted from the previous month, with Low Volatility and Dividend strategies outperforming High Beta, while Value led Growth.</li>
+            <li>Europe delivered a subdued but positive outcome in November, edging up 1 percent. Health Care stood out as the strongest performing sector, rising 6 percent over the month. At the opposite end, Information Technology declined 4 percent as concerns about stretched valuations weighed on sentiment.</li>
+            <li>Fixed income markets generally remained under pressure. After leaving the cash rate unchanged in early November, the Reserve Bank of Australia is now viewed as more likely to tighten than ease, particularly following stronger than expected inflation data.</li>
+            <li>Most major fixed income indices advanced. U.S. Treasuries firmed as markets priced in a higher likelihood of rate cuts, with the 10-year yield dipping below 4 percent.</li>
+            <li>Crude oil, fell 4 percent, while gold continued its strong run, rising a further 5 percent to take its year to date gain to 57 percent.</li>
+                                
         </ul>
         <br>
                                                               
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Long Duration SMA</h1>
-                    <h4>Updated to: 31 October 2025</h2>
+                    <h4>Updated to: 30 November 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Long Duration SMA delivered 0.4% for the month, and 1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 5.9%, materially beating Inflation by 3.5%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Long Duration SMA delivered -0.7% for the month, and 0.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Long Duration SMA delivered 4.1%, marginally beating Inflation by 0.3%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Long Duration SMA has marginally underperformed over the last 12 months. </p>
                     
                     
                     
@@ -121,8 +121,8 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Western Asset Australian Bond Fund - Class A</li><li>The holding that contributed the least to portfolio return was iShares Global Aggregate Bond ESG (AUD Hedged) ETF</li><li>The current holding with the highest absolute return has been Western Asset Australian Bond Fund - Class A<li>Whilst the current holding with the lowest absolute return has been iShares Global Aggregate Bond ESG (AUD Hedged) ETF</li></ul>
-                    <p>Western Asset Management (Western) established in 1971, invests in investment-grade rated, Australian dollar-denominated debt securities issued by the Australian government, state governments, supranational bodies, and Australian and foreign corporate entities. The Fund may also invest in mortgage-backed and asset-backed securities, inflation-linked bonds, and hybrid securities. This strategy tends to perform better during periods of declining or stable interest rates and contracting credit spreads (the difference in yield between two bonds with the same maturity date). </p><p></p><p></p><p></p>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been ERROR IDENTIFYING</li><li>The holding that contributed the least to portfolio return was ERROR IDENTIFYING</li><li>The current holding with the highest absolute return has been ERROR IDENTIFYING<li>Whilst the current holding with the lowest absolute return has been ERROR IDENTIFYING</li></ul>
+                    <p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p><p>ERROR IDENTIFYING</p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
                     <div class="page-break"></div>

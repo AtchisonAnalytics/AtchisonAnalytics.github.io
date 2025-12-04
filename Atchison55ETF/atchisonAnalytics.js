@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Dynamic ETF 55 SMA as at 31 October 2025</h2>
+                    <h2>Summary Dashboard for Atchison Dynamic ETF 55 SMA as at 30 November 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Dynamic ETF 55 SMA delivered 1.2% for the month, and 3.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 11.4%, significantly beating Inflation by 9.0%. 
+                    <p>The Atchison Dynamic ETF 55 SMA delivered -0.6% for the month, and 1.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 9.2%, significantly beating Inflation by 5.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -69,58 +69,23 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+14.42%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.91%)</li><li>The asset class with the highest absolute return was International Shares (+70.34%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.03%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - October 2025</h2>
+        <h2>MARKET OVERVIEW - November 2025</h2>
         <ul>
-            <li>Australian equities edged higher in October, with the S&P/ASX 200 Index gaining 0.4 per cent, underperforming global peers as the domestic unemployment rate rose to a four-year high.</li>
-            <li>Materials and Energy sectors led the gains, both rising around 4 per cent, while Information Technology and Consumer Discretionary sectors fell sharply by 8 per cent and 7 per cent, respectively.</li>
-            <li>Small caps continued to outperform, with the S&P/ASX Small Ordinaries Index rising 2 per cent in the month and 25 per cent year-to-date, highlighting a strong risk-on rotation into mid and small-cap names.</li>
-            <li>China underperformed regional peers, as investor sentiment remained cautious despite the highly anticipated meeting between US and China.</li>
-            <li>U.S. equities rose, with the S&P 500 Index gaining 2.3 per cent in October on strong earnings from large-cap technology companies and optimism around trade developments.</li>
-            <li>Sector rotation favoured risk, led by Information Technology up 6.2 per cent, while Financials and Materials lagged with declines of 2.8 per cent and 5.0 per cent respectively.</li>
-            <li>Equity market leadership remained narrow, with the S&P 500 Top 50 Index up over 4 per cent, while small and mid-cap benchmarks both declined.</li>
-            <li>European equities outperformed, with european equities rising 2.7 per cent, driven by broad-based gains across the continent; Utilities and Information Technology led sector performance, both up 7 per cent.</li>
-            <li>Bond markets rallied globally, supported by a 25 basis point rate cut by the U.S. Federal Reserve</li>
-            <li>Australian and New Zealand fixed income also strengthened, with the Composite IG Bond Index rising 1 per cent after the RBNZ lowered its official cash rate to 2.5 per cent.</li>
-            <li>Commodities continued their upward momentum, led by Copper up 6.8 per cent and Gold gaining 4 per cent in October, extending gold's year-to-date rally beyond 50 per cent.</li>
-            
-            "Australian equities edged higher in October, with the S&P/ASX 200 Index gaining 0.4 per cent, underperforming global peers as the domestic unemployment rate rose to a four-year high.
-
-"
-            "Materials and Energy sectors led the gains, both rising around 4 per cent, while Information Technology and Consumer Discretionary sectors fell sharply by 8 per cent and 7 per cent, respectively.
-
-"
-            "Small caps continued to outperform, with the S&P/ASX Small Ordinaries Index rising 2 per cent in the month and 25 per cent year-to-date, highlighting a strong risk-on rotation into mid and small-cap names.
-
-"
-            "China underperformed regional peers, as investor sentiment remained cautious despite the highly anticipated meeting between US and China.
-
-"
-            "U.S. equities rose, with the S&P 500 Index gaining 2.3 per cent in October on strong earnings from large-cap technology companies and optimism around trade developments.
-
-"
-            "Sector rotation favoured risk, led by Information Technology up 6.2 per cent, while Financials and Materials lagged with declines of 2.8 per cent and 5.0 per cent respectively.
-
-"
-            "Equity market leadership remained narrow, with the S&P 500 Top 50 Index up over 4 per cent, while small and mid-cap benchmarks both declined.
-
-"
-            "European equities outperformed, with european equities rising 2.7 per cent, driven by broad-based gains across the continent; Utilities and Information Technology led sector performance, both up 7 per cent.
-
-"
-            "Bond markets rallied globally, supported by a 25 basis point rate cut by the U.S. Federal Reserve
-
-"
-            "Australian and New Zealand fixed income also strengthened, with the Composite IG Bond Index rising 1 per cent after the RBNZ lowered its official cash rate to 2.5 per cent.
-
-"
-            "Commodities continued their upward momentum, led by Copper up 6.8 per cent and Gold gaining 4 per cent in October, extending gold's year-to-date rally beyond 50 per cent.
-
-"
-            
-                       
+            <li>Australia's S&P/ASX 200 retreated 3 percent, while New Zealand's S&P/NZX 50 also finished the month slightly lower.</li>
+            <li>The weakness in the S&P/ASX 200 was driven primarily by Financials, which fell 7 percent. Information Technology performed even more poorly, sliding 12 percent. By contrast, Health Care and Consumer Staples were relative bright spots, each advancing 2 percent.</li>
+            <li>For the month, low volatility as a factor stood out as the only index to deliver a positive return. Growth and Momentum factors, however, were among the weakest performers.</li>
+            <li>Chinese equities dipped in November as early-month gains faded. Weak manufacturing and services data, ongoing property-sector strain, and softer domestic demand weighed on market sentiment.</li>
+            <li>The S&P500 finished muted for the month up 0.13%. Sector performance among large-caps was mixed. Health Care delivered an exceptional 9 percent return. Information Technology fell 4 percent amid renewed worries about an AI-driven valuation bubble, although it recovered strongly toward month end.</li>
+            <li>Mid and small-capitalisation stocks outperformed, with midcaps rising 2 percent and smallcaps gaining 3 percent.</li>
+            <li>Factor performance shifted from the previous month, with Low Volatility and Dividend strategies outperforming High Beta, while Value led Growth.</li>
+            <li>Europe delivered a subdued but positive outcome in November, edging up 1 percent. Health Care stood out as the strongest performing sector, rising 6 percent over the month. At the opposite end, Information Technology declined 4 percent as concerns about stretched valuations weighed on sentiment.</li>
+            <li>Fixed income markets generally remained under pressure. After leaving the cash rate unchanged in early November, the Reserve Bank of Australia is now viewed as more likely to tighten than ease, particularly following stronger than expected inflation data.</li>
+            <li>Most major fixed income indices advanced. U.S. Treasuries firmed as markets priced in a higher likelihood of rate cuts, with the 10-year yield dipping below 4 percent.</li>
+            <li>Crude oil, fell 4 percent, while gold continued its strong run, rising a further 5 percent to take its year to date gain to 57 percent.</li>
+                                
         </ul>
         <br>
                                                               
@@ -129,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 55 SMA</h1>
-                    <h4>Updated to: 31 October 2025</h2>
+                    <h4>Updated to: 30 November 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 55 SMA delivered 1.2% for the month, and 3.3% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 11.4%, significantly beating Inflation by 9.0%. 
+                    <p>The Atchison Dynamic ETF 55 SMA delivered -0.6% for the month, and 1.3% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 55 SMA delivered 9.2%, significantly beating Inflation by 5.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 55 SMA has materially outperformed over the last 12 months. </p>
                     
                     
@@ -156,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+14.42%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.91%)</li><li>The asset class with the highest absolute return was International Shares (+70.34%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.03%)</li><li>Attribution analysis relative to SAA shows nan having the highest impact on value add at (+nan%).</li><li>Whereas, nan was found to have a (+nan%) impact on relative performance of the portfolio.</li></ul>
+                    
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
