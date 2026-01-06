@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Direct - Australian Shares 20 Equal Weight as at 30 September 2025</h2>
+                    <h2>Summary Dashboard for Atchison Direct - Australian Shares 20 Equal Weight as at 31 December 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Direct - Australian Shares 20 Equal Weight delivered -2.1% for the month, and 3.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Direct - Australian Shares 20 Equal Weight delivered 12.0%, significantly beating Inflation by 9.9%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Direct - Australian Shares 20 Equal Weight has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Direct - Australian Shares 20 Equal Weight delivered 0.1% for the month, and -2.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Direct - Australian Shares 20 Equal Weight delivered 7.7%, materially beating Inflation by 3.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Direct - Australian Shares 20 Equal Weight has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -69,23 +69,23 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Technology One Limited</li><li>The holding that contributed the least to portfolio return was CSL Limited</li><li>The current holding with the highest absolute return has been Technology One Limited<li>Whilst the current holding with the lowest absolute return has been CSL Limited</li></ul>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Technology One Limited</li><li>The holding that contributed the least to portfolio return was CSL Limited</li><li>The current holding with the highest absolute return has been Newmont Corporation<li>Whilst the current holding with the lowest absolute return has been CSL Limited</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - September 2025</h2>
+        <h2>MARKET OVERVIEW - December 2025</h2>
         <ul>
-            <li>September saw global equities extend their rally, supported by the start of the U.S. easing cycle and improving growth sentiment. Bonds also gained as yields moved lower, particularly at the long end of the curve.</li>
-            <li>The S&P/ASX 200 declined 0.8% in September, snapping its five-month winning streak. 9 out of 11 sectors reported losses with financials falling 1.4% detracting meaningfully given their index weight. Energy took the biggest fall returning -9.8% on the back of lower oil price. </li>
-            <li>Materials stood out as the strongest performer on the ASX, rising 6.1% on the back of strength in gold and diversified miners.</li>
-            <li>Emerging markets (+5.7%), particularly China (China Top 50 +6.7%), outperformed developed peers. Improving macro data and continued policy support underpinned performance. </li>
-            <li>U.S. equities recorded a fifth consecutive month of gains. The S&P 500 posted its best September month in 15 years, gaining 3.7%, in what has historically been the worst month for stocks. This was supported by a Federal Reserve rate cut.</li>
-            <li>Large cap equities outperformed mid and smalls in the US. Growth was the dominant factor outperforming value.</li>
-            <li>Sector performance was split in September, with Technology leading the way, bouncing back from a negative August, advancing over 7.5%. Consumer Staples, Materials, and Energy all went negative, with Financials virtually flat at 0.1% in September.</li>
-            <li>European equities advanced 1% for September continuing their positive run. However, german equities have been a drag for the quarter falling 1.2% behind political uncertainty.</li>
-            <li>The Federal Reserve cut the federal funds rate by 25bps in September 2025, bringing it to the 4.00%-4.25% range, in line with expectations. It is the first reduction in borrowing costs since December.</li>
-            <li>The RBA decided to leave the cash rate unchanged at 3.60 per cent at its September meeting. Bond indices were positive or neutral for the month.</li>
-            <li>Commodites exteneded their rally. Gold reached record highs and copper saw a surge in prices. Rare earths performed well due to supply chain strain.</li>
-                       
+            <li>The S&P/ASX 200 generated a total return of 10% over the year, extending its run to three consecutive years of double-digit performance. Market leadership came from smaller capitalisation stocks, with the Small Ordinaries Index climbing 25% and the Emerging Companies Index surging 39%.</li>
+            <li>Sector outcomes across the Australian market were uneven despite broad participation. Nine of the eleven S&P/ASX 200 sectors finished higher, led by a 35% rally in Materials. In contrast, Health Care endured a sharp 24% decline, and Information Technology reversed last year's strength, falling 21%.</li>
+            <li>The largest detractors over the year included CSL, WiseTech Global, and Xero.</li>
+            <li>China's CSI 300 rose 21% over the year, supported by policy easing, state-backed buying, and strength in financials, consumer staples, and industrials, despite ongoing property and growth challenges.</li>
+            <li>The S&P 500 delivered 18% for the year, the technology-heavy Nasdaq delivered 21% for the year. US aerospace and defence names were the biggest winners, along with unloved semiconductor companies including Intel and Micron Technology.</li>
+            <li>Sector performance across the large-cap universe was uniformly positive. Communication Services were up 34%, followed by Information Technology, which rose 24% over the year.</li>
+            <li>Expectations of Federal Reserve rate cuts also helped extend market gains beyond mega-caps, supporting improved performance across mid- and small-capitalisation stocks.</li>
+            <li>Several European markets performed strongly over the past 12 months, including Spain, up 50%, Italy, up 33%, and Germany, up 23%. Performance was supported by strength in European banks, while Germany benefited primarily from aerospace and defence stocks.</li>
+            <li>Economists expect persistent inflation to force the RBA into multiple rate hikes this year, potentially starting as early as February, amid resilient demand, tight labour markets, and rising housing costs.</li>
+            <li>In the US, markets anticipate further rate cuts in 2026, bringing rates down from their current range of 3.5%-3.75%, towards 3%.</li>
+            <li>Commodity performance was mixed. Gold rose 64% over the year, while silver outperformed with gains of 145%. In contrast, crude oil and Brent prices continued to struggle, declining around 20%.</li>
+                                
         </ul>
         <br>
                                                               
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Direct - Australian Shares 20 Equal Weight</h1>
-                    <h4>Updated to: 30 September 2025</h2>
+                    <h4>Updated to: 31 December 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Direct - Australian Shares 20 Equal Weight delivered -2.1% for the month, and 3.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Direct - Australian Shares 20 Equal Weight delivered 12.0%, significantly beating Inflation by 9.9%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Direct - Australian Shares 20 Equal Weight has significantly outperformed over the last 12 months. </p>
+                    <p>The Atchison Direct - Australian Shares 20 Equal Weight delivered 0.1% for the month, and -2.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Direct - Australian Shares 20 Equal Weight delivered 7.7%, materially beating Inflation by 3.9%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Direct - Australian Shares 20 Equal Weight has materially outperformed over the last 12 months. </p>
                     
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Technology One Limited</li><li>The holding that contributed the least to portfolio return was CSL Limited</li><li>The current holding with the highest absolute return has been Technology One Limited<li>Whilst the current holding with the lowest absolute return has been CSL Limited</li></ul>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been Technology One Limited</li><li>The holding that contributed the least to portfolio return was CSL Limited</li><li>The current holding with the highest absolute return has been Newmont Corporation<li>Whilst the current holding with the lowest absolute return has been CSL Limited</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>

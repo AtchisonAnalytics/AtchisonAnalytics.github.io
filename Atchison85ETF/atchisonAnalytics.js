@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Dynamic ETF 85 SMA as at 30 November 2025</h2>
+                    <h2>Summary Dashboard for Atchison Dynamic ETF 85 SMA as at 31 December 2025</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Dynamic ETF 85 SMA delivered -0.6% for the month, and 2.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 13.4%, significantly beating Inflation by 9.6%. 
+                    <p>The Atchison Dynamic ETF 85 SMA delivered 0.3% for the month, and 1.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 14.5%, significantly beating Inflation by 10.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 85 SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -69,22 +69,22 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+23.08%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.46%)</li><li>The asset class with the highest absolute return was Alternatives (+77.38%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+9.92%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.49%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.11%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
-        <h2>MARKET OVERVIEW - November 2025</h2>
+        <h2>MARKET OVERVIEW - December 2025</h2>
         <ul>
-            <li>Australia's S&P/ASX 200 retreated 3 percent, while New Zealand's S&P/NZX 50 also finished the month slightly lower.</li>
-            <li>The weakness in the S&P/ASX 200 was driven primarily by Financials, which fell 7 percent. Information Technology performed even more poorly, sliding 12 percent. By contrast, Health Care and Consumer Staples were relative bright spots, each advancing 2 percent.</li>
-            <li>For the month, low volatility as a factor stood out as the only index to deliver a positive return. Growth and Momentum factors, however, were among the weakest performers.</li>
-            <li>Chinese equities dipped in November as early-month gains faded. Weak manufacturing and services data, ongoing property-sector strain, and softer domestic demand weighed on market sentiment.</li>
-            <li>The S&P500 finished muted for the month up 0.13%. Sector performance among large-caps was mixed. Health Care delivered an exceptional 9 percent return. Information Technology fell 4 percent amid renewed worries about an AI-driven valuation bubble, although it recovered strongly toward month end.</li>
-            <li>Mid and small-capitalisation stocks outperformed, with midcaps rising 2 percent and smallcaps gaining 3 percent.</li>
-            <li>Factor performance shifted from the previous month, with Low Volatility and Dividend strategies outperforming High Beta, while Value led Growth.</li>
-            <li>Europe delivered a subdued but positive outcome in November, edging up 1 percent. Health Care stood out as the strongest performing sector, rising 6 percent over the month. At the opposite end, Information Technology declined 4 percent as concerns about stretched valuations weighed on sentiment.</li>
-            <li>Fixed income markets generally remained under pressure. After leaving the cash rate unchanged in early November, the Reserve Bank of Australia is now viewed as more likely to tighten than ease, particularly following stronger than expected inflation data.</li>
-            <li>Most major fixed income indices advanced. U.S. Treasuries firmed as markets priced in a higher likelihood of rate cuts, with the 10-year yield dipping below 4 percent.</li>
-            <li>Crude oil, fell 4 percent, while gold continued its strong run, rising a further 5 percent to take its year to date gain to 57 percent.</li>
+            <li>The S&P/ASX 200 generated a total return of 10% over the year, extending its run to three consecutive years of double-digit performance. Market leadership came from smaller capitalisation stocks, with the Small Ordinaries Index climbing 25% and the Emerging Companies Index surging 39%.</li>
+            <li>Sector outcomes across the Australian market were uneven despite broad participation. Nine of the eleven S&P/ASX 200 sectors finished higher, led by a 35% rally in Materials. In contrast, Health Care endured a sharp 24% decline, and Information Technology reversed last year's strength, falling 21%.</li>
+            <li>The largest detractors over the year included CSL, WiseTech Global, and Xero.</li>
+            <li>China's CSI 300 rose 21% over the year, supported by policy easing, state-backed buying, and strength in financials, consumer staples, and industrials, despite ongoing property and growth challenges.</li>
+            <li>The S&P 500 delivered 18% for the year, the technology-heavy Nasdaq delivered 21% for the year. US aerospace and defence names were the biggest winners, along with unloved semiconductor companies including Intel and Micron Technology.</li>
+            <li>Sector performance across the large-cap universe was uniformly positive. Communication Services were up 34%, followed by Information Technology, which rose 24% over the year.</li>
+            <li>Expectations of Federal Reserve rate cuts also helped extend market gains beyond mega-caps, supporting improved performance across mid- and small-capitalisation stocks.</li>
+            <li>Several European markets performed strongly over the past 12 months, including Spain, up 50%, Italy, up 33%, and Germany, up 23%. Performance was supported by strength in European banks, while Germany benefited primarily from aerospace and defence stocks.</li>
+            <li>Economists expect persistent inflation to force the RBA into multiple rate hikes this year, potentially starting as early as February, amid resilient demand, tight labour markets, and rising housing costs.</li>
+            <li>In the US, markets anticipate further rate cuts in 2026, bringing rates down from their current range of 3.5%-3.75%, towards 3%.</li>
+            <li>Commodity performance was mixed. Gold rose 64% over the year, while silver outperformed with gains of 145%. In contrast, crude oil and Brent prices continued to struggle, declining around 20%.</li>
                                 
         </ul>
         <br>
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Dynamic ETF 85 SMA</h1>
-                    <h4>Updated to: 30 November 2025</h2>
+                    <h4>Updated to: 31 December 2025</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Dynamic ETF 85 SMA delivered -0.6% for the month, and 2.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 13.4%, significantly beating Inflation by 9.6%. 
+                    <p>The Atchison Dynamic ETF 85 SMA delivered 0.3% for the month, and 1.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Dynamic ETF 85 SMA delivered 14.5%, significantly beating Inflation by 10.7%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Dynamic ETF 85 SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+23.08%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.46%)</li><li>The asset class with the highest absolute return was Alternatives (+77.38%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+9.92%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.49%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.11%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
