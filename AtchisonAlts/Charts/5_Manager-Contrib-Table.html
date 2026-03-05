@@ -1,0 +1,251 @@
+
+                                            <!DOCTYPE html>
+                                            <html lang="en">
+                                            <head>
+                                                <meta charset="UTF-8">
+                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                <title>Manager Contribution Table</title>
+                                                <style>
+                                                    /* Add CSS style for table */
+                                                    table.dataframe {
+                                                        border-collapse: collapse;
+                                                        max-width: 1250px; /* Restrict table width to a maximum of 950px */
+                                                        width: 100%;
+                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                    }
+
+                                                    table.dataframe th,
+                                                    table.dataframe td {
+                                                        border: none;
+                                                        padding: 8px; /* Adjust padding as needed */
+                                                        text-align: center; /* Adjust text alignment as needed */
+                                                    }
+
+                                                    /* Make second column (names) wider */
+                                                    table.dataframe td:nth-child(2),
+                                                    table.dataframe th:nth-child(2) {
+                                                        width: 300px;  /* or adjust as needed */
+                                                        text-align: left;
+                                                    }
+
+                                                    table.dataframe th {
+                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                        color: #E7EAEB;
+                                                    }
+
+                                                    /* Add CSS rule for hover effect */
+                                                    tr:hover {
+                                                        background-color: #1DC8F2;
+                                                    }
+
+                                                    table.dataframe {
+                                                        border-collapse: collapse;
+                                                        max-width: 1300px;
+                                                        width: 100%;
+                                                        border-radius: 10px;
+                                                        overflow: hidden;
+                                                    }
+
+                                                    table.dataframe th,
+                                                    table.dataframe td {
+                                                        border: none;
+                                                        padding: 8px;
+                                                        text-align: center;
+                                                    }
+
+                                                    table.dataframe th {
+                                                        background-color: #3D555E;
+                                                        color: #E7EAEB;
+                                                    }
+
+                                                    /* Base hover effect */
+                                                    tr:hover {
+                                                        background-color: #1DC8F2;
+                                                    }
+
+                                                    tr.bm-row {
+                                                        background-color: #1DC8F2; /* Always blue */
+                                                        font-weight: bold;
+                                                    }
+
+                                                </style>
+                                            </head>
+                                            <body>
+                                                <table class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ShortName</th>
+      <th>Asset Class</th>
+      <th>1 Month</th>
+      <th>3 Months</th>
+      <th>6 Months</th>
+      <th>1 Year</th>
+      <th>2 Years (p.a.)</th>
+      <th>3 Years (p.a.)</th>
+      <th>Since Inception (p.a.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">FUEL-AU</th>
+      <td>Russell Gbl ex Fossil</td>
+      <td>International Shares</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>0.44</td>
+      <td>0.28</td>
+      <td>0.26</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_International Shares</th>
+      <td>TOTAL</td>
+      <td>International Shares</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>1.08</td>
+      <td>0.44</td>
+      <td>0.28</td>
+      <td>0.26</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GPEQ-AU</th>
+      <td>VE Global Listed P Private ETF</td>
+      <td>Alternatives</td>
+      <td>-0.90</td>
+      <td>-0.97</td>
+      <td>-0.99</td>
+      <td>-1.00</td>
+      <td>-0.99</td>
+      <td>-0.92</td>
+      <td>-0.89</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUS0035AU</th>
+      <td>Talaria GE</td>
+      <td>Alternatives</td>
+      <td>-0.03</td>
+      <td>-0.34</td>
+      <td>-0.41</td>
+      <td>-0.70</td>
+      <td>-0.09</td>
+      <td>0.36</td>
+      <td>0.42</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">MAQ5143AU</th>
+      <td>P/E FX Alpha</td>
+      <td>Alternatives</td>
+      <td>-0.07</td>
+      <td>-0.62</td>
+      <td>-0.53</td>
+      <td>-0.93</td>
+      <td>-0.70</td>
+      <td>-0.55</td>
+      <td>-0.51</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0805AU</th>
+      <td>Invesco Senior Secured</td>
+      <td>Alternatives</td>
+      <td>-0.09</td>
+      <td>-0.11</td>
+      <td>-0.07</td>
+      <td>0.14</td>
+      <td>0.21</td>
+      <td>0.29</td>
+      <td>0.32</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PER0728AU</th>
+      <td>Pyford Global Abs</td>
+      <td>Alternatives</td>
+      <td>0.46</td>
+      <td>0.44</td>
+      <td>0.47</td>
+      <td>1.78</td>
+      <td>1.73</td>
+      <td>2.15</td>
+      <td>2.38</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GLDN-AU</th>
+      <td>iShares Physical Gold</td>
+      <td>Alternatives</td>
+      <td>-2.69</td>
+      <td>0.38</td>
+      <td>1.14</td>
+      <td>1.16</td>
+      <td>5.41</td>
+      <td>2.68</td>
+      <td>2.44</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PIM7967AU</th>
+      <td>Barwon LPE</td>
+      <td>Alternatives</td>
+      <td>-0.72</td>
+      <td>-0.77</td>
+      <td>-0.83</td>
+      <td>-0.83</td>
+      <td>-0.59</td>
+      <td>-0.44</td>
+      <td>-0.43</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_Alternatives</th>
+      <td>TOTAL</td>
+      <td>Alternatives</td>
+      <td>-4.05</td>
+      <td>-1.98</td>
+      <td>-1.23</td>
+      <td>-0.38</td>
+      <td>4.98</td>
+      <td>3.57</td>
+      <td>3.73</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BILL-AU</th>
+      <td>iShares Cash</td>
+      <td>Cash</td>
+      <td>0.01</td>
+      <td>0.04</td>
+      <td>0.10</td>
+      <td>0.40</td>
+      <td>0.18</td>
+      <td>0.12</td>
+      <td>0.11</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
+      <td>Cash</td>
+      <td>Cash</td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>0.06</td>
+      <td>0.14</td>
+      <td>0.10</td>
+      <td>0.09</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_Cash</th>
+      <td>TOTAL</td>
+      <td>Cash</td>
+      <td>0.01</td>
+      <td>0.05</td>
+      <td>0.12</td>
+      <td>0.46</td>
+      <td>0.33</td>
+      <td>0.21</td>
+      <td>0.20</td>
+    </tr>
+  </tbody>
+</table>
+                                            </body>
+                                            </html>
+                                            

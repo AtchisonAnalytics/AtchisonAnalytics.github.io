@@ -4,7 +4,7 @@
                                     <head>
                                         <meta charset="UTF-8">
                                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <title>Performance Table</title>
+                                        <title>Manager Performance Table</title>
                                         <style>
                                             /* Add CSS style for table */
                                             table.dataframe {
@@ -61,11 +61,16 @@
                                         
                                             /* Base hover effect */
                                             tr:hover {
-                                                background-color: #1DC8F2;
+                                                background-color: #C0F992;
                                             }
                                         
                                             tr.bm-row {
                                                 background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
+                                            tr.subtotal-row {
+                                                background-color: #93DFF8; /* Always blue */
                                                 font-weight: bold;
                                             }
                                             
@@ -90,82 +95,69 @@
   </thead>
   <tbody>
     <tr>
-      <th>BLK4709AU</th>
+      <th style="text-align: left; padding-left: 4em;">BLK4709AU</th>
       <td>iShares AREIT</td>
-      <td>1.96</td>
-      <td>-1.71</td>
-      <td>2.92</td>
-      <td>7.5</td>
-      <td>12.37</td>
-      <td>13.83</td>
-      <td>8.25</td>
-      <td>7.86</td>
-      <td>7.21</td>
+      <td>-3.30</td>
+      <td>-4.10</td>
+      <td>-10.27</td>
+      <td>3.52</td>
+      <td>5.86</td>
+      <td>8.82</td>
+      <td>8.11</td>
+      <td>5.94</td>
+      <td>6.20</td>
     </tr>
     <tr>
-      <th>BLK9419AU</th>
+      <th style="text-align: left; padding-left: 4em;">BLK9419AU</th>
       <td>iShares GREIT</td>
-      <td>-1.35</td>
-      <td>-0.61</td>
-      <td>3.67</td>
-      <td>5.92</td>
-      <td>4.5</td>
-      <td>5.69</td>
-      <td>2.45</td>
-      <td>3.11</td>
-      <td>2.33</td>
+      <td>7.05</td>
+      <td>8.57</td>
+      <td>10.40</td>
+      <td>13.99</td>
+      <td>11.68</td>
+      <td>7.69</td>
+      <td>4.17</td>
+      <td>3.20</td>
+      <td>3.57</td>
     </tr>
     <tr>
-      <th>LAM0044AU</th>
-      <td>Alceon Aus Prop & Infra</td>
-      <td>0.17</td>
-      <td>1.48</td>
-      <td>5.53</td>
-      <td>9.12</td>
-      <td>6.94</td>
-      <td>6.42</td>
-      <td>7.57</td>
-      <td>7.09</td>
-      <td>7.01</td>
-    </tr>
-    <tr>
-      <th>TGP0016AU</th>
+      <th style="text-align: left; padding-left: 4em;">TGP0016AU</th>
       <td>CB RARE Infra Income H</td>
-      <td>-2.04</td>
-      <td>3.81</td>
-      <td>6.24</td>
-      <td>18.72</td>
-      <td>12.28</td>
-      <td>8.0</td>
-      <td>7.01</td>
-      <td>9.76</td>
-      <td>9.06</td>
+      <td>8.78</td>
+      <td>10.87</td>
+      <td>19.89</td>
+      <td>28.29</td>
+      <td>21.28</td>
+      <td>13.04</td>
+      <td>11.12</td>
+      <td>10.00</td>
+      <td>10.63</td>
     </tr>
     <tr class="bm-row">
-      <th>BM_RealAssets</th>
+      <th style="text-align: left; padding-left: 4em;">BM_RealAssets</th>
       <td>BM: Real Assets</td>
-      <td>-0.42</td>
-      <td>-0.35</td>
-      <td>3.4</td>
-      <td>7.02</td>
-      <td>7.4</td>
-      <td>7.09</td>
-      <td>4.96</td>
-      <td>5.95</td>
-      <td>5.37</td>
+      <td>1.26</td>
+      <td>0.82</td>
+      <td>0.93</td>
+      <td>7.15</td>
+      <td>8.32</td>
+      <td>6.55</td>
+      <td>5.74</td>
+      <td>5.07</td>
+      <td>5.43</td>
     </tr>
     <tr>
-      <th>AUD</th>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
       <td>Cash</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
-      <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,472 @@
+
+                                                            <!DOCTYPE html>
+                                                            <html lang="en">
+                                                            <head>
+                                                                <meta charset="UTF-8">
+                                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                <title>Holding Detail Attribution Table</title>
+                                                                <style>
+                                                                    /* Add CSS style for table */
+                                                                    table.dataframe {
+                                                                        border-collapse: collapse;
+                                                                        max-width: 1250px; /* Restrict table width to a maximum of 1250px */
+                                                                        width: 100%;
+                                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                                    }
+
+                                                                    table.dataframe th,
+                                                                    table.dataframe td {
+                                                                        border: none;
+                                                                        padding: 8px; /* Adjust padding as needed */
+                                                                        text-align: center; /* Adjust text alignment as needed */
+                                                                    }
+                                                                    
+                                                                    thead th {
+                                                                        position: sticky;
+                                                                        top: 0;
+                                                                        background-color: #3D555E; /* Match your header color */
+                                                                        z-index: 2;
+                                                                    }
+
+                                                                    /* Make second column (names) wider */
+                                                                    table.dataframe td:nth-child(2),
+                                                                    table.dataframe th:nth-child(2) {
+                                                                        width: 300px;  /* or adjust as needed */
+                                                                        text-align: left;
+                                                                    }
+
+                                                                    table.dataframe th {
+                                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                                        color: #E7EAEB;
+                                                                    }
+
+                                                                    /* Add CSS rule for hover effect */
+                                                                    tr:hover {
+                                                                        background-color: #1DC8F2;
+                                                                    }
+
+                                                                    table.dataframe {
+                                                                        border-collapse: collapse;
+                                                                        max-width: 1300px;
+                                                                        max-height: 900px;
+                                                                        width: 100%;
+                                                                        border-radius: 10px;
+                                                                        overflow: hidden;
+                                                                        overflow-y: auto;
+                                                                        display: block;
+                                                                    }
+
+                                                                    table.dataframe th,
+                                                                    table.dataframe td {
+                                                                        border: none;
+                                                                        padding: 8px;
+                                                                        text-align: center;
+                                                                    }
+
+                                                                    table.dataframe th {
+                                                                        background-color: #3D555E;
+                                                                        color: #E7EAEB;
+                                                                    }
+
+                                                                    /* Base hover effect */
+                                                                    tr:hover {
+                                                                        background-color: #C0F992;
+                                                                    }
+                                                                
+                                                                    tr.bm-row {
+                                                                        background-color: #1DC8F2; /* Always blue */
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    tr.subtotal-row {
+                                                                        background-color: #93DFF8; /* Always blue */
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    .effect-row {
+                                                                        background-color: #3D555E;
+                                                                        color: #E7EAEB;
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    .effect-row td,
+                                                                    .effect-row th {
+                                                                        text-align: center;
+                                                                    }
+
+                                                                </style>
+                                                            </head>
+                                                            <body>
+                                                                <table class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ShortName</th>
+      <th>1 Month</th>
+      <th>3 Months</th>
+      <th>6 Months</th>
+      <th>1 Year</th>
+      <th>2 Years (p.a.)</th>
+      <th>3 Years (p.a.)</th>
+      <th>Since Inception (p.a.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">ALLOCATION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Australian Shares</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_International Shares</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Real Assets</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Alternatives</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Long Duration</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Floating Rate</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Cash</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">SELECTION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">HOW2217AU</th>
+      <td>Merlon Concentrated AusEq</td>
+      <td>-0.29</td>
+      <td>-0.58</td>
+      <td>-0.33</td>
+      <td>-0.79</td>
+      <td>-0.41</td>
+      <td>-0.22</td>
+      <td>-0.25</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">SCH0101AU</th>
+      <td>Schroder Aus Eq</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.17</td>
+      <td>-0.02</td>
+      <td>-0.11</td>
+      <td>-0.12</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AAP5529AU</th>
+      <td>Ausbil Aus Small</td>
+      <td>-0.67</td>
+      <td>-1.61</td>
+      <td>-1.56</td>
+      <td>-0.21</td>
+      <td>0.14</td>
+      <td>0.16</td>
+      <td>0.14</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0812AU</th>
+      <td>Invesco Aus Small</td>
+      <td>-0.53</td>
+      <td>-0.76</td>
+      <td>-0.38</td>
+      <td>-0.04</td>
+      <td>-0.04</td>
+      <td>-0.01</td>
+      <td>-0.03</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ALR2783AU</th>
+      <td>Aus Eagle Trust</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.02</td>
+      <td>-0.16</td>
+      <td>-0.13</td>
+      <td>-0.17</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">HOW0035AU</th>
+      <td>Greencape High Convic</td>
+      <td>-0.18</td>
+      <td>-0.17</td>
+      <td>-0.19</td>
+      <td>-0.68</td>
+      <td>-0.27</td>
+      <td>-0.05</td>
+      <td>0.10</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BNT0003AU</th>
+      <td>Hyperion Aus Growth</td>
+      <td>-0.69</td>
+      <td>-1.39</td>
+      <td>-1.99</td>
+      <td>-2.07</td>
+      <td>-1.04</td>
+      <td>-0.69</td>
+      <td>-0.66</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0811AU</th>
+      <td>Invesco WS Aus Share</td>
+      <td>-0.21</td>
+      <td>-0.72</td>
+      <td>-0.58</td>
+      <td>-0.68</td>
+      <td>-0.34</td>
+      <td>-0.23</td>
+      <td>-0.22</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Australian Shares</th>
+      <td></td>
+      <td>-2.55</td>
+      <td>-5.14</td>
+      <td>-4.96</td>
+      <td>-4.29</td>
+      <td>-2.14</td>
+      <td>-1.29</td>
+      <td>-1.22</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>-2.55</td>
+      <td>-5.14</td>
+      <td>-4.96</td>
+      <td>-4.29</td>
+      <td>-2.14</td>
+      <td>-1.29</td>
+      <td>-1.22</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">INTERACTION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Australian Shares</th>
+      <td></td>
+      <td>0.03</td>
+      <td>0.08</td>
+      <td>0.07</td>
+      <td>0.24</td>
+      <td>0.12</td>
+      <td>0.08</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_International Shares</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Real Assets</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Alternatives</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Long Duration</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Floating Rate</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Cash</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>0.03</td>
+      <td>0.08</td>
+      <td>0.07</td>
+      <td>0.24</td>
+      <td>0.12</td>
+      <td>0.08</td>
+      <td>0.07</td>
+    </tr>
+  </tbody>
+</table>
+                                                            </body>
+                                                            </html>
+                                                            

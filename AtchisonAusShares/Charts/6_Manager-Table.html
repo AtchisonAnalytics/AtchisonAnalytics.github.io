@@ -4,7 +4,7 @@
                                     <head>
                                         <meta charset="UTF-8">
                                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <title>Performance Table</title>
+                                        <title>Manager Performance Table</title>
                                         <style>
                                             /* Add CSS style for table */
                                             table.dataframe {
@@ -61,11 +61,16 @@
                                         
                                             /* Base hover effect */
                                             tr:hover {
-                                                background-color: #1DC8F2;
+                                                background-color: #C0F992;
                                             }
                                         
                                             tr.bm-row {
                                                 background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
+                                            tr.subtotal-row {
+                                                background-color: #93DFF8; /* Always blue */
                                                 font-weight: bold;
                                             }
                                             
@@ -90,121 +95,121 @@
   </thead>
   <tbody>
     <tr>
-      <th>IOZ-AU</th>
+      <th style="text-align: left; padding-left: 4em;">IOZ-AU</th>
       <td>iShares ASX 200</td>
-      <td>1.33</td>
-      <td>-0.92</td>
-      <td>3.64</td>
-      <td>10.26</td>
-      <td>10.79</td>
-      <td>11.25</td>
+      <td>4.11</td>
+      <td>7.40</td>
+      <td>4.09</td>
+      <td>16.33</td>
+      <td>12.99</td>
+      <td>12.17</td>
+      <td>10.71</td>
       <td>9.79</td>
-      <td>10.35</td>
-      <td>8.6</td>
+      <td>9.24</td>
     </tr>
     <tr>
-      <th>HOW2217AU</th>
+      <th style="text-align: left; padding-left: 4em;">HOW2217AU</th>
       <td>Merlon Concentrated AusEq</td>
-      <td>-1.35</td>
-      <td>1.48</td>
-      <td>3.78</td>
-      <td>9.19</td>
-      <td>11.48</td>
-      <td>10.02</td>
-      <td>11.63</td>
-      <td>10.75</td>
-      <td>8.93</td>
+      <td>1.40</td>
+      <td>1.81</td>
+      <td>0.75</td>
+      <td>9.02</td>
+      <td>9.25</td>
+      <td>10.66</td>
+      <td>12.26</td>
+      <td>9.72</td>
+      <td>9.18</td>
     </tr>
     <tr>
-      <th>AAP5529AU</th>
+      <th style="text-align: left; padding-left: 4em;">AAP5529AU</th>
       <td>Ausbil Aus Small</td>
-      <td>-3.28</td>
-      <td>-8.1</td>
-      <td>9.35</td>
-      <td>24.75</td>
-      <td>27.18</td>
-      <td>21.4</td>
-      <td>17.18</td>
-      <td>19.85</td>
-      <td>16.34</td>
+      <td>-5.17</td>
+      <td>-10.10</td>
+      <td>-13.04</td>
+      <td>10.27</td>
+      <td>17.94</td>
+      <td>17.47</td>
+      <td>13.96</td>
+      <td>17.07</td>
+      <td>14.87</td>
     </tr>
     <tr>
-      <th>CNA0812AU</th>
+      <th style="text-align: left; padding-left: 4em;">CNA0812AU</th>
       <td>Invesco Aus Small</td>
-      <td>-1.08</td>
-      <td>-2.44</td>
-      <td>9.6</td>
-      <td>13.47</td>
-      <td>13.88</td>
-      <td>12.33</td>
-      <td>8.67</td>
-      <td>10.33</td>
-      <td>7.4</td>
+      <td>-3.24</td>
+      <td>-2.42</td>
+      <td>-2.03</td>
+      <td>12.97</td>
+      <td>10.35</td>
+      <td>11.13</td>
+      <td>7.96</td>
+      <td>7.79</td>
+      <td>7.05</td>
     </tr>
     <tr>
-      <th>HOW0035AU</th>
+      <th style="text-align: left; padding-left: 4em;">HOW0035AU</th>
       <td>Greencape High Convic</td>
-      <td>-0.25</td>
-      <td>-2.65</td>
-      <td>0.4</td>
-      <td>-0.25</td>
-      <td>6.28</td>
-      <td>10.22</td>
-      <td>8.4</td>
-      <td>10.4</td>
-      <td>8.12</td>
+      <td>0.76</td>
+      <td>4.01</td>
+      <td>0.54</td>
+      <td>4.06</td>
+      <td>7.46</td>
+      <td>9.55</td>
+      <td>8.94</td>
+      <td>9.60</td>
+      <td>8.53</td>
     </tr>
     <tr>
-      <th>BNT0003AU</th>
+      <th style="text-align: left; padding-left: 4em;">BNT0003AU</th>
       <td>Hyperion Aus Growth</td>
-      <td>-5.9</td>
-      <td>-14.54</td>
-      <td>-17.28</td>
-      <td>-19.31</td>
-      <td>2.01</td>
-      <td>8.69</td>
-      <td>1.83</td>
-      <td>9.65</td>
-      <td>7.59</td>
+      <td>-7.70</td>
+      <td>-16.93</td>
+      <td>-28.09</td>
+      <td>-23.16</td>
+      <td>-7.66</td>
+      <td>1.07</td>
+      <td>0.58</td>
+      <td>6.61</td>
+      <td>5.69</td>
     </tr>
     <tr>
-      <th>CNA0811AU</th>
+      <th style="text-align: left; padding-left: 4em;">CNA0811AU</th>
       <td>Invesco WS Aus Share</td>
-      <td>0.65</td>
-      <td>-1.68</td>
-      <td>2.55</td>
-      <td>9.35</td>
-      <td>11.03</td>
-      <td>10.96</td>
-      <td>9.63</td>
-      <td>10.51</td>
-      <td>8.24</td>
+      <td>3.16</td>
+      <td>4.18</td>
+      <td>1.57</td>
+      <td>13.36</td>
+      <td>11.19</td>
+      <td>11.51</td>
+      <td>9.87</td>
+      <td>9.65</td>
+      <td>8.55</td>
     </tr>
     <tr class="bm-row">
-      <th>BM_AusShares</th>
+      <th style="text-align: left; padding-left: 4em;">BM_AusShares</th>
       <td>BM: Australian Shares</td>
-      <td>1.36</td>
-      <td>-0.96</td>
-      <td>3.67</td>
-      <td>10.32</td>
-      <td>10.79</td>
-      <td>11.29</td>
-      <td>9.81</td>
-      <td>10.35</td>
-      <td>8.59</td>
+      <td>4.10</td>
+      <td>7.39</td>
+      <td>4.10</td>
+      <td>16.18</td>
+      <td>12.95</td>
+      <td>12.12</td>
+      <td>10.70</td>
+      <td>9.75</td>
+      <td>9.22</td>
     </tr>
     <tr>
-      <th>AUD</th>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
       <td>Cash</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
-      <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
     </tr>
   </tbody>
 </table>

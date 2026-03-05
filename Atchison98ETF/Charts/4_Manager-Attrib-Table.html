@@ -1,0 +1,150 @@
+
+                                                    <!DOCTYPE html>
+                                                    <html lang="en">
+                                                    <head>
+                                                        <meta charset="UTF-8">
+                                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                        <title>Asset Class Attribution Summary Table</title>
+                                                        <style>
+                                                            /* Add CSS style for table */
+                                                            table.dataframe {
+                                                                border-collapse: collapse;
+                                                                max-width: 1250px; /* Restrict table width to a maximum of 950px */
+                                                                width: 100%;
+                                                                border-radius: 10px; /* Adjust the border radius as needed */
+                                                                overflow: hidden; /* Ensure the border-radius is applied */
+                                                            }
+
+                                                            table.dataframe th,
+                                                            table.dataframe td {
+                                                                border: none;
+                                                                padding: 8px; /* Adjust padding as needed */
+                                                                text-align: center; /* Adjust text alignment as needed */
+                                                            }
+
+                                                            /* Make second column (names) wider */
+                                                            table.dataframe td:nth-child(2),
+                                                            table.dataframe th:nth-child(2) {
+                                                                width: 300px;  /* or adjust as needed */
+                                                                text-align: left;
+                                                            }
+
+                                                            table.dataframe th {
+                                                                background-color: #3D555E; /* Optional: Add background color for header */
+                                                                color: #E7EAEB;
+                                                            }
+
+                                                            /* Add CSS rule for hover effect */
+                                                            tr:hover {
+                                                                background-color: #1DC8F2;
+                                                            }
+
+                                                            table.dataframe {
+                                                                border-collapse: collapse;
+                                                                max-width: 1300px;
+                                                                max-heigh: 800px;
+                                                                width: 100%;
+                                                                border-radius: 10px;
+                                                                overflow: hidden;
+                                                                overflow-y: auto
+                                                            }
+
+                                                            table.dataframe th,
+                                                            table.dataframe td {
+                                                                border: none;
+                                                                padding: 8px;
+                                                                text-align: center;
+                                                            }
+
+                                                            table.dataframe th {
+                                                                background-color: #3D555E;
+                                                                color: #E7EAEB;
+                                                            }
+
+                                                            /* Base hover effect */
+                                                            tr:hover {
+                                                                background-color: #C0F992;
+                                                            }
+                                                        
+                                                            tr.bm-row {
+                                                                background-color: #1DC8F2; /* Always blue */
+                                                                font-weight: bold;
+                                                            }
+                                                            
+                                                            tr.subtotal-row {
+                                                                background-color: #93DFF8; /* Always blue */
+                                                                font-weight: bold;
+                                                            }
+
+                                                        </style>
+                                                    </head>
+                                                    <body>
+                                                        <table class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>1 Month</th>
+      <th>3 Months</th>
+      <th>6 Months</th>
+      <th>1 Year</th>
+      <th>2 Years (p.a.)</th>
+      <th>3 Years (p.a.)</th>
+      <th>Since Inception (p.a.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">Inflation</th>
+      <td>-0.10</td>
+      <td>0.30</td>
+      <td>1.76</td>
+      <td>3.80</td>
+      <td>3.08</td>
+      <td>3.17</td>
+      <td>3.01</td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">SAA ALLOCATION EFFECT</th>
+      <td>1.94</td>
+      <td>1.75</td>
+      <td>1.85</td>
+      <td>8.00</td>
+      <td>9.65</td>
+      <td>11.22</td>
+      <td>12.12</td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">TAA ALLOCATION EFFECT</th>
+      <td>-0.10</td>
+      <td>-0.16</td>
+      <td>-0.05</td>
+      <td>-0.77</td>
+      <td>-0.20</td>
+      <td>-0.45</td>
+      <td>-0.51</td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">TAA SELECTION EFFECT</th>
+      <td>-0.26</td>
+      <td>0.48</td>
+      <td>1.81</td>
+      <td>2.75</td>
+      <td>1.14</td>
+      <td>0.16</td>
+      <td>0.04</td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">REBALANCE AND DRIFT EFFECT</th>
+      <td>-0.02</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>-0.08</td>
+      <td>-0.06</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+    </tr>
+  </tbody>
+</table>
+                                                    </body>
+                                                    </html>
+                                                    

@@ -1,0 +1,164 @@
+
+                                                    <!DOCTYPE html>
+                                                    <html lang="en">
+                                                    <head>
+                                                        <meta charset="UTF-8">
+                                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                        <title>Manager Contribution Ratio Table</title>
+                                                        <style>
+                                                            /* Add CSS style for table */
+                                                            table.dataframe {
+                                                                border-collapse: collapse;
+                                                                max-width: 1250px; /* Restrict table width to a maximum of 950px */
+                                                                width: 100%;
+                                                                border-radius: 10px; /* Adjust the border radius as needed */
+                                                                overflow: hidden; /* Ensure the border-radius is applied */
+                                                            }
+
+                                                            table.dataframe th,
+                                                            table.dataframe td {
+                                                                border: none;
+                                                                padding: 8px; /* Adjust padding as needed */
+                                                                text-align: center; /* Adjust text alignment as needed */
+                                                            }
+
+                                                            /* Make second column (names) wider */
+                                                            table.dataframe td:nth-child(2),
+                                                            table.dataframe th:nth-child(2) {
+                                                                width: 300px;  /* or adjust as needed */
+                                                                text-align: left;
+                                                            }
+
+                                                            table.dataframe th {
+                                                                background-color: #3D555E; /* Optional: Add background color for header */
+                                                                color: #E7EAEB;
+                                                            }
+
+                                                            /* Add CSS rule for hover effect */
+                                                            tr:hover {
+                                                                background-color: #1DC8F2;
+                                                            }
+
+                                                            table.dataframe {
+                                                                border-collapse: collapse;
+                                                                max-width: 1300px;
+                                                                width: 100%;
+                                                                border-radius: 10px;
+                                                                overflow: hidden;
+                                                            }
+
+                                                            table.dataframe th,
+                                                            table.dataframe td {
+                                                                border: none;
+                                                                padding: 8px;
+                                                                text-align: center;
+                                                            }
+
+                                                            table.dataframe th {
+                                                                background-color: #3D555E;
+                                                                color: #E7EAEB;
+                                                            }
+
+                                                            /* Base hover effect */
+                                                            tr:hover {
+                                                                background-color: #1DC8F2;
+                                                            }
+
+                                                            tr.bm-row {
+                                                                background-color: #1DC8F2; /* Always blue */
+                                                                font-weight: bold;
+                                                            }
+
+                                                        </style>
+                                                    </head>
+                                                    <body>
+                                                        <table class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ShortName</th>
+      <th>Asset Class</th>
+      <th>1 Year</th>
+      <th>2 Years (p.a.)</th>
+      <th>3 Years (p.a.)</th>
+      <th>Since Inception (p.a.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">FLOT-AU</th>
+      <td>VanEck FRN</td>
+      <td>Floating Rate</td>
+      <td>31.80</td>
+      <td>29.00</td>
+      <td>28.90</td>
+      <td>28.50</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ISEC-AU</th>
+      <td>iShares Enh Cash</td>
+      <td>Floating Rate</td>
+      <td>27.40</td>
+      <td>23.60</td>
+      <td>24.70</td>
+      <td>23.70</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IOF0127AU</th>
+      <td>Janus Div Credit</td>
+      <td>Floating Rate</td>
+      <td>11.70</td>
+      <td>12.40</td>
+      <td>12.30</td>
+      <td>12.10</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">WPC1963AU</th>
+      <td>Daintree Core Inc</td>
+      <td>Floating Rate</td>
+      <td>21.70</td>
+      <td>24.10</td>
+      <td>24.70</td>
+      <td>22.80</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CSA0038AU</th>
+      <td>Bentham Global Inc</td>
+      <td>Floating Rate</td>
+      <td>6.70</td>
+      <td>10.60</td>
+      <td>9.20</td>
+      <td>12.70</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_Floating Rate</th>
+      <td>TOTAL</td>
+      <td>Floating Rate</td>
+      <td>99.30</td>
+      <td>99.70</td>
+      <td>99.80</td>
+      <td>99.80</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
+      <td>Cash</td>
+      <td>Cash</td>
+      <td>0.80</td>
+      <td>0.30</td>
+      <td>0.20</td>
+      <td>0.20</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_Cash</th>
+      <td>TOTAL</td>
+      <td>Cash</td>
+      <td>0.80</td>
+      <td>0.30</td>
+      <td>0.20</td>
+      <td>0.20</td>
+    </tr>
+  </tbody>
+</table>
+                                                    </body>
+                                                    </html>
+                                                    

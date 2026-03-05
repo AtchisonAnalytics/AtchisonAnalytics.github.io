@@ -1,0 +1,923 @@
+
+                                                            <!DOCTYPE html>
+                                                            <html lang="en">
+                                                            <head>
+                                                                <meta charset="UTF-8">
+                                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                <title>Holding Detail Attribution Table</title>
+                                                                <style>
+                                                                    /* Add CSS style for table */
+                                                                    table.dataframe {
+                                                                        border-collapse: collapse;
+                                                                        max-width: 1250px; /* Restrict table width to a maximum of 1250px */
+                                                                        width: 100%;
+                                                                        border-radius: 10px; /* Adjust the border radius as needed */
+                                                                        overflow: hidden; /* Ensure the border-radius is applied */
+                                                                    }
+
+                                                                    table.dataframe th,
+                                                                    table.dataframe td {
+                                                                        border: none;
+                                                                        padding: 8px; /* Adjust padding as needed */
+                                                                        text-align: center; /* Adjust text alignment as needed */
+                                                                    }
+                                                                    
+                                                                    thead th {
+                                                                        position: sticky;
+                                                                        top: 0;
+                                                                        background-color: #3D555E; /* Match your header color */
+                                                                        z-index: 2;
+                                                                    }
+
+                                                                    /* Make second column (names) wider */
+                                                                    table.dataframe td:nth-child(2),
+                                                                    table.dataframe th:nth-child(2) {
+                                                                        width: 300px;  /* or adjust as needed */
+                                                                        text-align: left;
+                                                                    }
+
+                                                                    table.dataframe th {
+                                                                        background-color: #3D555E; /* Optional: Add background color for header */
+                                                                        color: #E7EAEB;
+                                                                    }
+
+                                                                    /* Add CSS rule for hover effect */
+                                                                    tr:hover {
+                                                                        background-color: #1DC8F2;
+                                                                    }
+
+                                                                    table.dataframe {
+                                                                        border-collapse: collapse;
+                                                                        max-width: 1300px;
+                                                                        max-height: 900px;
+                                                                        width: 100%;
+                                                                        border-radius: 10px;
+                                                                        overflow: hidden;
+                                                                        overflow-y: auto;
+                                                                        display: block;
+                                                                    }
+
+                                                                    table.dataframe th,
+                                                                    table.dataframe td {
+                                                                        border: none;
+                                                                        padding: 8px;
+                                                                        text-align: center;
+                                                                    }
+
+                                                                    table.dataframe th {
+                                                                        background-color: #3D555E;
+                                                                        color: #E7EAEB;
+                                                                    }
+
+                                                                    /* Base hover effect */
+                                                                    tr:hover {
+                                                                        background-color: #C0F992;
+                                                                    }
+                                                                
+                                                                    tr.bm-row {
+                                                                        background-color: #1DC8F2; /* Always blue */
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    tr.subtotal-row {
+                                                                        background-color: #93DFF8; /* Always blue */
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    .effect-row {
+                                                                        background-color: #3D555E;
+                                                                        color: #E7EAEB;
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    
+                                                                    .effect-row td,
+                                                                    .effect-row th {
+                                                                        text-align: center;
+                                                                    }
+
+                                                                </style>
+                                                            </head>
+                                                            <body>
+                                                                <table class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>ShortName</th>
+      <th>1 Month</th>
+      <th>3 Months</th>
+      <th>6 Months</th>
+      <th>1 Year</th>
+      <th>2 Years (p.a.)</th>
+      <th>3 Years (p.a.)</th>
+      <th>Since Inception (p.a.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">ALLOCATION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Australian Shares</th>
+      <td></td>
+      <td>0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.18</td>
+      <td>-0.09</td>
+      <td>-0.06</td>
+      <td>0.10</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_International Shares</th>
+      <td></td>
+      <td>-0.06</td>
+      <td>-0.09</td>
+      <td>-0.02</td>
+      <td>-0.17</td>
+      <td>-0.02</td>
+      <td>0.27</td>
+      <td>0.36</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Real Assets</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.03</td>
+      <td>0.02</td>
+      <td>0.26</td>
+      <td>0.24</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Alternatives</th>
+      <td></td>
+      <td>0.01</td>
+      <td>0.00</td>
+      <td>0.02</td>
+      <td>0.12</td>
+      <td>0.06</td>
+      <td>0.05</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Long Duration</th>
+      <td></td>
+      <td>0.01</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.14</td>
+      <td>0.02</td>
+      <td>0.10</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Floating Rate</th>
+      <td></td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.29</td>
+      <td>-0.11</td>
+      <td>-0.00</td>
+      <td>0.07</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Cash</th>
+      <td></td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>-0.00</td>
+      <td>-0.02</td>
+      <td>-0.05</td>
+      <td>-0.09</td>
+      <td>-0.19</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>-0.04</td>
+      <td>-0.09</td>
+      <td>-0.02</td>
+      <td>-0.64</td>
+      <td>-0.17</td>
+      <td>0.53</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">SELECTION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IOZ-AU</th>
+      <td>iShares ASX 200</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>0.02</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">HOW2217AU</th>
+      <td>Merlon Concentrated AusEq</td>
+      <td>-0.07</td>
+      <td>-0.15</td>
+      <td>-0.09</td>
+      <td>-0.18</td>
+      <td>-0.09</td>
+      <td>-0.04</td>
+      <td>-0.06</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">SCH0101AU</th>
+      <td>Schroder Aus Eq</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.04</td>
+      <td>-0.00</td>
+      <td>-0.03</td>
+      <td>-0.04</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AAP5529AU</th>
+      <td>Ausbil Aus Small</td>
+      <td>-0.16</td>
+      <td>-0.39</td>
+      <td>-0.38</td>
+      <td>-0.06</td>
+      <td>0.03</td>
+      <td>0.04</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0812AU</th>
+      <td>Invesco Aus Small</td>
+      <td>-0.13</td>
+      <td>-0.18</td>
+      <td>-0.09</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ALR2783AU</th>
+      <td>Aus Eagle Trust</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.04</td>
+      <td>-0.04</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">HOW0035AU</th>
+      <td>Greencape High Convic</td>
+      <td>-0.04</td>
+      <td>-0.04</td>
+      <td>-0.05</td>
+      <td>-0.15</td>
+      <td>-0.06</td>
+      <td>-0.00</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BNT0003AU</th>
+      <td>Hyperion Aus Growth</td>
+      <td>-0.17</td>
+      <td>-0.33</td>
+      <td>-0.50</td>
+      <td>-0.52</td>
+      <td>-0.26</td>
+      <td>-0.17</td>
+      <td>-0.17</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0811AU</th>
+      <td>Invesco WS Aus Share</td>
+      <td>-0.05</td>
+      <td>-0.17</td>
+      <td>-0.14</td>
+      <td>-0.16</td>
+      <td>-0.08</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Australian Shares</th>
+      <td></td>
+      <td>-0.62</td>
+      <td>-1.26</td>
+      <td>-1.24</td>
+      <td>-1.01</td>
+      <td>-0.50</td>
+      <td>-0.29</td>
+      <td>-0.31</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IVV-AU</th>
+      <td>iShares US 500</td>
+      <td>-0.22</td>
+      <td>-0.50</td>
+      <td>-0.53</td>
+      <td>-0.53</td>
+      <td>-0.20</td>
+      <td>-0.01</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IHVV-AU</th>
+      <td>iShares US 500 Hedged</td>
+      <td>-0.07</td>
+      <td>0.33</td>
+      <td>0.24</td>
+      <td>0.49</td>
+      <td>0.14</td>
+      <td>0.07</td>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">VEQ-AU</th>
+      <td>VG Europe Eq</td>
+      <td>0.04</td>
+      <td>0.18</td>
+      <td>0.09</td>
+      <td>0.15</td>
+      <td>0.02</td>
+      <td>-0.08</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ETL7377AU</th>
+      <td>GQG Global Eq</td>
+      <td>0.19</td>
+      <td>0.10</td>
+      <td>-0.04</td>
+      <td>-1.11</td>
+      <td>-0.83</td>
+      <td>-0.10</td>
+      <td>-0.27</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GSF6910AU</th>
+      <td>Man GLG Asia</td>
+      <td>0.10</td>
+      <td>0.26</td>
+      <td>0.24</td>
+      <td>0.40</td>
+      <td>0.26</td>
+      <td>-0.10</td>
+      <td>-0.15</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PIM7802AU</th>
+      <td>Fairlight Glob Small Mid</td>
+      <td>-0.09</td>
+      <td>-0.15</td>
+      <td>-0.39</td>
+      <td>-0.48</td>
+      <td>-0.34</td>
+      <td>-0.20</td>
+      <td>-0.17</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">FUEL-AU</th>
+      <td>Russell Gbl ex Fossil</td>
+      <td>0.13</td>
+      <td>0.13</td>
+      <td>0.13</td>
+      <td>0.13</td>
+      <td>0.07</td>
+      <td>0.04</td>
+      <td>0.04</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_International Shares</th>
+      <td></td>
+      <td>0.07</td>
+      <td>0.34</td>
+      <td>-0.28</td>
+      <td>-1.01</td>
+      <td>-0.93</td>
+      <td>-0.39</td>
+      <td>-0.57</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BLK4709AU</th>
+      <td>iShares AREIT</td>
+      <td>-0.14</td>
+      <td>-0.14</td>
+      <td>-0.29</td>
+      <td>-0.12</td>
+      <td>-0.06</td>
+      <td>0.05</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BLK9419AU</th>
+      <td>iShares GREIT</td>
+      <td>0.21</td>
+      <td>0.30</td>
+      <td>0.37</td>
+      <td>0.28</td>
+      <td>0.14</td>
+      <td>0.08</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">LAM0044AU</th>
+      <td>Alceon Aus Prop & Infra</td>
+      <td>0.00</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>0.02</td>
+      <td>-0.05</td>
+      <td>-0.06</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GTU5547AU</th>
+      <td>Invesco Global Prop</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">TGP0016AU</th>
+      <td>CB RARE Infra Income H</td>
+      <td>0.25</td>
+      <td>0.32</td>
+      <td>0.55</td>
+      <td>0.57</td>
+      <td>0.36</td>
+      <td>0.21</td>
+      <td>0.19</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Real Assets</th>
+      <td></td>
+      <td>0.33</td>
+      <td>0.45</td>
+      <td>0.62</td>
+      <td>0.75</td>
+      <td>0.40</td>
+      <td>0.29</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GPEQ-AU</th>
+      <td>VE Global Listed P Private ETF</td>
+      <td>-0.24</td>
+      <td>-0.31</td>
+      <td>-0.49</td>
+      <td>-0.46</td>
+      <td>-0.10</td>
+      <td>0.03</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUS0035AU</th>
+      <td>Talaria GE</td>
+      <td>-0.00</td>
+      <td>-0.05</td>
+      <td>-0.06</td>
+      <td>-0.11</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">EQI4297AU</th>
+      <td>abrdn Risk Mitigation</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.02</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">MAQ5143AU</th>
+      <td>P/E FX Alpha</td>
+      <td>-0.00</td>
+      <td>-0.07</td>
+      <td>-0.02</td>
+      <td>-0.17</td>
+      <td>-0.06</td>
+      <td>-0.04</td>
+      <td>-0.03</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PIM1038AU</th>
+      <td>Ruffer Total Return</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>-0.07</td>
+      <td>-0.08</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0805AU</th>
+      <td>Invesco Senior Secured</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.01</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PER0728AU</th>
+      <td>Pyford Global Abs</td>
+      <td>0.05</td>
+      <td>0.04</td>
+      <td>0.02</td>
+      <td>0.09</td>
+      <td>0.08</td>
+      <td>0.09</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">SSB0495AU</th>
+      <td>K2 Athena</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.03</td>
+      <td>0.02</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GLDN-AU</th>
+      <td>iShares Physical Gold</td>
+      <td>-0.04</td>
+      <td>0.23</td>
+      <td>0.61</td>
+      <td>0.78</td>
+      <td>0.66</td>
+      <td>0.44</td>
+      <td>0.42</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PIM7967AU</th>
+      <td>Barwon LPE</td>
+      <td>-0.14</td>
+      <td>-0.16</td>
+      <td>-0.19</td>
+      <td>-0.20</td>
+      <td>-0.10</td>
+      <td>-0.07</td>
+      <td>-0.06</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Alternatives</th>
+      <td></td>
+      <td>-0.39</td>
+      <td>-0.34</td>
+      <td>-0.16</td>
+      <td>-0.13</td>
+      <td>0.49</td>
+      <td>0.35</td>
+      <td>0.34</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IAF-AU</th>
+      <td>iShares Aus Bond</td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.03</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ILB-AU</th>
+      <td>iShares CPI Bond</td>
+      <td>0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.03</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AESG-AU</th>
+      <td>iShares Globa Agg ESG</td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>-0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">SSB0122AU</th>
+      <td>WA Aus Bond</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.04</td>
+      <td>-0.02</td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ETL5525AU</th>
+      <td>Colchester Gov Bond</td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>-0.01</td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Long Duration</th>
+      <td></td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.05</td>
+      <td>-0.01</td>
+      <td>-0.04</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">FLOT-AU</th>
+      <td>VanEck FRN</td>
+      <td>0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ISEC-AU</th>
+      <td>iShares Enh Cash</td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">IOF0127AU</th>
+      <td>Janus Div Credit</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">WPC1963AU</th>
+      <td>Daintree Core Inc</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>0.02</td>
+      <td>0.03</td>
+      <td>0.03</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CSA0038AU</th>
+      <td>Bentham Global Inc</td>
+      <td>0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.03</td>
+      <td>-0.00</td>
+      <td>0.02</td>
+      <td>0.02</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Floating Rate</th>
+      <td></td>
+      <td>0.01</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+      <td>-0.07</td>
+      <td>0.01</td>
+      <td>0.04</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BILL-AU</th>
+      <td>iShares Cash</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
+      <td>Cash</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr class="subtotal-row">
+      <th style="text-align: left; padding-left: 2em;">SUBTOTAL_G1_Cash</th>
+      <td></td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>-0.60</td>
+      <td>-0.88</td>
+      <td>-1.16</td>
+      <td>-1.48</td>
+      <td>-0.59</td>
+      <td>-0.03</td>
+      <td>-0.24</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="effect-row">
+      <th style="text-align: left;">INTERACTION EFFECT</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Australian Shares</th>
+      <td></td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.03</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_International Shares</th>
+      <td></td>
+      <td>0.02</td>
+      <td>0.03</td>
+      <td>0.00</td>
+      <td>0.10</td>
+      <td>0.02</td>
+      <td>0.02</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Real Assets</th>
+      <td></td>
+      <td>-0.05</td>
+      <td>-0.06</td>
+      <td>-0.06</td>
+      <td>-0.09</td>
+      <td>-0.05</td>
+      <td>-0.04</td>
+      <td>-0.05</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Alternatives</th>
+      <td></td>
+      <td>0.04</td>
+      <td>0.02</td>
+      <td>-0.02</td>
+      <td>-0.06</td>
+      <td>-0.02</td>
+      <td>-0.00</td>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Long Duration</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.01</td>
+      <td>0.01</td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Floating Rate</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">G1_Cash</th>
+      <td></td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 2em;">TOTAL_G1</th>
+      <td></td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>-0.07</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.00</td>
+      <td>-0.16</td>
+    </tr>
+  </tbody>
+</table>
+                                                            </body>
+                                                            </html>
+                                                            

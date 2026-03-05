@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Active Floating Rate SMA
-        End Date: 31 December 2025
+        End Date: 28 February 2026
         Start Date: 31 December 2022
-        Heatmap Start Date: 30 November 2025  
-        Current Time: 06 January 2026 12:24         
+        Heatmap Start Date: 31 January 2026  
+        Current Time: 05 March 2026 15:08         
 
         

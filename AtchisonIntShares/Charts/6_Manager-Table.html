@@ -4,7 +4,7 @@
                                     <head>
                                         <meta charset="UTF-8">
                                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <title>Performance Table</title>
+                                        <title>Manager Performance Table</title>
                                         <style>
                                             /* Add CSS style for table */
                                             table.dataframe {
@@ -61,11 +61,16 @@
                                         
                                             /* Base hover effect */
                                             tr:hover {
-                                                background-color: #1DC8F2;
+                                                background-color: #C0F992;
                                             }
                                         
                                             tr.bm-row {
                                                 background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
+                                            tr.subtotal-row {
+                                                background-color: #93DFF8; /* Always blue */
                                                 font-weight: bold;
                                             }
                                             
@@ -90,108 +95,108 @@
   </thead>
   <tbody>
     <tr>
-      <th>IVV-AU</th>
+      <th style="text-align: left; padding-left: 4em;">IVV-AU</th>
       <td>iShares US 500</td>
-      <td>-1.7</td>
-      <td>2.24</td>
-      <td>9.23</td>
-      <td>9.42</td>
-      <td>22.55</td>
-      <td>23.35</td>
-      <td>17.63</td>
-      <td>17.99</td>
-      <td>16.18</td>
-    </tr>
-    <tr>
-      <th>IHVV-AU</th>
-      <td>iShares US 500 Hedged</td>
-      <td>1.22</td>
-      <td>3.54</td>
-      <td>11.35</td>
-      <td>17.13</td>
-      <td>20.09</td>
-      <td>21.14</td>
-      <td>12.61</td>
-      <td>14.83</td>
-      <td>12.48</td>
-    </tr>
-    <tr>
-      <th>VEQ-AU</th>
-      <td>VG Europe Eq</td>
-      <td>1.78</td>
-      <td>5.15</td>
-      <td>6.88</td>
-      <td>25.55</td>
-      <td>18.25</td>
-      <td>17.82</td>
-      <td>12.39</td>
-      <td>11.57</td>
-      <td>9.56</td>
-    </tr>
-    <tr>
-      <th>ETL7377AU</th>
-      <td>GQG Global Eq</td>
-      <td>-3.15</td>
-      <td>-0.8</td>
-      <td>-3.07</td>
-      <td>-9.56</td>
-      <td>8.96</td>
-      <td>12.74</td>
+      <td>-2.24</td>
+      <td>-7.43</td>
+      <td>-2.19</td>
+      <td>3.48</td>
       <td>12.65</td>
-      <td>13.43</td>
-      <td>12.55</td>
+      <td>19.10</td>
+      <td>16.07</td>
+      <td>15.30</td>
+      <td>14.91</td>
     </tr>
     <tr>
-      <th>GSF6910AU</th>
+      <th style="text-align: left; padding-left: 4em;">IHVV-AU</th>
+      <td>iShares US 500 Hedged</td>
+      <td>-0.62</td>
+      <td>1.37</td>
+      <td>6.30</td>
+      <td>17.93</td>
+      <td>16.72</td>
+      <td>19.81</td>
+      <td>12.11</td>
+      <td>13.00</td>
+      <td>12.22</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">VEQ-AU</th>
+      <td>VG Europe Eq</td>
+      <td>1.05</td>
+      <td>2.78</td>
+      <td>6.13</td>
+      <td>15.91</td>
+      <td>15.39</td>
+      <td>15.22</td>
+      <td>12.75</td>
+      <td>10.48</td>
+      <td>9.49</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ETL7377AU</th>
+      <td>GQG Global Eq</td>
+      <td>6.19</td>
+      <td>0.68</td>
+      <td>2.06</td>
+      <td>-8.65</td>
+      <td>0.78</td>
+      <td>14.82</td>
+      <td>13.65</td>
+      <td>13.11</td>
+      <td>12.84</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">GSF6910AU</th>
       <td>Man GLG Asia</td>
-      <td>0.99</td>
-      <td>1.04</td>
-      <td>10.57</td>
-      <td>23.05</td>
-      <td>24.16</td>
-      <td>15.75</td>
-      <td>7.9</td>
-      <td>11.61</td>
-      <td>9.54</td>
+      <td>3.67</td>
+      <td>6.89</td>
+      <td>12.43</td>
+      <td>24.64</td>
+      <td>24.22</td>
+      <td>17.07</td>
+      <td>7.96</td>
+      <td>11.20</td>
+      <td>10.14</td>
     </tr>
     <tr>
-      <th>PIM7802AU</th>
+      <th style="text-align: left; padding-left: 4em;">PIM7802AU</th>
       <td>Fairlight Glob Small Mid</td>
-      <td>-1.77</td>
-      <td>-5.9</td>
-      <td>-11.38</td>
-      <td>-7.58</td>
-      <td>2.35</td>
-      <td>11.82</td>
-      <td>6.88</td>
-      <td>11.34</td>
-      <td>8.95</td>
+      <td>-4.91</td>
+      <td>-10.90</td>
+      <td>-17.47</td>
+      <td>-16.87</td>
+      <td>-5.54</td>
+      <td>5.77</td>
+      <td>5.18</td>
+      <td>8.05</td>
+      <td>7.38</td>
     </tr>
     <tr class="bm-row">
-      <th>BM_IntShares_85DM15EM</th>
+      <th style="text-align: left; padding-left: 4em;">BM_IntShares_85DM15EM</th>
       <td>BM: International Shares</td>
-      <td>-0.69</td>
-      <td>2.68</td>
-      <td>9.49</td>
-      <td>14.29</td>
-      <td>21.54</td>
-      <td>21.23</td>
-      <td>14.26</td>
-      <td>14.72</td>
+      <td>0.12</td>
+      <td>-2.27</td>
+      <td>3.62</td>
+      <td>9.95</td>
+      <td>15.12</td>
+      <td>18.80</td>
+      <td>13.54</td>
       <td>12.97</td>
+      <td>12.45</td>
     </tr>
     <tr>
-      <th>AUD</th>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
       <td>Cash</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
-      <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
     </tr>
   </tbody>
 </table>

@@ -4,7 +4,7 @@
                                     <head>
                                         <meta charset="UTF-8">
                                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <title>Performance Table</title>
+                                        <title>Manager Performance Table</title>
                                         <style>
                                             /* Add CSS style for table */
                                             table.dataframe {
@@ -61,11 +61,16 @@
                                         
                                             /* Base hover effect */
                                             tr:hover {
-                                                background-color: #1DC8F2;
+                                                background-color: #C0F992;
                                             }
                                         
                                             tr.bm-row {
                                                 background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
+                                            tr.subtotal-row {
+                                                background-color: #93DFF8; /* Always blue */
                                                 font-weight: bold;
                                             }
                                             
@@ -90,95 +95,95 @@
   </thead>
   <tbody>
     <tr>
-      <th>IAF-AU</th>
+      <th style="text-align: left; padding-left: 4em;">IAF-AU</th>
       <td>iShares Aus Bond</td>
-      <td>-0.81</td>
-      <td>-1.33</td>
-      <td>-1.07</td>
+      <td>0.91</td>
+      <td>0.47</td>
+      <td>-0.00</td>
       <td>2.97</td>
-      <td>2.83</td>
-      <td>3.53</td>
-      <td>-0.61</td>
-      <td>1.18</td>
-      <td>1.43</td>
+      <td>3.57</td>
+      <td>3.51</td>
+      <td>0.46</td>
+      <td>1.10</td>
+      <td>1.57</td>
     </tr>
     <tr>
-      <th>ILB-AU</th>
+      <th style="text-align: left; padding-left: 4em;">ILB-AU</th>
       <td>iShares CPI Bond</td>
-      <td>-0.62</td>
-      <td>-1.18</td>
-      <td>0.72</td>
-      <td>2.96</td>
-      <td>0.98</td>
-      <td>3.55</td>
-      <td>0.02</td>
-      <td>2.17</td>
-      <td>2.14</td>
-    </tr>
-    <tr>
-      <th>AESG-AU</th>
-      <td>iShares Globa Agg ESG</td>
-      <td>-0.0</td>
-      <td>0.34</td>
-      <td>1.75</td>
-      <td>3.98</td>
-      <td>2.96</td>
-      <td>3.05</td>
-      <td>0.83</td>
+      <td>1.22</td>
+      <td>0.38</td>
       <td>0.59</td>
-      <td>0.55</td>
+      <td>3.24</td>
+      <td>2.20</td>
+      <td>3.08</td>
+      <td>1.23</td>
+      <td>2.08</td>
+      <td>2.22</td>
     </tr>
     <tr>
-      <th>SSB0122AU</th>
-      <td>WA Aus Bond</td>
-      <td>-0.6</td>
-      <td>-1.16</td>
-      <td>-0.61</td>
-      <td>3.22</td>
-      <td>3.28</td>
-      <td>4.3</td>
-      <td>-0.31</td>
-      <td>1.51</td>
-      <td>1.76</td>
-    </tr>
-    <tr>
-      <th>ETL5525AU</th>
-      <td>Colchester Gov Bond</td>
-      <td>-0.22</td>
-      <td>-0.0</td>
-      <td>1.37</td>
-      <td>5.98</td>
-      <td>2.11</td>
-      <td>3.0</td>
-      <td>-0.92</td>
-      <td>1.07</td>
+      <th style="text-align: left; padding-left: 4em;">AESG-AU</th>
+      <td>iShares Globa Agg ESG</td>
+      <td>1.27</td>
+      <td>1.43</td>
+      <td>2.81</td>
+      <td>4.28</td>
+      <td>4.43</td>
+      <td>4.23</td>
       <td>1.12</td>
+      <td>0.80</td>
+      <td>0.73</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">SSB0122AU</th>
+      <td>WA Aus Bond</td>
+      <td>0.87</td>
+      <td>0.53</td>
+      <td>0.11</td>
+      <td>3.11</td>
+      <td>3.95</td>
+      <td>4.03</td>
+      <td>0.74</td>
+      <td>1.45</td>
+      <td>1.87</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">ETL5525AU</th>
+      <td>Colchester Gov Bond</td>
+      <td>1.32</td>
+      <td>1.45</td>
+      <td>2.36</td>
+      <td>5.10</td>
+      <td>3.71</td>
+      <td>3.67</td>
+      <td>-0.02</td>
+      <td>1.16</td>
+      <td>1.32</td>
     </tr>
     <tr class="bm-row">
-      <th>BM_Duration</th>
+      <th style="text-align: left; padding-left: 4em;">BM_Duration</th>
       <td>BM: Duration</td>
-      <td>-0.43</td>
-      <td>-0.27</td>
-      <td>0.41</td>
-      <td>3.65</td>
-      <td>3.05</td>
-      <td>3.69</td>
-      <td>-0.67</td>
+      <td>1.12</td>
+      <td>0.88</td>
+      <td>1.43</td>
+      <td>3.64</td>
+      <td>4.05</td>
+      <td>3.87</td>
+      <td>0.28</td>
       <td>1.18</td>
-      <td>1.34</td>
+      <td>1.49</td>
     </tr>
     <tr>
-      <th>AUD</th>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
       <td>Cash</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
-      <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
     </tr>
   </tbody>
 </table>

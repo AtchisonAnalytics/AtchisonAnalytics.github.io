@@ -4,7 +4,7 @@
                                     <head>
                                         <meta charset="UTF-8">
                                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <title>Performance Table</title>
+                                        <title>Manager Performance Table</title>
                                         <style>
                                             /* Add CSS style for table */
                                             table.dataframe {
@@ -61,11 +61,16 @@
                                         
                                             /* Base hover effect */
                                             tr:hover {
-                                                background-color: #1DC8F2;
+                                                background-color: #C0F992;
                                             }
                                         
                                             tr.bm-row {
                                                 background-color: #1DC8F2; /* Always blue */
+                                                font-weight: bold;
+                                            }
+                                            
+                                            tr.subtotal-row {
+                                                background-color: #93DFF8; /* Always blue */
                                                 font-weight: bold;
                                             }
                                             
@@ -90,134 +95,160 @@
   </thead>
   <tbody>
     <tr>
-      <th>GPEQ-AU</th>
-      <td>VE Global Listed P Private ETF</td>
-      <td>1.3</td>
-      <td>-3.42</td>
-      <td>-3.7</td>
-      <td>-6.13</td>
-      <td>12.9</td>
-      <td>21.99</td>
-      <td>5.45</td>
-      <td>3.86</td>
-      <td>3.6</td>
-    </tr>
-    <tr>
-      <th>AUS0035AU</th>
-      <td>Talaria GE</td>
-      <td>0.14</td>
-      <td>0.68</td>
-      <td>2.85</td>
-      <td>4.76</td>
-      <td>5.93</td>
-      <td>8.07</td>
-      <td>10.27</td>
-      <td>8.96</td>
-      <td>8.24</td>
-    </tr>
-    <tr>
-      <th>MAQ5143AU</th>
-      <td>P/E FX Alpha</td>
-      <td>-3.24</td>
-      <td>1.83</td>
-      <td>4.66</td>
-      <td>-14.05</td>
-      <td>3.57</td>
-      <td>3.79</td>
-      <td>8.01</td>
-      <td>5.37</td>
-      <td>5.97</td>
-    </tr>
-    <tr>
-      <th>CNA0805AU</th>
-      <td>Invesco Senior Secured</td>
-      <td>0.05</td>
-      <td>-0.07</td>
-      <td>2.11</td>
-      <td>3.13</td>
-      <td>4.91</td>
-      <td>6.57</td>
-      <td>4.79</td>
-      <td>4.44</td>
-      <td>3.87</td>
-    </tr>
-    <tr>
-      <th>PER0728AU</th>
-      <td>Pyford Global Abs</td>
-      <td>-0.13</td>
-      <td>1.35</td>
-      <td>1.81</td>
-      <td>6.52</td>
-      <td>7.76</td>
-      <td>8.13</td>
-      <td>7.06</td>
-      <td>6.41</td>
-      <td>6.12</td>
-    </tr>
-    <tr>
-      <th>GLDN-AU</th>
-      <td>iShares Physical Gold</td>
-      <td>1.57</td>
-      <td>10.73</td>
-      <td>29.42</td>
-      <td>55.11</td>
-      <td>46.31</td>
-      <td>27.35</td>
-      <td>15.62</td>
-      <td>10.92</td>
-      <td>10.15</td>
-    </tr>
-    <tr>
-      <th>PIM7967AU</th>
-      <td>Barwon LPE</td>
-      <td>2.61</td>
-      <td>1.38</td>
-      <td>6.08</td>
-      <td>3.03</td>
-      <td>9.31</td>
-      <td>17.16</td>
-      <td>10.47</td>
-      <td>10.24</td>
-      <td>9.52</td>
+      <th style="text-align: left; padding-left: 4em;">FUEL-AU</th>
+      <td>Russell Gbl ex Fossil</td>
+      <td>7.87</td>
+      <td>19.25</td>
+      <td>22.89</td>
+      <td>27.15</td>
+      <td>16.10</td>
+      <td>10.94</td>
+      <td>17.06</td>
+      <td>7.43</td>
+      <td>5.56</td>
     </tr>
     <tr class="bm-row">
-      <th>BM_Alts</th>
-      <td>BM: Alternatives</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
-      <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <th style="text-align: left; padding-left: 4em;">BM_IntShares_85DM15EM</th>
+      <td>BM: International Shares</td>
+      <td>0.12</td>
+      <td>-2.27</td>
+      <td>3.62</td>
+      <td>9.95</td>
+      <td>15.12</td>
+      <td>18.80</td>
+      <td>13.54</td>
+      <td>12.97</td>
+      <td>12.45</td>
     </tr>
     <tr>
-      <th>BILL-AU</th>
-      <td>iShares Cash</td>
-      <td>0.34</td>
-      <td>0.93</td>
-      <td>1.88</td>
-      <td>4.07</td>
-      <td>4.32</td>
-      <td>4.19</td>
+      <th style="text-align: left; padding-left: 4em;">GPEQ-AU</th>
+      <td>VE Global Listed P Private ETF</td>
+      <td>-12.80</td>
+      <td>-17.21</td>
+      <td>-23.71</td>
+      <td>-23.31</td>
+      <td>-1.93</td>
+      <td>9.71</td>
+      <td>1.28</td>
+      <td>0.91</td>
+      <td>0.83</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUS0035AU</th>
+      <td>Talaria GE</td>
+      <td>-0.05</td>
+      <td>-2.38</td>
+      <td>-2.26</td>
+      <td>-3.15</td>
+      <td>3.84</td>
+      <td>6.51</td>
+      <td>9.35</td>
+      <td>7.85</td>
+      <td>7.70</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">MAQ5143AU</th>
+      <td>P/E FX Alpha</td>
+      <td>0.15</td>
+      <td>-6.46</td>
+      <td>-1.84</td>
+      <td>-17.41</td>
+      <td>-3.85</td>
+      <td>0.96</td>
+      <td>7.47</td>
+      <td>4.65</td>
+      <td>5.38</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">CNA0805AU</th>
+      <td>Invesco Senior Secured</td>
+      <td>-0.73</td>
+      <td>-0.82</td>
+      <td>-0.43</td>
+      <td>1.63</td>
+      <td>3.72</td>
+      <td>5.32</td>
+      <td>4.03</td>
+      <td>3.75</td>
+      <td>3.67</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PER0728AU</th>
+      <td>Pyford Global Abs</td>
       <td>2.78</td>
-      <td>2.25</td>
-      <td>2.23</td>
+      <td>2.79</td>
+      <td>3.20</td>
+      <td>8.42</td>
+      <td>8.00</td>
+      <td>8.44</td>
+      <td>7.57</td>
+      <td>6.29</td>
+      <td>6.39</td>
     </tr>
     <tr>
-      <th>AUD</th>
-      <td>Cash</td>
-      <td>0.34</td>
-      <td>0.94</td>
-      <td>1.89</td>
-      <td>4.06</td>
-      <td>4.34</td>
+      <th style="text-align: left; padding-left: 4em;">GLDN-AU</th>
+      <td>iShares Physical Gold</td>
+      <td>-2.50</td>
+      <td>13.50</td>
+      <td>39.29</td>
+      <td>57.51</td>
+      <td>52.43</td>
+      <td>32.15</td>
+      <td>18.21</td>
+      <td>12.69</td>
+      <td>11.53</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">PIM7967AU</th>
+      <td>Barwon LPE</td>
+      <td>-9.63</td>
+      <td>-10.47</td>
+      <td>-11.54</td>
+      <td>-10.24</td>
+      <td>0.36</td>
+      <td>8.40</td>
+      <td>6.53</td>
+      <td>8.11</td>
+      <td>7.38</td>
+    </tr>
+    <tr class="bm-row">
+      <th style="text-align: left; padding-left: 4em;">BM_Alts</th>
+      <td>BM: Alternatives</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">BILL-AU</th>
+      <td>iShares Cash</td>
+      <td>0.30</td>
+      <td>0.92</td>
+      <td>1.84</td>
+      <td>3.90</td>
+      <td>4.24</td>
       <td>4.21</td>
-      <td>2.76</td>
-      <td>2.23</td>
-      <td>2.21</td>
+      <td>2.90</td>
+      <td>2.29</td>
+      <td>2.26</td>
+    </tr>
+    <tr>
+      <th style="text-align: left; padding-left: 4em;">AUD</th>
+      <td>Cash</td>
+      <td>0.29</td>
+      <td>0.93</td>
+      <td>1.85</td>
+      <td>3.91</td>
+      <td>4.25</td>
+      <td>4.23</td>
+      <td>2.89</td>
+      <td>2.26</td>
+      <td>2.24</td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Atchison - Wattle Adviser Materials</title>
+    <style>
+        body {
+            background-color: #3D555E;
+            color: #3D555E;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 0 5%; /* Add a 5% padding on both sides */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+
+        .content {
+            max-width: 1000px; /* Adjust as needed */
+            margin: 0 auto; /* Center the content */
+        }
+
+        h1, h2 {
+            color: #3D555E;
+        }
+
+        h4 {
+            font-style: italic;
+        }
+
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: 10px; /* Adjust the border radius as needed */
+            overflow: hidden; /* Ensure the border-radius is applied */
+        }
+
+        tr {
+            display: flex; /* Makes each table row a flex container */
+        }
+
+        th, td {
+            flex: 1; /* Each cell will take up equal space */
+            text-align: center;
+            padding: 8px;
+            border: none;
+            overflow: hidden; /* Keeps content within the cell */
+            word-wrap: break-word; /* Allows text to wrap within the cell */
+        }
+
+        th:first-child, td:first-child {
+            flex: 0 0 30%; /* Fixes the first column width to 30% of the table */
+            background-color: #3D555E;
+            color: #E7EAEB;
+        }
+
+        th {
+            background-color: #3D555E;
+            color: #E7EAEB;
+        }
+
+        tr:hover {
+            background-color: #1DC8F2;
+        }
+
+
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: none;
+            width: 100%;
+            max-width: 100%; /* Make sure iframes don't overflow */
+        }
+
+        p, ul {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin-right: 20px; /* Adjust the spacing between logos */
+        }
+
+        .icon {
+            color: #93F205;
+            transform: scale(3); /* Increase the icon size by 50% */
+        }
+
+
+        a .fa,
+        a:hover .fa,
+        a:active .fa,
+        a:visited .fa {
+            color: #93F205 !important; /* Or your chosen color */
+            text-decoration: none; /* Continues to remove underline from the icon */
+        }
+
+
+        @media only screen and (min-width: 600px) {
+            /* Adjust margins for larger screens */
+            .container {
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+        }
+
+        /* Define styles for printing */
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <br>
+            <br>
+            <img src="./assetsHTML/Atchison-logo.png" style="height: 50px; width: auto; float: left;">
+            <img src="./assetsHTML/Atchison/USFlag.png" style="height: 100px; width: auto; float: right;">
+            <div style="clear: left;"></div>
+            <br>
+            <br>
+            <br>
+            <h3>WHO WE ARE?</h3>
+
+            <ul>
+                <li><b>Established:</b> 2001 in Melbourne Australia</li>
+                <li><b>FUA/FUM:</b> $12b+ </li>
+                <li><b>Serving:</b> Superannuation/Pension Schemes, Wealth Groups, Endowments, Platforms</li>
+            </ul>
+            <br>
+
+            <h3>WHAT WE DO?</h3>
+            <ul>
+                <li><b>Solutions:</b> SMA’s, individual asset classes, tailored SMA's</li>
+                <li><b>Consulting:</b> SAA, TAA, portfolio construction, IC support</li>
+                <li><b>Governance:</b> Approved Product Lists, Optimiser Reports</li>
+            </ul>
+            <br>
+
+            <h3>HOW WE ARE DIFFERENT?</h3>
+            <ul>
+                <li><b>Accountable:</b> Through proprietary systematic models we know, what worked, what didn’t, and focus on what to do next</li>
+                <li><b>Timely:</b> 3-5 days to receive fully customised reports</li>
+                <li><b>Transparent:</b> Interactive full portfolio look through, own interactive portal</li>
+                <li><b>Scalable:</b> Use our inhouse coding capability to build robust and scalable solutions</li>
+            </ul>
+            <br>
+
+            <h3>WANT MORE DETAIL...</h3>
+            <ul>
+                <li><a href="./assetsHTML/Atchison/TheGuidingLights.pdf">Our "Investment Guiding Lights"</a></li>
+                <li><a href="./assetsHTML/Atchison/AtchisonSolutionsPillars.pdf">Our Solutions Pillars</a></li>
+                <li><a href="./assetsHTML/Atchison/AtchisonSMAWhitePaper.pdf">White Paper: Supporting Advisor Practice Growth via SMA Solutions</a></li>
+                <li><a href="./ICSummary/Aug2024/ICSummary.html">Example Investment Committee Agenda - August 2024</a></li>
+
+            </ul>
+            <br>
+
+
+            <h3>EXAMPLES OF OUR INTERACTIVE CLIENT REPORTING</h3>
+            <table>
+            <tr>
+                <th>Model Name</th>
+                <th>Interactive Reports</th>
+                <th>Mobile Phone Version</th>
+            </tr>
+            <tr>
+                <td>Atchison 55 ACTIVE</td>
+                <td><a href="./Atchison55ACTIVE/Atchison55ACTIVE-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./Atchison55ACTIVE/Atchison55ACTIVE-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison 70 ACTIVE</td>
+                <td><a href="./Atchison70ACTIVE/Atchison70ACTIVE-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./Atchison70ACTIVE/Atchison70ACTIVE-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison Australian Shares Sleeve</td>
+                <td><a href="./AtchisonAusShares/AtchisonAusShares-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonAusShares/AtchisonAusShares-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison International Shares Sleeve</td>
+                <td><a href="./AtchisonIntShares/AtchisonIntShares-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonIntShares/AtchisonIntShares-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison Real Assets Sleeve</td>
+                <td><a href="./AtchisonRealAssets/AtchisonRealAssets-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonRealAssets/AtchisonRealAssets-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison Alternatives Sleeve</td>
+                <td><a href="./AtchisonAlts/AtchisonAlts-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonAlts/AtchisonAlts-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison Long Duration Sleeve</td>
+                <td><a href="./AtchisonLongDuration/AtchisonLongDuration-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonLongDuration/AtchisonLongDuration-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            <tr>
+                <td>Atchison Floating Rate Sleeve</td>
+                <td><a href="./AtchisonFloatingRate/AtchisonFloatingRate-IndexJava.html"><i class="fa-solid fa-chart-pie"></i></a></td>
+                <td><a href="./AtchisonLongDuration/AtchisonLongDuration-Monthly.html"><i class="fa-solid fa-phone"></i></a></td>
+            </tr>
+            </table>
+            <br>
+
+            <h3>Additional Examples and Background Documents</h3>
+            <ul>
+                <li><a href="./assetsHTML/Atchison/SAAForecasts2025.pdf">Capital Market Forecasts - 2025</a></li>
+                <li><a href="./assetsHTML/Atchison/TAAPosition2026Q1.pdf">Tactical Asset Allocation Paper - Q1 2026</a></li>
+                <li><a href="./assetsHTML/Atchison/AtchisonSMASAAReview2025.pdf">Atchison's Review of SAA - 2025"</a></li>
+                <li><a href="./assetsHTML/Atchison/AtchisonAPLReview202406.pdf">Approved Product List Monitoring - 30 June 2024</a></li>
+                <li><a href="./PortfolioUpdates/Update20240709/update20240709.html">Portfolio Addition & Rebalance Update - July 2024</a></li>
+            </ul>
+            <br>
+
+
+
+            <br>
+            <h3>HOW TO INVEST?</h3>
+            <p>Our SMA strategies are currently available on the following platforms:</p>
+            <div class="logo-container">
+                <img src="./assetsHTML/CFS-logo.png" class="logo" height="100px" width="250px">
+                <img src="./assetsHTML/HUB24-logo.jpg" class="logo" height="100px" width="auto">
+            </div>
+            <br>
+            <br>
+            
+            <h2>CONTACT US</h2>
+            <p>Please reach out via phone or email below:</p>
+            <p style="line-height: 1.2; margin: 0; padding: 0;">Kev Toohey - Partner</p>
+            <p style="line-height: 1.2; margin: 0; padding: 0;">Email: <a href="mailto:enquiries@atchison.com.au" style="color: inherit;">enquiries@atchison.com.au</a></p>
+            <p style="line-height: 1.2; margin: 0; padding: 0;">Phone: +61 3 9642 3835</p>
+            <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Melbourne): Level 4, 125 Flinders Lane Melbourne Victoria 3000 Australia</p>
+            <p style="line-height: 1.2; margin: 0; padding: 0;">Address (Sydney): Level 3, 63 York Street, Sydney, NSW 2000 Australia</p>
+            <div class="page-break"></div>
+            <br>
+            <br>
+
+        </div>
+    </div>
+</body>
+</html>
