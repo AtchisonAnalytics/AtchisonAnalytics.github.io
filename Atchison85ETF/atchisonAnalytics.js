@@ -69,7 +69,7 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+22.93%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was International Shares (+68.85%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.43%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.95%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.23%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+22.77%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was Alternatives (+73.87%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.43%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.95%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.23%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
         <h2>MARKET OVERVIEW - February 2026</h2>
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+22.93%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was International Shares (+68.85%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.43%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.95%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.23%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+22.77%)</li><li>The asset class that contributed the least to portfolio return was Long Duration at (+0.51%)</li><li>The asset class with the highest absolute return was Alternatives (+73.87%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+11.43%)</li><li>Attribution analysis relative to SAA shows Manager Effect (net fees) having the highest impact on value add at (+0.95%).</li><li>Whereas, Tactical Allocation Effect was found to have a (-0.23%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>
