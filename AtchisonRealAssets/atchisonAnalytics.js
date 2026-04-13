@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active Real Assets SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Real Assets SMA delivered 4.6% for the month, and 5.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 14.4%, significantly beating Inflation by 10.6%. 
+                    <p>The Atchison Active Real Assets SMA delivered -6.8% for the month, and -1.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 8.1%, materially beating Inflation by 4.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Real Assets SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Real Assets SMA delivered 4.6% for the month, and 5.1% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 14.4%, significantly beating Inflation by 10.6%. 
+                    <p>The Atchison Active Real Assets SMA delivered -6.8% for the month, and -1.6% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Real Assets SMA delivered 8.1%, materially beating Inflation by 4.4%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Real Assets SMA has significantly outperformed over the last 12 months. </p>
                     
                     

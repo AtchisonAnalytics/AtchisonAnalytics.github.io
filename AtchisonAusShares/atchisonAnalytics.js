@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Australian Shares SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active Australian Shares SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Australian Shares SMA delivered 1.4% for the month, and 1.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 11.7%, significantly beating Inflation by 7.9%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has materially outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Australian Shares SMA delivered -7.8% for the month, and -5.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 6.7%, materially beating Inflation by 3.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has  outperformed over the last 12 months. </p>
                     
                     
                     
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Australian Shares SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Australian Shares SMA delivered 1.4% for the month, and 1.8% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 11.7%, significantly beating Inflation by 7.9%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has materially outperformed over the last 12 months. </p>
+                    <p>The Atchison Active Australian Shares SMA delivered -7.8% for the month, and -5.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Australian Shares SMA delivered 6.7%, materially beating Inflation by 3.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Australian Shares SMA has  outperformed over the last 12 months. </p>
                     
                     
                     

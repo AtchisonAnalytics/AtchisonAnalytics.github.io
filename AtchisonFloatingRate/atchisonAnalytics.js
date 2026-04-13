@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active Floating Rate SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Floating Rate SMA delivered 0.4% for the month, and 0.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 4.3%, marginally beating Inflation by 0.5%. 
+                    <p>The Atchison Active Floating Rate SMA delivered -0.4% for the month, and 0.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 3.7%, marginally beating Inflation by 0.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has marginally outperformed over the last 12 months. </p>
                     
                     
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Floating Rate SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Floating Rate SMA delivered 0.4% for the month, and 0.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 4.3%, marginally beating Inflation by 0.5%. 
+                    <p>The Atchison Active Floating Rate SMA delivered -0.4% for the month, and 0.4% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Floating Rate SMA delivered 3.7%, marginally beating Inflation by 0.0%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active Floating Rate SMA has marginally outperformed over the last 12 months. </p>
                     
                     

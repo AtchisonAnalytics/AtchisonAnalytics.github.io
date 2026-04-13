@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Active Real Assets SMA
-        End Date: 28 February 2026
+        End Date: 31 March 2026
         Start Date: 31 December 2022
-        Heatmap Start Date: 31 January 2026  
-        Current Time: 05 March 2026 15:47         
+        Heatmap Start Date: 28 February 2026  
+        Current Time: 13 April 2026 15:16         
 
         

@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active International Shares SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active International Shares SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active International Shares SMA delivered -0.1% for the month, and -1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 8.8%, significantly beating Inflation by 5.0%. 
+                    <p>The Atchison Active International Shares SMA delivered -5.7% for the month, and -6.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 7.0%, materially beating Inflation by 3.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -69,7 +69,7 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Fairlight Global Small & Mid Cap Fund (SMID) Class A</li><li>The current holding with the highest absolute return has been iShares S&P 500 AUD Hedged ETF<li>Whilst the current holding with the lowest absolute return has been Fairlight Global Small & Mid Cap Fund (SMID) Class A</li></ul>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Fairlight Global Small & Mid Cap Fund (SMID) Class A</li><li>The current holding with the highest absolute return has been iShares S&P 500 ETF<li>Whilst the current holding with the lowest absolute return has been Fairlight Global Small & Mid Cap Fund (SMID) Class A</li></ul>
                     <p></p><p>The Fairlight Global Small & Mid Cap Fund is an actively managed, bottom-up, long-only global equities product that invests in a concentrated portfolio of 30-40 high quality small and mid-cap companies. Fairlight provides investors access to industries and companies that have the potential to grow faster than the more established mature large-cap companies (i.e., harvesting the “size premium” – smaller companies have higher risk-adjusted returns than larger firms on average). </p><p></p><p></p>
                     
         <h2>MARKET OVERVIEW - February 2026</h2>
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active International Shares SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active International Shares SMA delivered -0.1% for the month, and -1.4% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 8.8%, significantly beating Inflation by 5.0%. 
+                    <p>The Atchison Active International Shares SMA delivered -5.7% for the month, and -6.8% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active International Shares SMA delivered 7.0%, materially beating Inflation by 3.3%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active International Shares SMA has significantly outperformed over the last 12 months. </p>
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Fairlight Global Small & Mid Cap Fund (SMID) Class A</li><li>The current holding with the highest absolute return has been iShares S&P 500 AUD Hedged ETF<li>Whilst the current holding with the lowest absolute return has been Fairlight Global Small & Mid Cap Fund (SMID) Class A</li></ul>
+                    <ul><li>On a weighted basis, the largest holding contributor to the portfolio outcome has been iShares S&P 500 ETF</li><li>The holding that contributed the least to portfolio return was Fairlight Global Small & Mid Cap Fund (SMID) Class A</li><li>The current holding with the highest absolute return has been iShares S&P 500 ETF<li>Whilst the current holding with the lowest absolute return has been Fairlight Global Small & Mid Cap Fund (SMID) Class A</li></ul>
                     <p></p><p>The Fairlight Global Small & Mid Cap Fund is an actively managed, bottom-up, long-only global equities product that invests in a concentrated portfolio of 30-40 high quality small and mid-cap companies. Fairlight provides investors access to industries and companies that have the potential to grow faster than the more established mature large-cap companies (i.e., harvesting the “size premium” – smaller companies have higher risk-adjusted returns than larger firms on average). </p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>

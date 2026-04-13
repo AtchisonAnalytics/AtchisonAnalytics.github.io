@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active 70 SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,8 +59,8 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active 70 SMA delivered 0.7% for the month, and 0.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 7.1%, materially beating Inflation by 3.3%. 
+                    <p>The Atchison Active 70 SMA delivered -4.6% for the month, and -3.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 4.2%,  beating Inflation by 0.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has materially underperformed over the last 12 months. </p>
                     
                     
@@ -69,7 +69,7 @@
                     
                     
                     <h4>Key Contributors, Detractors & Attribution</h4>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.35%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.79%)</li><li>The asset class with the highest absolute return was International Shares (+63.24%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.57%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.54%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.81%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+13.27%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.80%)</li><li>The asset class with the highest absolute return was International Shares (+53.76%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.75%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.46%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.18%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     
         <h2>MARKET OVERVIEW - February 2026</h2>
@@ -94,15 +94,15 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active 70 SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active 70 SMA delivered 0.7% for the month, and 0.6% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 7.1%, materially beating Inflation by 3.3%. 
+                    <p>The Atchison Active 70 SMA delivered -4.6% for the month, and -3.7% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active 70 SMA delivered 4.2%,  beating Inflation by 0.6%. 
                     Relative to the Peer Group (FE AMI Peer Average), Atchison Active 70 SMA has materially underperformed over the last 12 months. </p>
                     
                     
@@ -121,7 +121,7 @@
                     <iframe src="./Charts/1_Performance-Cum.html" height="370px" width="950px"></iframe>
                     <br>
                     <h2>KEY CONTRIBUTORS, DETRACTORS & ATTRIBUTION</h2>
-                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+15.35%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.79%)</li><li>The asset class with the highest absolute return was International Shares (+63.24%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+12.57%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.54%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-0.81%) impact on relative performance of the portfolio.</li></ul>
+                    <ul><li>On a weighted basis, the asset class that contributed the most to the portfolio return was International Shares at (+13.27%)</li><li>The asset class that contributed the least to portfolio return was Cash at (+0.80%)</li><li>The asset class with the highest absolute return was International Shares (+53.76%)</li><li>Whilst the asset class with the lowest absolute return was Long Duration (+10.75%)</li><li>Attribution analysis relative to SAA shows Tactical Allocation Effect having the highest impact on value add at (+2.46%).</li><li>Whereas, Manager Effect (net fees) was found to have a (-1.18%) impact on relative performance of the portfolio.</li></ul>
                     <p></p><p></p><p></p><p></p>
                     <h4>Last 90 Days - Return Analysis</h4>
                     <iframe src="./Charts/1_Performance-Bar90.html" height="370px" width="950px"></iframe>

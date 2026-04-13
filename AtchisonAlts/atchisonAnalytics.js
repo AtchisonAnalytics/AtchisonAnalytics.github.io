@@ -29,7 +29,7 @@
                 break;
             case '0-summary':
                 content = `
-                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 28 February 2026</h2>
+                    <h2>Summary Dashboard for Atchison Active Alternatives SMA as at 31 March 2026</h2>
                     <h4>Portfolio Performance</h4>
                     <div class="iframe-container">
                         <iframe src="./Charts/1_Performance-RelTable_v3.html" height="370px" width="600px"></iframe>
@@ -59,9 +59,9 @@
                 
                     <br>    
                     <h4>Performance Comments</h4>                
-                    <p>The Atchison Active Alternatives SMA delivered -2.1% for the month, and -0.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 4.0%, marginally beating Inflation by 0.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has marginally underperformed over the last 12 months. </p>
+                    <p>The Atchison Active Alternatives SMA delivered 0.3% for the month, and -1.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 3.7%, marginally beating Inflation by 0.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
@@ -94,16 +94,16 @@
             case '1-performance':
                 content = `
                     <h1>Atchison Active Alternatives SMA</h1>
-                    <h4>Updated to: 28 February 2026</h2>
+                    <h4>Updated to: 31 March 2026</h2>
                     <h4>Inception:  31 December 2022</h2>
                     <br>
                     <h2>PORTFOLIO PERFORMANCE</h2>
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <hr style="border-color: #1DC8F2; width: 80%; margin: 0 auto;">
                     <br>                    
-                    <p>The Atchison Active Alternatives SMA delivered -2.1% for the month, and -0.9% over the quarter. </p>
-                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 4.0%, marginally beating Inflation by 0.2%. 
-                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has marginally underperformed over the last 12 months. </p>
+                    <p>The Atchison Active Alternatives SMA delivered 0.3% for the month, and -1.1% over the quarter. </p>
+                    <p>Over the last 12 months, the Atchison Active Alternatives SMA delivered 3.7%, marginally beating Inflation by 0.0%. 
+                    Relative to the Peer Group (FE AMI Peer Average), Atchison Active Alternatives SMA has  underperformed over the last 12 months. </p>
                     
                     
                     
