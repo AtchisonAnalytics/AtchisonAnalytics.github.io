@@ -1,9 +1,9 @@
 
 
         Selected Name: Atchison Dynamic ETF 85 SMA
-        End Date: 28 February 2026
+        End Date: 31 March 2026
         Start Date: 31 December 2022
-        Heatmap Start Date: 31 January 2026  
-        Current Time: 10 March 2026 10:02         
+        Heatmap Start Date: 28 February 2026  
+        Current Time: 13 April 2026 11:10         
 
         
